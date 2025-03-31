@@ -87,4 +87,4 @@ fr_automated_cleaning([2020, 2021, 2022], 'CA3', 2);
 %% Once third stage ini file has been created:
 fr_automated_cleaning([2020, 2021, 2022], 'CA3', 7);
 %% Once third stage ini file has been created:
-fr_automated_cleaning([2020, 2021, 2022], 'CA3', [1 2 7 8]);
+fr_automated_cleaning([2020, 2021, 2022], 'CA3', [7 8]);

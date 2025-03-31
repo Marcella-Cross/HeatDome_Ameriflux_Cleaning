@@ -1,0 +1,436 @@
+==============  Start =========================================
+Date: 31-Mar-2025 09:40:01
+siteID = CA3
+============== First  stage cleaning CA3 2021 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_FirstStage.ini 
+   55 traces read from the ini file. 
+   55 traces exist in the year 2021.
+   55 unique traces are kept for processing
+Created \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_FirstStage.ini 
+   55 traces read from the ini file. 
+   55 traces exist in the year 2021.
+   55 unique traces are kept for processing
+Reading traces from database...
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+==============  Start =========================================
+Date: 31-Mar-2025 09:40:19
+siteID = CA3
+============== Second stage cleaning CA3 2021 ==============
+Created \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage
+Reading second stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_SecondStage.ini 
+   39 traces read from the ini file. 
+   39 traces exist in the year 2021.
+   39 unique traces are kept for processing
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_FirstStage.ini 
+   55 traces read from the ini file. 
+   55 traces exist in the year 2021.
+   55 unique traces are kept for processing
+Reading data from: 
+    \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Flux\Clean
+Reading traces from database...
+Error processing trace.variableName: P_RAIN_1_2_1
+Unable to evaluate: P_RAIN_1_2_1=P_RAIN_1_2_1;
+Matlab error message: Unrecognized function or variable 'P_RAIN_1_2_1'.
+*** Read Error: P_RAIN_1_2_1 not loaded
+   Done reading traces.
+Exporting data ...
+============== End of cleaning stage 2 =============
+==============  Start =========================================
+Date: 31-Mar-2025 09:43:37
+siteID = CA3
+============== Second stage cleaning CA3 2021 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage
+Reading second stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_SecondStage.ini 
+   38 traces read from the ini file. 
+   38 traces exist in the year 2021.
+   38 unique traces are kept for processing
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_FirstStage.ini 
+   55 traces read from the ini file. 
+   55 traces exist in the year 2021.
+   55 unique traces are kept for processing
+Reading data from: 
+    \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Flux\Clean
+Reading traces from database...
+   Done reading traces.
+Exporting data ...
+============== End of cleaning stage 2 =============
+==============  Start =========================================
+Date: 31-Mar-2025 09:43:58
+siteID = CA3
+============== 7-th stage cleaning CA3 2021 ==============
+Created \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\season]' }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\FCH4]'   }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\P_1_2_1]'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" CA3 2021 2021 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\log\CA3_ThirdStageCleaning.log" 1>&2
+Start time: 31-Mar-2025 09:43:58
+
+End time: 31-Mar-2025 09:43:59
+
+Failed running Third Stage Rscript
+Retrieving critical messages from Third Stage R log:
+============== End of cleaning stage 7 =============
+==============  Start =========================================
+Date: 31-Mar-2025 09:51:32
+siteID = CA3
+============== 7-th stage cleaning CA3 2021 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\season]' }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\FCH4]'   }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\P_1_2_1]'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" CA3 2021 2021 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\log\CA3_ThirdStageCleaning.log" 1>&2
+Start time: 31-Mar-2025 09:51:32
+
+End time: 31-Mar-2025 09:51:33
+
+Failed running Third Stage Rscript
+Retrieving critical messages from Third Stage R log:
+============== End of cleaning stage 7 =============
+==============  Start =========================================
+Date: 31-Mar-2025 09:53:53
+siteID = CA3
+============== 7-th stage cleaning CA3 2021 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\season]' }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\FCH4]'   }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\P_1_2_1]'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" CA3 2021 2021 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\log\CA3_ThirdStageCleaning.log" 1>&2
+Start time: 31-Mar-2025 09:53:53
+
+End time: 31-Mar-2025 09:53:54
+
+Failed running Third Stage Rscript
+Retrieving critical messages from Third Stage R log:
+============== End of cleaning stage 7 =============
+==============  Start =========================================
+Date: 31-Mar-2025 09:56:25
+siteID = CA3
+============== 7-th stage cleaning CA3 2021 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\season]' }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\FCH4]'   }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\P_1_2_1]'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" CA3 2021 2021 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\log\CA3_ThirdStageCleaning.log" 1>&2
+Start time: 31-Mar-2025 09:56:25
+
+End time: 31-Mar-2025 09:56:26
+
+Failed running Third Stage Rscript
+Retrieving critical messages from Third Stage R log:
+============== End of cleaning stage 7 =============
+==============  Start =========================================
+Date: 31-Mar-2025 09:57:51
+siteID = CA3
+============== 7-th stage cleaning CA3 2021 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\season]' }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\FCH4]'   }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\P_1_2_1]'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" CA3 2021 2021 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\log\CA3_ThirdStageCleaning.log" 1>&2
+Start time: 31-Mar-2025 09:57:51
+
+End time: 31-Mar-2025 09:57:52
+
+Failed running Third Stage Rscript
+Retrieving critical messages from Third Stage R log:
+============== End of cleaning stage 7 =============
+==============  Start =========================================
+Date: 31-Mar-2025 10:01:35
+siteID = CA3
+============== 7-th stage cleaning CA3 2021 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\season]' }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\FCH4]'   }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\P_1_2_1]'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" CA3 2021 2021 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\log\CA3_ThirdStageCleaning.log" 1>&2
+Start time: 31-Mar-2025 10:01:36
+
+End time: 31-Mar-2025 10:01:36
+
+Failed running Third Stage Rscript
+Retrieving critical messages from Third Stage R log:
+============== End of cleaning stage 7 =============
+==============  Start =========================================
+Date: 31-Mar-2025 10:04:11
+siteID = CA3
+============== 7-th stage cleaning CA3 2021 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\season]' }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\FCH4]'   }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\P_1_2_1]'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" CA3 2021 2021 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\log\CA3_ThirdStageCleaning.log" 1>&2
+Start time: 31-Mar-2025 10:04:11
+
+End time: 31-Mar-2025 10:04:12
+
+Failed running Third Stage Rscript
+Retrieving critical messages from Third Stage R log:
+============== End of cleaning stage 7 =============
+==============  Start =========================================
+Date: 31-Mar-2025 10:10:05
+siteID = CA3
+============== First  stage cleaning CA3 2021 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_FirstStage.ini 
+   55 traces read from the ini file. 
+   55 traces exist in the year 2021.
+   55 unique traces are kept for processing
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_FirstStage.ini 
+   55 traces read from the ini file. 
+   55 traces exist in the year 2021.
+   55 unique traces are kept for processing
+Reading traces from database...
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+============== Second stage cleaning CA3 2021 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage
+Reading second stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_SecondStage.ini 
+   38 traces read from the ini file. 
+   38 traces exist in the year 2021.
+   38 unique traces are kept for processing
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_FirstStage.ini 
+   55 traces read from the ini file. 
+   55 traces exist in the year 2021.
+   55 unique traces are kept for processing
+Reading data from: 
+    \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Flux\Clean
+Reading traces from database...
+   Done reading traces.
+Exporting data ...
+============== End of cleaning stage 2 =============
+============== 7-th stage cleaning CA3 2021 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\season]' }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\FCH4]'   }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\P_1_2_1]'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" CA3 2021 2021 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\log\CA3_ThirdStageCleaning.log" 1>&2
+Start time: 31-Mar-2025 10:10:12
+
+End time: 31-Mar-2025 10:10:12
+
+Failed running Third Stage Rscript
+Retrieving critical messages from Third Stage R log:
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: CA3 2021 ==============
+============== End of cleaning stage 9 =============
+==============  Start =========================================
+Date: 31-Mar-2025 10:34:08
+siteID = CA3
+============== 7-th stage cleaning CA3 2021 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\season]' }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\FCH4]'   }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\P_1_2_1]'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" CA3 2021 2021 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\log\CA3_ThirdStageCleaning.log" 1>&2
+Start time: 31-Mar-2025 10:34:08
+
+End time: 31-Mar-2025 10:34:09
+
+Failed running Third Stage Rscript
+Retrieving critical messages from Third Stage R log:
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: CA3 2021 ==============
+============== End of cleaning stage 9 =============
+==============  Start =========================================
+Date: 31-Mar-2025 10:37:33
+siteID = CA3
+============== 7-th stage cleaning CA3 2021 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\season]' }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\FCH4]'   }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\P_1_2_1]'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" CA3 2021 2021 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\log\CA3_ThirdStageCleaning.log" 1>&2
+Start time: 31-Mar-2025 10:37:34
+
+End time: 31-Mar-2025 10:37:34
+
+Failed running Third Stage Rscript
+Retrieving critical messages from Third Stage R log:
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: CA3 2021 ==============
+============== End of cleaning stage 9 =============
+==============  Start =========================================
+Date: 31-Mar-2025 10:41:53
+siteID = CA3
+============== 7-th stage cleaning CA3 2021 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\season]' }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\FCH4]'   }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\P_1_2_1]'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" CA3 2021 2021 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\log\CA3_ThirdStageCleaning.log" 1>&2
+Start time: 31-Mar-2025 10:41:53
+
+End time: 31-Mar-2025 10:41:53
+
+Failed running Third Stage Rscript
+Retrieving critical messages from Third Stage R log:
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: CA3 2021 ==============
+============== End of cleaning stage 9 =============
+==============  Start =========================================
+Date: 31-Mar-2025 10:46:54
+siteID = CA3
+============== 7-th stage cleaning CA3 2021 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\season]' }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\FCH4]'   }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\P_1_2_1]'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" CA3 2021 2021 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\log\CA3_ThirdStageCleaning.log" 1>&2
+Start time: 31-Mar-2025 10:46:54
+
+End time: 31-Mar-2025 10:46:55
+
+Failed running Third Stage Rscript
+Retrieving critical messages from Third Stage R log:
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: CA3 2021 ==============
+============== End of cleaning stage 9 =============
+==============  Start =========================================
+Date: 31-Mar-2025 10:51:01
+siteID = CA3
+============== 7-th stage cleaning CA3 2021 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\season]' }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\FCH4]'   }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\P_1_2_1]'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" CA3 2021 2021 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\log\CA3_ThirdStageCleaning.log" 1>&2
+Start time: 31-Mar-2025 10:51:02
+
+End time: 31-Mar-2025 10:51:02
+
+Failed running Third Stage Rscript
+Retrieving critical messages from Third Stage R log:
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: CA3 2021 ==============
+============== End of cleaning stage 9 =============
+==============  Start =========================================
+Date: 31-Mar-2025 10:52:25
+siteID = CA3
+============== 7-th stage cleaning CA3 2021 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\season]' }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\FCH4]'   }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\P_1_2_1]'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" CA3 2021 2021 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\log\CA3_ThirdStageCleaning.log" 1>&2
+Start time: 31-Mar-2025 10:52:26
+
+End time: 31-Mar-2025 10:52:26
+
+Failed running Third Stage Rscript
+Retrieving critical messages from Third Stage R log:
+============== End of cleaning stage 7 =============
+==============  Start =========================================
+Date: 31-Mar-2025 11:04:06
+siteID = CA3
+============== 7-th stage cleaning CA3 2021 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\season]' }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\FCH4]'   }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\P_1_2_1]'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" CA3 2021 2021 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\log\CA3_ThirdStageCleaning.log" 1>&2
+Start time: 31-Mar-2025 11:04:06
+
+End time: 31-Mar-2025 11:04:07
+
+Failed running Third Stage Rscript
+Retrieving critical messages from Third Stage R log:
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: CA3 2021 ==============
+============== End of cleaning stage 9 =============
+==============  Start =========================================
+Date: 31-Mar-2025 11:25:22
+siteID = CA3
+============== 7-th stage cleaning CA3 2021 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\season]' }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\FCH4]'   }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CA3\Clean\SecondStage\P_1_2_1]'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" CA3 2021 2021 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\log\CA3_ThirdStageCleaning.log" 1>&2
+Start time: 31-Mar-2025 11:25:22
+
+End time: 31-Mar-2025 11:32:25
+
+Retrieving critical messages from Third Stage R log:
+============== End of cleaning stage 7 =============
