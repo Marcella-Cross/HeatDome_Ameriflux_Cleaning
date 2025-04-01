@@ -457,3 +457,21 @@ Daytime flux partitioning failed!!!
 Skipping daytime flux partitioning!!!
 ============== End of cleaning stage 7 =============
 ============== End of cleaning Site: CA3, year: 2022 ===========
+{Error using <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('set_TAB_project', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\Micromet\set_TAB_project.m', 60)" style="font-weight:bold">set_TAB_project</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\Micromet\set_TAB_project.m',60,0)">line 60</a>)
+Folder: \Users\mcross\Desktop\FluxProjectPipeline\MicroMet\Projects\My_Micromet\ does not exist!
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('CF1_formatDatabase', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Matlab\CF1_formatDatabase.m', 6)" style="font-weight:bold">CF1_formatDatabase</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Matlab\CF1_formatDatabase.m',6,0)">line 6</a>)
+structProject=set_TAB_project(projectPath);
+}
+clc
+Directory \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2017\CF1\Flux does not exist!... Creating new folder!... New folder created!
+Directory \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2018\CF1\Flux does not exist!... Creating new folder!... New folder created!
+Directory \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2019\CF1\Flux does not exist!... Creating new folder!... New folder created!
+Directory \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\CF1\Flux does not exist!... Creating new folder!... New folder created!
+Directory \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CF1\Flux does not exist!... Creating new folder!... New folder created!
+==============  Start =========================================
+Date: 31-Mar-2025 11:42:42
+siteID = CA3
+============== 8-th stage. Exporting AmeriFlux csv file for: CA3 2022 ==============
+============== End of cleaning stage 9 =============
+============== End of cleaning Site: CA3, year: 2022 ===========

@@ -2,7 +2,7 @@
 % Created by <Marcella> on <Oct. 28, 2024>
 % 
 % ============================
-projectPath = '/Users/mcross/Desktop/FluxProjectPipeline/MicroMet/Projects/My_Micromet/';
+projectPath = '/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/';
 structProject=set_TAB_project(projectPath);
 siteID = 'CF3';
 
@@ -79,8 +79,9 @@ structSetup.outputPath = []; % keep it in the local directory
 createFirstStageIni(structSetup)
 
 %% Once first stage ini file has been created:
-fr_automated_cleaning([2020, 2021, 2022], 'CF3', 1);
+fr_automated_cleaning([2020, 2021], 'CF3', 1);
 
 %% Once second stage ini file has been created:
-fr_automated_cleaning([2020, 2021, 2022], 'CF3', 2);
-fr_automated_cleaning([2020, 2021, 2022], 'CF3', [7 8]);
+fr_automated_cleaning([2020, 2021], 'CF3', 2);
+%%
+fr_automated_cleaning([2020, 2021], 'CF3', [1 2 7 8]);

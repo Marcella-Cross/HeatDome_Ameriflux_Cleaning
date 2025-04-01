@@ -1,0 +1,85 @@
+==============  Start =========================================
+Date: 01-Apr-2025 08:50:18
+siteID = LP1
+============== First  stage cleaning LP1 2022 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_FirstStage.ini 
+   34 traces read from the ini file. 
+   34 traces exist in the year 2022.
+   34 unique traces are kept for processing
+Created \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\LP1\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_FirstStage.ini 
+   34 traces read from the ini file. 
+   34 traces exist in the year 2022.
+   34 unique traces are kept for processing
+Reading traces from database...
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+============== End of cleaning Site: LP1, year: 2022 ===========
+==============  Start =========================================
+Date: 01-Apr-2025 08:50:31
+siteID = LP1
+============== Second stage cleaning LP1 2022 ==============
+Created \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\LP1\Clean\SecondStage
+Reading second stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_SecondStage.ini 
+   29 traces read from the ini file. 
+   29 traces exist in the year 2022.
+   29 unique traces are kept for processing
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_FirstStage.ini 
+   34 traces read from the ini file. 
+   34 traces exist in the year 2022.
+   34 unique traces are kept for processing
+Reading data from: 
+    \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\LP1\Flux\Clean
+Reading traces from database...
+   Done reading traces.
+Exporting data ...
+============== End of cleaning stage 2 =============
+============== End of cleaning Site: LP1, year: 2022 ===========
+==============  Start =========================================
+Date: 01-Apr-2025 08:50:56
+siteID = LP1
+============== 7-th stage cleaning LP1 2022 ==============
+Created \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\LP1\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> Processing: ThirdStage: Fluxes: FCH4 set to NULL in site_config.yaml'                                                                                   }
+    {'FYI ------> Processing: ThirdStage: Fluxes: FNO2 set to NULL in site_config.yaml'                                                                                   }
+    {'Error ----> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\LP1\Clean\SecondStage\SH]' }
+    {'Error ----> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\LP1\Clean\SecondStage\SLE]'}
+
+
+    Third Stage processing cannot proceed!!! [see error(s) above]
+========================= End of YML error check ==========================
+Retrieving critical messages from Third Stage R log:
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: LP1 2022 ==============
+============== End of cleaning stage 9 =============
+============== End of cleaning Site: LP1, year: 2022 ===========
+==============  Start =========================================
+Date: 01-Apr-2025 09:03:50
+siteID = LP1
+============== 7-th stage cleaning LP1 2022 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\LP1\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> Processing: ThirdStage: Fluxes: FCH4 set to NULL in site_config.yaml'}
+    {'FYI ------> Processing: ThirdStage: Fluxes: FNO2 set to NULL in site_config.yaml'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" LP1 2022 2022 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\log\LP1_ThirdStageCleaning.log" 1>&2
+Start time: 01-Apr-2025 09:03:51
+
+End time: 01-Apr-2025 09:09:18
+
+Retrieving critical messages from Third Stage R log:
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: LP1 2022 ==============
+============== End of cleaning stage 9 =============
+============== End of cleaning Site: LP1, year: 2022 ===========

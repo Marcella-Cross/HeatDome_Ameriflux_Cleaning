@@ -2,7 +2,8 @@
 % Created by <Marcella> on <Oct. 28, 2024>
 % 
 % ============================
-projectPath = '/Users/mcross/Desktop/FluxProjectPipeline/MicroMet/Projects/My_Micromet/';structProject=set_TAB_project(projectPath);
+projectPath = '/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/';
+structProject=set_TAB_project(projectPath);
 siteID = 'LP1';
 
 % Create database from raw data

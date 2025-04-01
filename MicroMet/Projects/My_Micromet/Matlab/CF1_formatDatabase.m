@@ -2,7 +2,7 @@
 % Created by <Marcella> on <Oct. 28, 2024>
 % 
 % ============================
-projectPath = '/Users/mcross/Desktop/FluxProjectPipeline/MicroMet/Projects/My_Micromet/';
+projectPath = '/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/';
 structProject=set_TAB_project(projectPath);
 siteID = 'CF1';
 
@@ -83,5 +83,7 @@ fr_automated_cleaning([2020, 2021, 2022], 'CF1', 1);
 
 %% Once second stage ini file has been created:
 fr_automated_cleaning([2020, 2021, 2022], 'CF1', 2);
+%%
+fr_automated_cleaning([2020, 2021, 2022], 'CF1', [7 8]);
 %%
 fr_automated_cleaning(2021, 'CF1', [7 8]);

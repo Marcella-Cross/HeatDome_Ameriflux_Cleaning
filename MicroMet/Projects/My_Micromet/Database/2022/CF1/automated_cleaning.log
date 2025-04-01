@@ -1,0 +1,94 @@
+==============  Start =========================================
+Date: 31-Mar-2025 11:42:20
+siteID = CF1
+============== Second stage cleaning CF1 2022 ==============
+Created \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CF1\Clean\SecondStage
+Reading second stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CF1\CF1_SecondStage.ini 
+   18 traces read from the ini file. 
+   18 traces exist in the year 2022.
+   18 unique traces are kept for processing
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CF1\CF1_FirstStage.ini 
+   Reading included file: C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\ECCC_FirstStage_include.ini. 
+   6 traces read from the ini file. 
+   6 traces exist in the year 2022.
+   6 unique traces are kept for processing
+   35 traces read from the ini file. 
+   35 traces exist in the year 2022.
+   35 unique traces are kept for processing
+Reading data from: 
+    \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CF1\Flux\Clean
+Reading data from: 
+    \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CF1\Met\Clean
+Reading traces from database...
+   Done reading traces.
+Exporting data ...
+============== End of cleaning stage 2 =============
+============== End of cleaning Site: CF1, year: 2022 ===========
+==============  Start =========================================
+Date: 31-Mar-2025 11:43:06
+siteID = CF1
+============== Second stage cleaning CF1 2022 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CF1\Clean\SecondStage
+Reading second stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CF1\CF1_SecondStage.ini 
+   18 traces read from the ini file. 
+   18 traces exist in the year 2022.
+   18 unique traces are kept for processing
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CF1\CF1_FirstStage.ini 
+   Reading included file: C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\ECCC_FirstStage_include.ini. 
+   6 traces read from the ini file. 
+   6 traces exist in the year 2022.
+   6 unique traces are kept for processing
+   35 traces read from the ini file. 
+   35 traces exist in the year 2022.
+   35 unique traces are kept for processing
+Reading data from: 
+    \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CF1\Flux\Clean
+Reading data from: 
+    \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CF1\Met\Clean
+Reading traces from database...
+   Done reading traces.
+Exporting data ...
+============== End of cleaning stage 2 =============
+============== End of cleaning Site: CF1, year: 2022 ===========
+==============  Start =========================================
+Date: 31-Mar-2025 12:15:26
+siteID = CF1
+============== 7-th stage cleaning CF1 2022 ==============
+Created \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CF1\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> Processing: ThirdStage: Fluxes: FCH4 set to NULL in site_config.yaml'                                                                                              }
+    {'FYI ------> Processing: ThirdStage: Fluxes: FNO2 set to NULL in site_config.yaml'                                                                                              }
+    {'Warning ----> No data in FC!        [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CF1\Clean\SecondStage\FC]'          }
+    {'Warning ----> No data in H!         [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CF1\Clean\SecondStage\H]'           }
+    {'Warning ----> No data in LE!        [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CF1\Clean\SecondStage\LE]'          }
+    {'Warning ----> No data in RH_1_1_1!  [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CF1\Clean\SecondStage\RH_1_1_1]'    }
+    {'Warning ----> No data in SW_IN_1_1_1![\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CF1\Clean\SecondStage\SW_IN_1_1_1]'}
+    {'Warning ----> No data in TA_1_1_1!  [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CF1\Clean\SecondStage\TA_1_1_1]'    }
+    {'Warning ----> No data in USTAR!     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CF1\Clean\SecondStage\USTAR]'       }
+    {'Warning ----> No data in VPD_1_1_1! [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CF1\Clean\SecondStage\VPD_1_1_1]'   }
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" CF1 2022 2022 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CF1\log\CF1_ThirdStageCleaning.log" 1>&2
+Start time: 31-Mar-2025 12:15:27
+
+End time: 31-Mar-2025 12:15:55
+
+Retrieving critical messages from Third Stage R log:
+ H is all NaN in 2022, REddyProc will ignore the flux 
+ LE is all NaN in 2022, REddyProc will ignore the flux 
+ NEE is all NaN in 2022, REddyProc will ignore the flux 
+Error!!! REddyProc crashed!
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: CF1 2022 ==============
+============== End of cleaning stage 9 =============
+============== End of cleaning Site: CF1, year: 2022 ===========
+Directory \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2017\CF2\Flux does not exist!... Creating new folder!... New folder created!
+Directory \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2018\CF2\Flux does not exist!... Creating new folder!... New folder created!
+Directory \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2019\CF2\Flux does not exist!... Creating new folder!... New folder created!
+Directory \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\CF2\Flux does not exist!... Creating new folder!... New folder created!
+Directory \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CF2\Flux does not exist!... Creating new folder!... New folder created!

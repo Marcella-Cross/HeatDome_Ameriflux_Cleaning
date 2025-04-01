@@ -1,0 +1,115 @@
+==============  Start =========================================
+Date: 31-Mar-2025 14:51:09
+siteID = CF2
+============== First  stage cleaning CF2 2021 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CF2\CF2_FirstStage.ini 
+   29 traces read from the ini file. 
+   29 traces exist in the year 2021.
+   29 unique traces are kept for processing
+Created \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CF2\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CF2\CF2_FirstStage.ini 
+   29 traces read from the ini file. 
+   29 traces exist in the year 2021.
+   29 unique traces are kept for processing
+Reading traces from database...
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+Write protected file: \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CF2\automated_cleaning.log
+==============  Start =========================================
+Date: 31-Mar-2025 14:51:12
+siteID = CF2
+============== First  stage cleaning CF2 2022 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CF2\CF2_FirstStage.ini 
+   29 traces read from the ini file. 
+   29 traces exist in the year 2022.
+   29 unique traces are kept for processing
+Created \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CF2\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CF2\CF2_FirstStage.ini 
+   29 traces read from the ini file. 
+   29 traces exist in the year 2022.
+   29 unique traces are kept for processing
+Reading traces from database...
+Could not find time vector for: FC. Returning all NaNs
+Could not find time vector for: FC_SSITC_TEST. Returning all NaNs
+Could not find time vector for: FETCH_90. Returning all NaNs
+Could not find time vector for: FETCH_MAX. Returning all NaNs
+Could not find time vector for: H. Returning all NaNs
+Could not find time vector for: H_SSITC_TEST. Returning all NaNs
+Could not find time vector for: LE. Returning all NaNs
+Could not find time vector for: LE_SSITC_TEST. Returning all NaNs
+Could not find time vector for: MO_LENGTH. Returning all NaNs
+Could not find time vector for: NETRAD. Returning all NaNs
+Could not find time vector for: P. Returning all NaNs
+Could not find time vector for: PA. Returning all NaNs
+Could not find time vector for: PPFD_IN. Returning all NaNs
+Could not find time vector for: RH. Returning all NaNs
+Could not find time vector for: SWC. Returning all NaNs
+Could not find time vector for: TA. Returning all NaNs
+Could not find time vector for: TS. Returning all NaNs
+Could not find time vector for: T_SONIC. Returning all NaNs
+Could not find time vector for: T_SONIC_SIGMA. Returning all NaNs
+*** Read Error: TimeVector not loaded
+Could not find time vector for: USTAR. Returning all NaNs
+Could not find time vector for: U_SIGMA. Returning all NaNs
+Could not find time vector for: VPD_PI. Returning all NaNs
+Could not find time vector for: V_SIGMA. Returning all NaNs
+Could not find time vector for: WD. Returning all NaNs
+Could not find time vector for: WS. Returning all NaNs
+Could not find time vector for: W_SIGMA. Returning all NaNs
+Could not find time vector for: ZL. Returning all NaNs
+*** Read Error: clean_tv not loaded
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+============== End of cleaning Site: CF2, year: 2022 ===========
+==============  Start =========================================
+Date: 31-Mar-2025 14:51:30
+siteID = CF2
+============== Second stage cleaning CF2 2021 ==============
+Created \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CF2\Clean\SecondStage
+Reading second stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CF2\CF2_SecondStage.ini 
+   18 traces read from the ini file. 
+   18 traces exist in the year 2021.
+   18 unique traces are kept for processing
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CF2\CF2_FirstStage.ini 
+   29 traces read from the ini file. 
+   29 traces exist in the year 2021.
+   29 unique traces are kept for processing
+Reading data from: 
+    \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CF2\Flux\Clean
+Reading traces from database...
+   Done reading traces.
+Exporting data ...
+============== End of cleaning stage 2 =============
+==============  Start =========================================
+Date: 31-Mar-2025 15:01:46
+siteID = CF2
+============== 7-th stage cleaning CF2 2021 ==============
+Created \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\CF2\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> Processing: ThirdStage: Fluxes: FCH4 set to NULL in site_config.yaml'}
+    {'FYI ------> Processing: ThirdStage: Fluxes: FNO2 set to NULL in site_config.yaml'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" CF2 2021 2021 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CF2\log\CF2_ThirdStageCleaning.log" 1>&2
+Start time: 31-Mar-2025 15:01:46
+
+End time: 31-Mar-2025 15:02:59
+
+Retrieving critical messages from Third Stage R log:
+Error!!! REddyProc crashed!
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: CF2 2021 ==============
+============== End of cleaning stage 9 =============

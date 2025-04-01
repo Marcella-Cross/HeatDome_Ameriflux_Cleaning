@@ -1,0 +1,97 @@
+==============  Start =========================================
+Date: 31-Mar-2025 14:49:35
+siteID = CF2
+============== First  stage cleaning CF2 2020 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CF2\CF2_FirstStage.ini 
+   29 traces read from the ini file. 
+   29 traces exist in the year 2020.
+   29 unique traces are kept for processing
+Created \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\CF2\Flux\Clean
+[Warning: Name is nonexistent or not a directory: C:\Users\Marcella
+Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CF2\Derived_Variables] 
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CF2\CF2_FirstStage.ini 
+   29 traces read from the ini file. 
+   29 traces exist in the year 2020.
+   29 unique traces are kept for processing
+Reading traces from database...
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+{Error using <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('save')" style="font-weight:bold">save</a>
+Cannot create 'CF2_2020_FirstStage_stats.mat' because '\Users\Marcella
+Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CF2\Derived_Variables'
+does not exist.
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('fr_cleaning_siteyear', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\NEW_MET\fr_cleaning_siteyear.m', 145)" style="font-weight:bold">fr_cleaning_siteyear</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\NEW_MET\fr_cleaning_siteyear.m',145,0)">line 145</a>)
+    save(pth_stats,"data_1st_stage_stats");
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('fr_automated_cleaning', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\BIOMET\fr_automated_cleaning.m', 251)" style="font-weight:bold">fr_automated_cleaning</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\BIOMET\fr_automated_cleaning.m',251,0)">line 251</a>)
+            data_first = fr_cleaning_siteyear(yy(1),siteID,1,db_ini);
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('CF2_formatDatabase', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Matlab\CF2_formatDatabase.m', 81)" style="font-weight:bold">CF2_formatDatabase</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Matlab\CF2_formatDatabase.m',81,0)">line 81</a>)
+fr_automated_cleaning([2020, 2021, 2022], 'CF2', 1);
+}
+==============  Start =========================================
+Date: 31-Mar-2025 14:50:59
+siteID = CF2
+============== First  stage cleaning CF2 2020 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CF2\CF2_FirstStage.ini 
+   29 traces read from the ini file. 
+   29 traces exist in the year 2020.
+   29 unique traces are kept for processing
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\CF2\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CF2\CF2_FirstStage.ini 
+   29 traces read from the ini file. 
+   29 traces exist in the year 2020.
+   29 unique traces are kept for processing
+Reading traces from database...
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+==============  Start =========================================
+Date: 31-Mar-2025 14:51:28
+siteID = CF2
+============== Second stage cleaning CF2 2020 ==============
+Created \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\CF2\Clean\SecondStage
+Reading second stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CF2\CF2_SecondStage.ini 
+   18 traces read from the ini file. 
+   18 traces exist in the year 2020.
+   18 unique traces are kept for processing
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CF2\CF2_FirstStage.ini 
+   29 traces read from the ini file. 
+   29 traces exist in the year 2020.
+   29 unique traces are kept for processing
+Reading data from: 
+    \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\CF2\Flux\Clean
+Reading traces from database...
+   Done reading traces.
+Exporting data ...
+============== End of cleaning stage 2 =============
+==============  Start =========================================
+Date: 31-Mar-2025 14:51:39
+siteID = CF2
+============== 7-th stage cleaning CF2 2020 ==============
+Created \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\CF2\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> Processing: ThirdStage: Fluxes: FCH4 set to NULL in site_config.yaml'}
+    {'FYI ------> Processing: ThirdStage: Fluxes: FNO2 set to NULL in site_config.yaml'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" CF2 2020 2020 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CF2\log\CF2_ThirdStageCleaning.log" 1>&2
+Start time: 31-Mar-2025 14:51:40
+
+End time: 31-Mar-2025 15:01:44
+
+Retrieving critical messages from Third Stage R log:
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: CF2 2020 ==============
+============== End of cleaning stage 9 =============

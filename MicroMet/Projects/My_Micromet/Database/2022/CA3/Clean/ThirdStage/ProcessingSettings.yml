@@ -1,0 +1,95 @@
+ThirdStage:
+  Fluxes:
+    H: H
+    LE: LE
+    NEE: FC
+    FCH4: FCH4
+  Met_Gap_Filling:
+    Linear_Interpolation:
+      maxgap: 3
+      Fill_Vars: TA_1_6_1,RH_1_2_1,VPD_1_1_1
+  Standard_Cleaning:
+    wakeFilter: 30
+    precipCutOff: 0
+  Storage_Correction:
+    NEE:
+      NEE: SC
+    FCH4:
+      FCH4: SCH4
+    H:
+      H: SH
+    LE:
+      LE: SLE
+    Run: no
+  JS_Moving_Z:
+    window: 45
+    z_thresh: 4
+    Run: yes
+  Papale_Spike_Removal:
+    window: 6
+    z_thresh: 5.5
+    Run: yes
+  REddyProc:
+    Ustar_filtering:
+      run_defaults: yes
+      default_uncertainty:
+        samples: 100
+        min: 0.05
+        max: 0.95
+        steps: 3
+      full_uncertainty:
+        samples: 200
+        min: 0.025
+        max: 0.975
+        steps: 39
+    vars_in:
+      NEE: NEE
+      LE: LE
+      H: H
+      FCH4: FCH4
+      Rg: SW_IN_1_2_1
+      Tair: TA_1_6_1
+      VPD: VPD_1_1_1
+      Ustar: USTAR
+      season: season
+      P: P_1_2_1
+    MDSGapFill:
+      UStarScens:
+      - NEE
+      - LE
+      - H
+      - FCH4
+      basic:
+      - Rg
+      - Tair
+      - VPD
+    saveBySuffix:
+    - uStar_orig
+    - uStar_f
+    - uStar
+    - U95_orig
+    - U95_f
+    - U95
+    Run: yes
+    Flux_Partitioning:
+      Run: yes
+  RF_GapFilling:
+    Run: no
+    retrain_every_n_months: 1
+    Models:
+      FCH4_PI_F_RF:
+        var_dep: FCH4_PI_uStar_orig
+        Predictors: SW_IN_1_1_1_PI_f,TA_1_1_1_PI_f,VPD_1_1_1_PI_f
+      NEE_PI_F_RF:
+        var_dep: NEE_PI_uStar_orig
+        Predictors: SW_IN_1_1_1,TA_1_1_1,VPD_1_1_1
+      H_PI_F_RF:
+        var_dep: H_PI_uStar_orig
+        Predictors: SW_IN_1_1_1_PI_f,TA_1_1_1_PI_f,VPD_1_1_1_PI_f
+      LE_PI_F_RF:
+        var_dep: LE_PI_uStar_orig
+        Predictors: SW_IN_1_1_1_PI_f,TA_1_1_1_PI_f,VPD_1_1_1_PI_f
+  Annual_Summary:
+    Variables_AE:
+      SW_IN: NETRAD_1_1_1
+      G: G_1_1_1

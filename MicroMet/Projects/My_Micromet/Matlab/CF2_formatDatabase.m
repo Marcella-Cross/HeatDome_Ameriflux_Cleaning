@@ -1,8 +1,8 @@
-%% US-CF2
+%% US-CF2 -- Exclude this site - it only has data to Jan of 2021...
 % Created by <Marcella> on <Oct. 28, 2024>
 % 
 % ============================
-projectPath = '/Users/mcross/Desktop/FluxProjectPipeline/MicroMet/Projects/My_Micromet/';
+projectPath = '/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/';
 structProject=set_TAB_project(projectPath);
 siteID = 'CF2';
 
@@ -82,4 +82,5 @@ fr_automated_cleaning([2020, 2021, 2022], 'CF2', 1);
 
 %% Once second stage ini file has been created:
 fr_automated_cleaning([2020, 2021, 2022], 'CF2', 2);
+%%
 fr_automated_cleaning([2020, 2021, 2022], 'CF2', [7 8]);

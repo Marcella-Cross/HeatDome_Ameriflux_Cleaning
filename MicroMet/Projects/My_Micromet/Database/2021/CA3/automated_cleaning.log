@@ -434,3 +434,8 @@ End time: 31-Mar-2025 11:32:25
 
 Retrieving critical messages from Third Stage R log:
 ============== End of cleaning stage 7 =============
+==============  Start =========================================
+Date: 31-Mar-2025 11:42:41
+siteID = CA3
+============== 8-th stage. Exporting AmeriFlux csv file for: CA3 2021 ==============
+============== End of cleaning stage 9 =============
