@@ -1,0 +1,189 @@
+
+Attaching package: 'zoo'
+
+The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+
+Attaching package: 'data.table'
+
+The following objects are masked from 'package:lubridate':
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week,
+    yday, year
+
+The following objects are masked from 'package:dplyr':
+
+    between, first, last
+
+The following objects are masked from 'package:zoo':
+
+    yearmon, yearqtr
+
+
+Attaching package: 'reshape2'
+
+The following objects are masked from 'package:data.table':
+
+    dcast, melt
+
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ forcats 1.0.0     ✔ readr   2.1.5
+✔ ggplot2 3.5.1     ✔ tibble  3.2.1
+✔ purrr   1.0.4     ✔ tidyr   1.3.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ data.table::between() masks dplyr::between()
+✖ dplyr::filter()       masks stats::filter()
+✖ data.table::first()   masks dplyr::first()
+✖ data.table::hour()    masks lubridate::hour()
+✖ data.table::isoweek() masks lubridate::isoweek()
+✖ dplyr::lag()          masks stats::lag()
+✖ data.table::last()    masks dplyr::last()
+✖ data.table::mday()    masks lubridate::mday()
+✖ data.table::minute()  masks lubridate::minute()
+✖ data.table::month()   masks lubridate::month()
+✖ data.table::quarter() masks lubridate::quarter()
+✖ data.table::second()  masks lubridate::second()
+✖ purrr::transpose()    masks data.table::transpose()
+✖ data.table::wday()    masks lubridate::wday()
+✖ data.table::week()    masks lubridate::week()
+✖ data.table::yday()    masks lubridate::yday()
+✖ data.table::year()    masks lubridate::year()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: lattice
+
+Attaching package: 'caret'
+
+The following object is masked from 'package:purrr':
+
+    lift
+
+[1] "R version 4.4.3 (2025-02-28 ucrt)"
+[1] "ReddyProc version: 1.3.3"
+[1] "Third stage run initialized for CF4 data in /Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database"
+[1] "481 values in H were filtered by the wind sector filter"
+[1] "0 values in H were filtered out by the rain filter"
+[1] "448 values in LE were filtered by the wind sector filter"
+[1] "0 values in LE were filtered out by the rain filter"
+[1] "871 values in NEE were filtered by the wind sector filter"
+[1] "0 values in NEE were filtered out by the rain filter"
+[1] "Writing 2021"
+[1] "Writing DateTime"
+[1] "Writing H"
+[1] "Writing LE"
+[1] "Writing NEE"
+[1] "Copying H from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying LE from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying NEE from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "0 values in H were filtered out by moving Z score filter"
+[1] "17 values in LE were filtered out by moving Z score filter"
+[1] "24 values in NEE were filtered out by moving Z score filter"
+[1] "Writing 2021"
+[1] "Writing DateTime"
+[1] "Writing H_PI_JSZ"
+[1] "Writing LE_PI_JSZ"
+[1] "Writing NEE_PI_JSZ"
+[1] "Copying H_PI_JSZ from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying LE_PI_JSZ from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying NEE_PI_JSZ from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "69 values in H were filtered out by Night-time MAD spike filter"
+[1] "102 values in H were filtered out by Day-time MAD spike filter"
+[1] "98 values in LE were filtered out by Night-time MAD spike filter"
+[1] "130 values in LE were filtered out by Day-time MAD spike filter"
+[1] "104 values in NEE were filtered out by Night-time MAD spike filter"
+[1] "161 values in NEE were filtered out by Day-time MAD spike filter"
+[1] "Writing 2021"
+[1] "Writing DateTime"
+[1] "Writing H_PI_JSZ_MAD"
+[1] "Writing LE_PI_JSZ_MAD"
+[1] "Writing NEE_PI_JSZ_MAD"
+[1] "Copying H_PI_JSZ_MAD from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying LE_PI_JSZ_MAD from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying NEE_PI_JSZ_MAD from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+New sEddyProc class for site 'CF4'
+
+Estimated UStar distribution of:
+   uStar 5% 50% 95%
+1    NA NA  NA  NA 
+by using  200 bootstrap samples and controls:
+                       taClasses                    UstarClasses 
+                              7                              20 
+                          swThr            minRecordsWithinTemp 
+                             10                             100 
+         minRecordsWithinSeason            minRecordsWithinYear 
+                            160                            3000 
+isUsingOneBigSeasonOnFewRecords 
+                              1 
+Initialized variable 'Rg' with 15528 real gaps for gap filling of all 1993 values (to estimate uncertainties).
+Restriced MDS algorithm for gap filling of 'Rg' with no meteo conditions and hence only MDC.
+Mean diurnal course with window size of 0 days: .
+...................1993
+Finished gap filling of 'Rg' in 0 seconds. Artificial gaps filled: 1993, real gaps filled: 15528, unfilled (long) gaps: 15526.
+Initialized variable 'Tair' with 15526 real gaps for gap filling of all 1993 values (to estimate uncertainties).
+Limited MDS algorithm for gap filling of 'Tair' with LUT(Rg only) and MDC.
+Look up table with window size of 7 days with Rg
+...................1991
+Mean diurnal course with window size of 0 days: .
+2
+Finished gap filling of 'Tair' in 0 seconds. Artificial gaps filled: 1993, real gaps filled: 15526, unfilled (long) gaps: 15526.
+Initialized variable 'VPD' with 16012 real gaps for gap filling of all 1993 values (to estimate uncertainties).
+Limited MDS algorithm for gap filling of 'VPD' with LUT(Rg only) and MDC.
+Look up table with window size of 7 days with Rg
+...................1991
+Mean diurnal course with window size of 0 days: .
+2
+Finished gap filling of 'VPD' in 0 seconds. Artificial gaps filled: 1993, real gaps filled: 16012, unfilled (long) gaps: 15526.
+Initialized variable 'rH' with 15984 real gaps for gap filling of all 1993 values (to estimate uncertainties).
+Full MDS algorithm for gap filling of 'rH' with LUT(Rg, VPD, Tair) and MDC.
+Look up table with window size of 7 days with Rg VPD Tair
+...................1504
+Look up table with window size of 14 days with Rg VPD Tair
+....0
+Look up table with window size of 7 days with Rg
+....487
+Mean diurnal course with window size of 0 days: .
+2
+Finished gap filling of 'rH' in 0 seconds. Artificial gaps filled: 1993, real gaps filled: 15984, unfilled (long) gaps: 15526.
+
+<P2M>Error!!! REddyProc crashed!</P2M>
+There were 12 warnings (use warnings() to see them)
+[1] "Skipping RF_GapFilling"
+[1] "Stage 3 Complete, total run time:"
+Time difference of 1.053964 mins
+=============================================================
+Completed running Third Stage Rscript: C:\Program Files\R\R-4.4.3\bin\Rscript.exe
+=============================================================
+
+
+Command output:
+
+
+
+
+
+=============================================================
+Rscript:      C:\Program Files\R\R-4.4.3\bin\Rscript.exe
+Command line: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" CF4 2021 2021 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CF4\log\CF4_ThirdStageCleaning.log" 1>&2
+Start:        31-Mar-2025 16:47:57
+End:          31-Mar-2025 16:49:04
+Elapsed time:    1.1 min
+==============================================================

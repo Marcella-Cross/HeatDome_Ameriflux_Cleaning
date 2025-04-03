@@ -1,0 +1,84 @@
+# Written by June Skeeter
+# March 2024
+# Modified by <Marcella>
+# Date: <Dec.10.2024>
+
+Metadata:
+  siteID: LP1
+  estYear: 2020               # start year for site
+  lat: 55.1119               # North is positive
+  long: -122.8414             # West is negative
+  TimeZoneHour: -8     # (e.g., for Pacific standard time, GMT - 8)
+  northOffset: 360                # found in EddyPro ghg Met file
+
+Processing:
+  ThirdStage:
+    Fluxes:
+      # Names of flux variables as they come in from second stage
+      # For fluxes that do not apply, change the key-value pair to NULL (see FNO2 example)
+      # *** DOUBLE CHECK FLUX NAMES ON RHS MATCH SECOND STAGE TRACES ***
+      H: H
+      LE: LE
+      NEE: FC
+      FCH4: NULL
+      FNO2: NULL
+    Met_Gap_Filling:
+      Linear_Interpolation:
+        # *** DOUBLE CHECK VARIABLE NAMES ON RHS MATCH SECOND STAGE TRACE NAMES ***
+        Fill_Vars: TA_1_1_1,RH_1_1_1,VPD_1_1_1
+    Standard_Cleaning:
+      # Filter out values  #+/- wakeFilter of northOffset +/- 180 degrees
+      wakeFilter: 30
+      # If you do not want fluxes filtered during rain events, set to NULL
+      precipCutOff: 0
+    Storage_Correction:
+      # If storage terms are missing, then set Run: FALSE
+      Run: FALSE
+    JS_Moving_Z: 
+      # You can turn off z-score filtering by setting Run: FALSE
+      Run: TRUE
+    Papale_Spike_Removal:
+      # You can turn off MAD filtering by setting Run: FALSE
+      Run: TRUE
+    REddyProc:
+      # You can turn off REddyProc by setting Run: FALSE
+      # Setting Run: FALSE would normally only be for diagnostic purposes.
+      Run: TRUE
+      Ustar_filtering:
+        # Keep "run_defaults" as TRUE to run "fast" ustar filtering
+        # If run_defaults = FALSE, conduct "full_uncertainty" 
+        run_defaults: TRUE
+      vars_in:
+        # Variables to feed to REddyProc (from second stage)
+        # Key is REddyProc name, val is database name (or previous output from up the processing chain)
+        # Fluxes will be whatever the most "up to date" filtered variable is
+        # e.g., NEE is Storage corrected, spikes removed (Papale 2006), etc.
+        #
+        # *** Double check that variable names (on the right) match Second Stage naming ***
+        # *** If a standard flux is missing set key-val to NULL (e.g. FCH4: NULL) ***
+        NEE: NEE
+        LE: LE
+        H: H
+        Rg: SW_IN_1_1_1
+        Tair: TA_1_1_1
+        VPD: VPD_1_1_1
+        Ustar: USTAR
+        # Add additional variables here if needed
+        rH: RH_1_1_1
+      # MDS gap filling (will only fill these variables *if* present in "vars_in")
+      MDSGapFill:
+        # List of Ustar-dependent variables on which to gap-fill using MDS
+        UStarScens:
+          - NEE
+          - LE
+          - H
+        # List of variables on which to gap-fill using MDS
+        basic: 
+          - Rg
+          - Tair
+          - VPD
+          # Add additional variables here if desired
+          - rH
+    Flux_Partitioning:
+        # You can turn off flux partitioning calculations by setting Run: FALSE
+        Run: TRUE

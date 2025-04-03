@@ -1,0 +1,1234 @@
+
+Attaching package: 'zoo'
+
+The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: 'lubridate'
+
+The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+
+Attaching package: 'data.table'
+
+The following objects are masked from 'package:lubridate':
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week,
+    yday, year
+
+The following objects are masked from 'package:dplyr':
+
+    between, first, last
+
+The following objects are masked from 'package:zoo':
+
+    yearmon, yearqtr
+
+
+Attaching package: 'reshape2'
+
+The following objects are masked from 'package:data.table':
+
+    dcast, melt
+
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ forcats 1.0.0     ✔ readr   2.1.5
+✔ ggplot2 3.5.1     ✔ tibble  3.2.1
+✔ purrr   1.0.4     ✔ tidyr   1.3.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ data.table::between() masks dplyr::between()
+✖ dplyr::filter()       masks stats::filter()
+✖ data.table::first()   masks dplyr::first()
+✖ data.table::hour()    masks lubridate::hour()
+✖ data.table::isoweek() masks lubridate::isoweek()
+✖ dplyr::lag()          masks stats::lag()
+✖ data.table::last()    masks dplyr::last()
+✖ data.table::mday()    masks lubridate::mday()
+✖ data.table::minute()  masks lubridate::minute()
+✖ data.table::month()   masks lubridate::month()
+✖ data.table::quarter() masks lubridate::quarter()
+✖ data.table::second()  masks lubridate::second()
+✖ purrr::transpose()    masks data.table::transpose()
+✖ data.table::wday()    masks lubridate::wday()
+✖ data.table::week()    masks lubridate::week()
+✖ data.table::yday()    masks lubridate::yday()
+✖ data.table::year()    masks lubridate::year()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: lattice
+
+Attaching package: 'caret'
+
+The following object is masked from 'package:purrr':
+
+    lift
+
+[1] "R version 4.4.3 (2025-02-28 ucrt)"
+[1] "ReddyProc version: 1.3.3"
+[1] "Third stage run initialized for XWR data in /Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database"
+[1] "3110 values in H were filtered by the wind sector filter"
+[1] "3157 values in LE were filtered by the wind sector filter"
+[1] "2991 values in NEE were filtered by the wind sector filter"
+[1] "Writing 2022"
+[1] "Writing DateTime"
+[1] "Writing H"
+[1] "Writing LE"
+[1] "Writing NEE"
+[1] "Copying H from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying LE from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying NEE from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "32 values in H were filtered out by moving Z score filter"
+[1] "118 values in LE were filtered out by moving Z score filter"
+[1] "69 values in NEE were filtered out by moving Z score filter"
+[1] "Writing 2022"
+[1] "Writing DateTime"
+[1] "Writing H_PI_JSZ"
+[1] "Writing LE_PI_JSZ"
+[1] "Writing NEE_PI_JSZ"
+[1] "Copying H_PI_JSZ from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying LE_PI_JSZ from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying NEE_PI_JSZ from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "222 values in H were filtered out by Night-time MAD spike filter"
+[1] "289 values in H were filtered out by Day-time MAD spike filter"
+[1] "401 values in LE were filtered out by Night-time MAD spike filter"
+[1] "472 values in LE were filtered out by Day-time MAD spike filter"
+[1] "114 values in NEE were filtered out by Night-time MAD spike filter"
+[1] "233 values in NEE were filtered out by Day-time MAD spike filter"
+[1] "Writing 2022"
+[1] "Writing DateTime"
+[1] "Writing H_PI_JSZ_MAD"
+[1] "Writing LE_PI_JSZ_MAD"
+[1] "Writing NEE_PI_JSZ_MAD"
+[1] "Copying H_PI_JSZ_MAD from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying LE_PI_JSZ_MAD from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying NEE_PI_JSZ_MAD from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+New sEddyProc class for site 'XWR'
+
+Estimated UStar distribution of:
+        uStar         5%        50%       95%
+1 0.08822711 0.07552798 0.09548623 0.1385358 
+by using  200 bootstrap samples and controls:
+                       taClasses                    UstarClasses 
+                              7                              20 
+                          swThr            minRecordsWithinTemp 
+                             10                             100 
+         minRecordsWithinSeason            minRecordsWithinYear 
+                            160                            3000 
+isUsingOneBigSeasonOnFewRecords 
+                              1 
+Initialized variable 'Rg' with 856 real gaps for gap filling of all 17519 values (to estimate uncertainties).
+Restriced MDS algorithm for gap filling of 'Rg' with no meteo conditions and hence only MDC.
+Mean diurnal course with window size of 0 days: .
+............................................................
+.............................................................
+........................................................16708
+Mean diurnal course with window size of 1 days: .
+........701
+Mean diurnal course with window size of 2 days: .
+.110
+Finished gap filling of 'Rg' in 4 seconds. Artificial gaps filled: 17519, real gaps filled: 856, unfilled (long) gaps: 0.
+Initialized variable 'Tair' with 844 real gaps for gap filling of all 17519 values (to estimate uncertainties).
+Limited MDS algorithm for gap filling of 'Tair' with LUT(Rg only) and MDC.
+Look up table with window size of 7 days with Rg
+............................................................
+.............................................................
+........................................................16660
+Mean diurnal course with window size of 0 days: .
+........50
+Mean diurnal course with window size of 1 days: .
+........699
+Mean diurnal course with window size of 2 days: .
+.110
+Finished gap filling of 'Tair' in 7 seconds. Artificial gaps filled: 17519, real gaps filled: 844, unfilled (long) gaps: 0.
+Initialized variable 'VPD' with 4956 real gaps for gap filling of all 17519 values (to estimate uncertainties).
+Limited MDS algorithm for gap filling of 'VPD' with LUT(Rg only) and MDC.
+Look up table with window size of 7 days with Rg
+............................................................
+.............................................................
+........................................................14164
+Mean diurnal course with window size of 0 days: .
+.................................24
+Mean diurnal course with window size of 1 days: .
+.................................326
+Mean diurnal course with window size of 2 days: .
+..............................68
+Look up table with window size of 14 days with Rg
+.............................1197
+Look up table with window size of 21 days with Rg
+.................1105
+Look up table with window size of 28 days with Rg
+......190
+Look up table with window size of 35 days with Rg
+....5
+Look up table with window size of 42 days with Rg
+....0
+Look up table with window size of 49 days with Rg
+....0
+Look up table with window size of 56 days with Rg
+....0
+Look up table with window size of 63 days with Rg
+....0
+Look up table with window size of 70 days with Rg
+....0
+Mean diurnal course with window size of 7 days: .
+....182
+Mean diurnal course with window size of 14 days: .
+..129
+Mean diurnal course with window size of 21 days: .
+.129
+Finished gap filling of 'VPD' in 9 seconds. Artificial gaps filled: 17519, real gaps filled: 4956, unfilled (long) gaps: 0.
+Initialized variable 'rH' with 1636 real gaps for gap filling of all 17519 values (to estimate uncertainties).
+Full MDS algorithm for gap filling of 'rH' with LUT(Rg, VPD, Tair) and MDC.
+Look up table with window size of 7 days with Rg VPD Tair
+............................................................
+.............................................................
+........................................................12469
+Look up table with window size of 14 days with Rg VPD Tair
+..................................................63
+Look up table with window size of 7 days with Rg
+.................................................4129
+Mean diurnal course with window size of 0 days: .
+........40
+Mean diurnal course with window size of 1 days: .
+........689
+Mean diurnal course with window size of 2 days: .
+.129
+Finished gap filling of 'rH' in 8 seconds. Artificial gaps filled: 17519, real gaps filled: 1636, unfilled (long) gaps: 0.
+Ustar filtering (u * Th_1 = 0.0882271113140242), marked 23% of the data as gap
+Initialized variable 'NEE' with 11112 real gaps for gap filling of all 17519 values (to estimate uncertainties).
+Full MDS algorithm for gap filling of 'NEE.Ustar_uStar_fqc_0' with LUT(Rg, VPD, Tair) and MDC.
+Look up table with window size of 7 days with Rg VPD Tair
+............................................................
+.............................................................
+........................................................11019
+Look up table with window size of 14 days with Rg VPD Tair
+............................................................
+......689
+Look up table with window size of 7 days with Rg
+..........................................................4430
+Mean diurnal course with window size of 0 days: .
+.............20
+Mean diurnal course with window size of 1 days: .
+.............356
+Mean diurnal course with window size of 2 days: .
+..........380
+Look up table with window size of 21 days with Rg VPD Tair
+......402
+Look up table with window size of 28 days with Rg VPD Tair
+..59
+Look up table with window size of 35 days with Rg VPD Tair
+.5
+Look up table with window size of 42 days with Rg VPD Tair
+.6
+Look up table with window size of 49 days with Rg VPD Tair
+.2
+Look up table with window size of 56 days with Rg VPD Tair
+.2
+Look up table with window size of 63 days with Rg VPD Tair
+.0
+Look up table with window size of 70 days with Rg VPD Tair
+.0
+Look up table with window size of 14 days with Rg
+.31
+Look up table with window size of 21 days with Rg
+.0
+Look up table with window size of 28 days with Rg
+.1
+Look up table with window size of 35 days with Rg
+.0
+Look up table with window size of 42 days with Rg
+.0
+Look up table with window size of 49 days with Rg
+.0
+Look up table with window size of 56 days with Rg
+.0
+Look up table with window size of 63 days with Rg
+.0
+Look up table with window size of 70 days with Rg
+.0
+Mean diurnal course with window size of 7 days: .
+.102
+Mean diurnal course with window size of 14 days: .
+13
+Mean diurnal course with window size of 21 days: .
+2
+Finished gap filling of 'NEE' in 12 seconds. Artificial gaps filled: 17519, real gaps filled: 11112, unfilled (long) gaps: 0.
+Ustar filtering (u * Th_1 = 0.0692206323679005), marked 20% of the data as gap
+Initialized variable 'NEE' with 10836 real gaps for gap filling of all 17519 values (to estimate uncertainties).
+Full MDS algorithm for gap filling of 'NEE.Ustar_U05_fqc_0' with LUT(Rg, VPD, Tair) and MDC.
+Look up table with window size of 7 days with Rg VPD Tair
+............................................................
+.............................................................
+........................................................11022
+Look up table with window size of 14 days with Rg VPD Tair
+............................................................
+.....687
+Look up table with window size of 7 days with Rg
+..........................................................4429
+Mean diurnal course with window size of 0 days: .
+.............21
+Mean diurnal course with window size of 1 days: .
+.............359
+Mean diurnal course with window size of 2 days: .
+..........383
+Look up table with window size of 21 days with Rg VPD Tair
+......402
+Look up table with window size of 28 days with Rg VPD Tair
+..59
+Look up table with window size of 35 days with Rg VPD Tair
+.5
+Look up table with window size of 42 days with Rg VPD Tair
+.6
+Look up table with window size of 49 days with Rg VPD Tair
+.2
+Look up table with window size of 56 days with Rg VPD Tair
+.2
+Look up table with window size of 63 days with Rg VPD Tair
+.0
+Look up table with window size of 70 days with Rg VPD Tair
+.0
+Look up table with window size of 14 days with Rg
+.31
+Look up table with window size of 21 days with Rg
+.0
+Look up table with window size of 28 days with Rg
+.1
+Look up table with window size of 35 days with Rg
+.0
+Look up table with window size of 42 days with Rg
+.0
+Look up table with window size of 49 days with Rg
+.0
+Look up table with window size of 56 days with Rg
+.0
+Look up table with window size of 63 days with Rg
+.0
+Look up table with window size of 70 days with Rg
+.0
+Mean diurnal course with window size of 7 days: .
+.95
+Mean diurnal course with window size of 14 days: .
+13
+Mean diurnal course with window size of 21 days: .
+2
+Finished gap filling of 'NEE' in 11 seconds. Artificial gaps filled: 17519, real gaps filled: 10836, unfilled (long) gaps: 0.
+Ustar filtering (u * Th_1 = 0.0962121571813311), marked 25% of the data as gap
+Initialized variable 'NEE' with 11252 real gaps for gap filling of all 17519 values (to estimate uncertainties).
+Full MDS algorithm for gap filling of 'NEE.Ustar_U50_fqc_0' with LUT(Rg, VPD, Tair) and MDC.
+Look up table with window size of 7 days with Rg VPD Tair
+............................................................
+.............................................................
+........................................................11015
+Look up table with window size of 14 days with Rg VPD Tair
+............................................................
+......691
+Look up table with window size of 7 days with Rg
+..........................................................4432
+Mean diurnal course with window size of 0 days: .
+.............19
+Mean diurnal course with window size of 1 days: .
+.............350
+Mean diurnal course with window size of 2 days: .
+..........381
+Look up table with window size of 21 days with Rg VPD Tair
+......402
+Look up table with window size of 28 days with Rg VPD Tair
+..59
+Look up table with window size of 35 days with Rg VPD Tair
+.5
+Look up table with window size of 42 days with Rg VPD Tair
+.6
+Look up table with window size of 49 days with Rg VPD Tair
+.2
+Look up table with window size of 56 days with Rg VPD Tair
+.2
+Look up table with window size of 63 days with Rg VPD Tair
+.0
+Look up table with window size of 70 days with Rg VPD Tair
+.0
+Look up table with window size of 14 days with Rg
+.31
+Look up table with window size of 21 days with Rg
+.0
+Look up table with window size of 28 days with Rg
+.1
+Look up table with window size of 35 days with Rg
+.0
+Look up table with window size of 42 days with Rg
+.0
+Look up table with window size of 49 days with Rg
+.0
+Look up table with window size of 56 days with Rg
+.0
+Look up table with window size of 63 days with Rg
+.0
+Look up table with window size of 70 days with Rg
+.0
+Mean diurnal course with window size of 7 days: .
+.108
+Mean diurnal course with window size of 14 days: .
+13
+Mean diurnal course with window size of 21 days: .
+2
+Finished gap filling of 'NEE' in 11 seconds. Artificial gaps filled: 17519, real gaps filled: 11252, unfilled (long) gaps: 0.
+Ustar filtering (u * Th_1 = 0.142656931999539), marked 35% of the data as gap
+Initialized variable 'NEE' with 12085 real gaps for gap filling of all 17519 values (to estimate uncertainties).
+Full MDS algorithm for gap filling of 'NEE.Ustar_U95_fqc_0' with LUT(Rg, VPD, Tair) and MDC.
+Look up table with window size of 7 days with Rg VPD Tair
+............................................................
+.............................................................
+........................................................10901
+Look up table with window size of 14 days with Rg VPD Tair
+............................................................
+.......748
+Look up table with window size of 7 days with Rg
+..........................................................4483
+Mean diurnal course with window size of 0 days: .
+.............19
+Mean diurnal course with window size of 1 days: .
+.............320
+Mean diurnal course with window size of 2 days: .
+..........362
+Look up table with window size of 21 days with Rg VPD Tair
+......408
+Look up table with window size of 28 days with Rg VPD Tair
+..59
+Look up table with window size of 35 days with Rg VPD Tair
+..5
+Look up table with window size of 42 days with Rg VPD Tair
+..6
+Look up table with window size of 49 days with Rg VPD Tair
+..2
+Look up table with window size of 56 days with Rg VPD Tair
+..2
+Look up table with window size of 63 days with Rg VPD Tair
+..0
+Look up table with window size of 70 days with Rg VPD Tair
+..0
+Look up table with window size of 14 days with Rg
+..31
+Look up table with window size of 21 days with Rg
+.0
+Look up table with window size of 28 days with Rg
+.1
+Look up table with window size of 35 days with Rg
+.0
+Look up table with window size of 42 days with Rg
+.0
+Look up table with window size of 49 days with Rg
+.0
+Look up table with window size of 56 days with Rg
+.0
+Look up table with window size of 63 days with Rg
+.0
+Look up table with window size of 70 days with Rg
+.0
+Mean diurnal course with window size of 7 days: .
+.157
+Mean diurnal course with window size of 14 days: .
+13
+Mean diurnal course with window size of 21 days: .
+2
+Finished gap filling of 'NEE' in 11 seconds. Artificial gaps filled: 17519, real gaps filled: 12085, unfilled (long) gaps: 0.
+Ustar filtering (u * Th_1 = 0.0882271113140242), marked 23% of the data as gap
+Initialized variable 'LE' with 10788 real gaps for gap filling of all 17519 values (to estimate uncertainties).
+Full MDS algorithm for gap filling of 'LE.Ustar_uStar_fqc_0' with LUT(Rg, VPD, Tair) and MDC.
+Look up table with window size of 7 days with Rg VPD Tair
+............................................................
+.............................................................
+........................................................11053
+Look up table with window size of 14 days with Rg VPD Tair
+............................................................
+.....735
+Look up table with window size of 7 days with Rg
+.........................................................4390
+Mean diurnal course with window size of 0 days: .
+.............18
+Mean diurnal course with window size of 1 days: .
+.............497
+Mean diurnal course with window size of 2 days: .
+........313
+Look up table with window size of 21 days with Rg VPD Tair
+.....384
+Look up table with window size of 28 days with Rg VPD Tair
+.34
+Look up table with window size of 35 days with Rg VPD Tair
+6
+Look up table with window size of 42 days with Rg VPD Tair
+4
+Look up table with window size of 49 days with Rg VPD Tair
+2
+Look up table with window size of 56 days with Rg VPD Tair
+2
+Look up table with window size of 63 days with Rg VPD Tair
+0
+Look up table with window size of 70 days with Rg VPD Tair
+0
+Look up table with window size of 14 days with Rg
+32
+Look up table with window size of 21 days with Rg
+1
+Look up table with window size of 28 days with Rg
+0
+Look up table with window size of 35 days with Rg
+0
+Look up table with window size of 42 days with Rg
+0
+Look up table with window size of 49 days with Rg
+0
+Look up table with window size of 56 days with Rg
+0
+Look up table with window size of 63 days with Rg
+0
+Look up table with window size of 70 days with Rg
+0
+Mean diurnal course with window size of 7 days: .
+33
+Mean diurnal course with window size of 14 days: .
+13
+Mean diurnal course with window size of 21 days: .
+2
+Finished gap filling of 'LE' in 10 seconds. Artificial gaps filled: 17519, real gaps filled: 10788, unfilled (long) gaps: 0.
+Ustar filtering (u * Th_1 = 0.0692206323679005), marked 20% of the data as gap
+Initialized variable 'LE' with 10514 real gaps for gap filling of all 17519 values (to estimate uncertainties).
+Full MDS algorithm for gap filling of 'LE.Ustar_U05_fqc_0' with LUT(Rg, VPD, Tair) and MDC.
+Look up table with window size of 7 days with Rg VPD Tair
+............................................................
+.............................................................
+........................................................11054
+Look up table with window size of 14 days with Rg VPD Tair
+............................................................
+.....735
+Look up table with window size of 7 days with Rg
+.........................................................4389
+Mean diurnal course with window size of 0 days: .
+.............18
+Mean diurnal course with window size of 1 days: .
+.............513
+Mean diurnal course with window size of 2 days: .
+........305
+Look up table with window size of 21 days with Rg VPD Tair
+.....384
+Look up table with window size of 28 days with Rg VPD Tair
+.34
+Look up table with window size of 35 days with Rg VPD Tair
+6
+Look up table with window size of 42 days with Rg VPD Tair
+4
+Look up table with window size of 49 days with Rg VPD Tair
+2
+Look up table with window size of 56 days with Rg VPD Tair
+2
+Look up table with window size of 63 days with Rg VPD Tair
+0
+Look up table with window size of 70 days with Rg VPD Tair
+0
+Look up table with window size of 14 days with Rg
+32
+Look up table with window size of 21 days with Rg
+1
+Look up table with window size of 28 days with Rg
+0
+Look up table with window size of 35 days with Rg
+0
+Look up table with window size of 42 days with Rg
+0
+Look up table with window size of 49 days with Rg
+0
+Look up table with window size of 56 days with Rg
+0
+Look up table with window size of 63 days with Rg
+0
+Look up table with window size of 70 days with Rg
+0
+Mean diurnal course with window size of 7 days: .
+25
+Mean diurnal course with window size of 14 days: .
+13
+Mean diurnal course with window size of 21 days: .
+2
+Finished gap filling of 'LE' in 10 seconds. Artificial gaps filled: 17519, real gaps filled: 10514, unfilled (long) gaps: 0.
+Ustar filtering (u * Th_1 = 0.0962121571813311), marked 25% of the data as gap
+Initialized variable 'LE' with 10929 real gaps for gap filling of all 17519 values (to estimate uncertainties).
+Full MDS algorithm for gap filling of 'LE.Ustar_U50_fqc_0' with LUT(Rg, VPD, Tair) and MDC.
+Look up table with window size of 7 days with Rg VPD Tair
+............................................................
+.............................................................
+........................................................11050
+Look up table with window size of 14 days with Rg VPD Tair
+............................................................
+.....738
+Look up table with window size of 7 days with Rg
+.........................................................4390
+Mean diurnal course with window size of 0 days: .
+.............18
+Mean diurnal course with window size of 1 days: .
+.............490
+Mean diurnal course with window size of 2 days: .
+........316
+Look up table with window size of 21 days with Rg VPD Tair
+.....384
+Look up table with window size of 28 days with Rg VPD Tair
+.34
+Look up table with window size of 35 days with Rg VPD Tair
+6
+Look up table with window size of 42 days with Rg VPD Tair
+4
+Look up table with window size of 49 days with Rg VPD Tair
+2
+Look up table with window size of 56 days with Rg VPD Tair
+2
+Look up table with window size of 63 days with Rg VPD Tair
+0
+Look up table with window size of 70 days with Rg VPD Tair
+0
+Look up table with window size of 14 days with Rg
+32
+Look up table with window size of 21 days with Rg
+1
+Look up table with window size of 28 days with Rg
+0
+Look up table with window size of 35 days with Rg
+0
+Look up table with window size of 42 days with Rg
+0
+Look up table with window size of 49 days with Rg
+0
+Look up table with window size of 56 days with Rg
+0
+Look up table with window size of 63 days with Rg
+0
+Look up table with window size of 70 days with Rg
+0
+Mean diurnal course with window size of 7 days: .
+37
+Mean diurnal course with window size of 14 days: .
+13
+Mean diurnal course with window size of 21 days: .
+2
+Finished gap filling of 'LE' in 12 seconds. Artificial gaps filled: 17519, real gaps filled: 10929, unfilled (long) gaps: 0.
+Ustar filtering (u * Th_1 = 0.142656931999539), marked 35% of the data as gap
+Initialized variable 'LE' with 11775 real gaps for gap filling of all 17519 values (to estimate uncertainties).
+Full MDS algorithm for gap filling of 'LE.Ustar_U95_fqc_0' with LUT(Rg, VPD, Tair) and MDC.
+Look up table with window size of 7 days with Rg VPD Tair
+............................................................
+.............................................................
+........................................................10940
+Look up table with window size of 14 days with Rg VPD Tair
+............................................................
+......793
+Look up table with window size of 7 days with Rg
+.........................................................4444
+Mean diurnal course with window size of 0 days: .
+.............18
+Mean diurnal course with window size of 1 days: .
+.............444
+Mean diurnal course with window size of 2 days: .
+........308
+Look up table with window size of 21 days with Rg VPD Tair
+.....385
+Look up table with window size of 28 days with Rg VPD Tair
+.34
+Look up table with window size of 35 days with Rg VPD Tair
+.6
+Look up table with window size of 42 days with Rg VPD Tair
+.4
+Look up table with window size of 49 days with Rg VPD Tair
+.2
+Look up table with window size of 56 days with Rg VPD Tair
+.2
+Look up table with window size of 63 days with Rg VPD Tair
+.0
+Look up table with window size of 70 days with Rg VPD Tair
+.0
+Look up table with window size of 14 days with Rg
+.32
+Look up table with window size of 21 days with Rg
+.1
+Look up table with window size of 28 days with Rg
+.0
+Look up table with window size of 35 days with Rg
+.0
+Look up table with window size of 42 days with Rg
+.0
+Look up table with window size of 49 days with Rg
+.0
+Look up table with window size of 56 days with Rg
+.0
+Look up table with window size of 63 days with Rg
+.0
+Look up table with window size of 70 days with Rg
+.0
+Mean diurnal course with window size of 7 days: .
+.91
+Mean diurnal course with window size of 14 days: .
+13
+Mean diurnal course with window size of 21 days: .
+2
+Finished gap filling of 'LE' in 10 seconds. Artificial gaps filled: 17519, real gaps filled: 11775, unfilled (long) gaps: 0.
+Ustar filtering (u * Th_1 = 0.0882271113140242), marked 23% of the data as gap
+Initialized variable 'H' with 10626 real gaps for gap filling of all 17519 values (to estimate uncertainties).
+Full MDS algorithm for gap filling of 'H.Ustar_uStar_fqc_0' with LUT(Rg, VPD, Tair) and MDC.
+Look up table with window size of 7 days with Rg VPD Tair
+............................................................
+.............................................................
+........................................................11077
+Look up table with window size of 14 days with Rg VPD Tair
+............................................................
+.....689
+Look up table with window size of 7 days with Rg
+.........................................................4423
+Mean diurnal course with window size of 0 days: .
+.............21
+Mean diurnal course with window size of 1 days: .
+.............505
+Mean diurnal course with window size of 2 days: .
+........307
+Look up table with window size of 21 days with Rg VPD Tair
+....376
+Look up table with window size of 28 days with Rg VPD Tair
+.36
+Look up table with window size of 35 days with Rg VPD Tair
+9
+Look up table with window size of 42 days with Rg VPD Tair
+4
+Look up table with window size of 49 days with Rg VPD Tair
+2
+Look up table with window size of 56 days with Rg VPD Tair
+2
+Look up table with window size of 63 days with Rg VPD Tair
+0
+Look up table with window size of 70 days with Rg VPD Tair
+0
+Look up table with window size of 14 days with Rg
+29
+Look up table with window size of 21 days with Rg
+0
+Look up table with window size of 28 days with Rg
+1
+Look up table with window size of 35 days with Rg
+0
+Look up table with window size of 42 days with Rg
+0
+Look up table with window size of 49 days with Rg
+0
+Look up table with window size of 56 days with Rg
+0
+Look up table with window size of 63 days with Rg
+0
+Look up table with window size of 70 days with Rg
+0
+Mean diurnal course with window size of 7 days: .
+23
+Mean diurnal course with window size of 14 days: .
+13
+Mean diurnal course with window size of 21 days: .
+2
+Finished gap filling of 'H' in 9 seconds. Artificial gaps filled: 17519, real gaps filled: 10626, unfilled (long) gaps: 0.
+Ustar filtering (u * Th_1 = 0.0692206323679005), marked 20% of the data as gap
+Initialized variable 'H' with 10328 real gaps for gap filling of all 17519 values (to estimate uncertainties).
+Full MDS algorithm for gap filling of 'H.Ustar_U05_fqc_0' with LUT(Rg, VPD, Tair) and MDC.
+Look up table with window size of 7 days with Rg VPD Tair
+............................................................
+.............................................................
+........................................................11077
+Look up table with window size of 14 days with Rg VPD Tair
+............................................................
+.....689
+Look up table with window size of 7 days with Rg
+.........................................................4423
+Mean diurnal course with window size of 0 days: .
+.............23
+Mean diurnal course with window size of 1 days: .
+.............522
+Mean diurnal course with window size of 2 days: .
+.......294
+Look up table with window size of 21 days with Rg VPD Tair
+....376
+Look up table with window size of 28 days with Rg VPD Tair
+.36
+Look up table with window size of 35 days with Rg VPD Tair
+9
+Look up table with window size of 42 days with Rg VPD Tair
+4
+Look up table with window size of 49 days with Rg VPD Tair
+2
+Look up table with window size of 56 days with Rg VPD Tair
+2
+Look up table with window size of 63 days with Rg VPD Tair
+0
+Look up table with window size of 70 days with Rg VPD Tair
+0
+Look up table with window size of 14 days with Rg
+29
+Look up table with window size of 21 days with Rg
+0
+Look up table with window size of 28 days with Rg
+1
+Look up table with window size of 35 days with Rg
+0
+Look up table with window size of 42 days with Rg
+0
+Look up table with window size of 49 days with Rg
+0
+Look up table with window size of 56 days with Rg
+0
+Look up table with window size of 63 days with Rg
+0
+Look up table with window size of 70 days with Rg
+0
+Mean diurnal course with window size of 7 days: .
+17
+Mean diurnal course with window size of 14 days: .
+13
+Mean diurnal course with window size of 21 days: .
+2
+Finished gap filling of 'H' in 9 seconds. Artificial gaps filled: 17519, real gaps filled: 10328, unfilled (long) gaps: 0.
+Ustar filtering (u * Th_1 = 0.0962121571813311), marked 25% of the data as gap
+Initialized variable 'H' with 10770 real gaps for gap filling of all 17519 values (to estimate uncertainties).
+Full MDS algorithm for gap filling of 'H.Ustar_U50_fqc_0' with LUT(Rg, VPD, Tair) and MDC.
+Look up table with window size of 7 days with Rg VPD Tair
+............................................................
+.............................................................
+........................................................11071
+Look up table with window size of 14 days with Rg VPD Tair
+............................................................
+.....686
+Look up table with window size of 7 days with Rg
+.........................................................4431
+Mean diurnal course with window size of 0 days: .
+.............20
+Mean diurnal course with window size of 1 days: .
+.............499
+Mean diurnal course with window size of 2 days: .
+........312
+Look up table with window size of 21 days with Rg VPD Tair
+.....376
+Look up table with window size of 28 days with Rg VPD Tair
+.37
+Look up table with window size of 35 days with Rg VPD Tair
+9
+Look up table with window size of 42 days with Rg VPD Tair
+4
+Look up table with window size of 49 days with Rg VPD Tair
+2
+Look up table with window size of 56 days with Rg VPD Tair
+2
+Look up table with window size of 63 days with Rg VPD Tair
+0
+Look up table with window size of 70 days with Rg VPD Tair
+0
+Look up table with window size of 14 days with Rg
+29
+Look up table with window size of 21 days with Rg
+0
+Look up table with window size of 28 days with Rg
+1
+Look up table with window size of 35 days with Rg
+0
+Look up table with window size of 42 days with Rg
+0
+Look up table with window size of 49 days with Rg
+0
+Look up table with window size of 56 days with Rg
+0
+Look up table with window size of 63 days with Rg
+0
+Look up table with window size of 70 days with Rg
+0
+Mean diurnal course with window size of 7 days: .
+25
+Mean diurnal course with window size of 14 days: .
+13
+Mean diurnal course with window size of 21 days: .
+2
+Finished gap filling of 'H' in 9 seconds. Artificial gaps filled: 17519, real gaps filled: 10770, unfilled (long) gaps: 0.
+Ustar filtering (u * Th_1 = 0.142656931999539), marked 35% of the data as gap
+Initialized variable 'H' with 11682 real gaps for gap filling of all 17519 values (to estimate uncertainties).
+Full MDS algorithm for gap filling of 'H.Ustar_U95_fqc_0' with LUT(Rg, VPD, Tair) and MDC.
+Look up table with window size of 7 days with Rg VPD Tair
+............................................................
+.............................................................
+........................................................10997
+Look up table with window size of 14 days with Rg VPD Tair
+............................................................
+......704
+Look up table with window size of 7 days with Rg
+..........................................................4486
+Mean diurnal course with window size of 0 days: .
+.............20
+Mean diurnal course with window size of 1 days: .
+.............431
+Mean diurnal course with window size of 2 days: .
+........330
+Look up table with window size of 21 days with Rg VPD Tair
+.....377
+Look up table with window size of 28 days with Rg VPD Tair
+.37
+Look up table with window size of 35 days with Rg VPD Tair
+.9
+Look up table with window size of 42 days with Rg VPD Tair
+.4
+Look up table with window size of 49 days with Rg VPD Tair
+.2
+Look up table with window size of 56 days with Rg VPD Tair
+.2
+Look up table with window size of 63 days with Rg VPD Tair
+.0
+Look up table with window size of 70 days with Rg VPD Tair
+.0
+Look up table with window size of 14 days with Rg
+.29
+Look up table with window size of 21 days with Rg
+0
+Look up table with window size of 28 days with Rg
+1
+Look up table with window size of 35 days with Rg
+0
+Look up table with window size of 42 days with Rg
+0
+Look up table with window size of 49 days with Rg
+0
+Look up table with window size of 56 days with Rg
+0
+Look up table with window size of 63 days with Rg
+0
+Look up table with window size of 70 days with Rg
+0
+Mean diurnal course with window size of 7 days: .
+74
+Mean diurnal course with window size of 14 days: .
+14
+Mean diurnal course with window size of 21 days: .
+2
+Finished gap filling of 'H' in 10 seconds. Artificial gaps filled: 17519, real gaps filled: 11682, unfilled (long) gaps: 0.
+Start flux partitioning for variable NEE_U05_f with temperature Tair_f.
+Estimate of the temperature sensitivity E_0 from short term data: 188.15.
+Regression of reference temperature R_ref for 83 periods.
+Start flux partitioning for variable NEE_U50_f with temperature Tair_f.
+Estimate of the temperature sensitivity E_0 from short term data: 163.55.
+Regression of reference temperature R_ref for 82 periods.
+Start flux partitioning for variable NEE_U95_f with temperature Tair_f.
+Estimate of the temperature sensitivity E_0 from short term data: 169.72.
+Regression of reference temperature R_ref for 82 periods.
+Start flux partitioning for variable NEE_uStar_f with temperature Tair_f.
+Estimate of the temperature sensitivity E_0 from short term data: 180.78.
+Regression of reference temperature R_ref for 82 periods.
+Start daytime flux partitioning for variable NEE_U05_f with temperature Tair_f.
+  Estimating temperature sensitivity from night time NEE , 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 113, 115, 117, 119, 121, 123, 125, 127, 129, 131, 133, 135, 137, 139, 141, 143, 145, 147, 149, 151, 153, 155, 157, 159, 161, 163, 165, 167, 169, 171, 173, 175, 177, 179, 181, 183, 185, 187, 189, 191, 193, 195, 197, 199, 201, 203, 205, 207, 209, 211, 213, 215, 217, 219, 221, 223, 225, 227, 229, 231, 233, 235, 237, 239, 241, 243, 245, 247, 249, 251, 253, 255, 257, 259, 261, 263, 265, 267, 269, 271, 273, 275, 277, 279, 281, 283, 285, 287, 289, 291, 293, 295, 297, 299, 301, 303, 305, 307, 309, 311, 313, 315, 317, 319, 321, 323, 325, 327, 329, 331, 333, 335, 337, 339, 341, 343, 345, 347, 349, 351, 353, 355, 357, 359, 361, 363
+    increase window size to 24, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 113, 115, 117, 119, 121, 123, 125, 127, 129, 131, 133, 135, 137, 139, 141, 143, 145, 147, 149, 151, 153, 155, 157, 159, 161, 163, 165, 167, 169, 171, 173, 175, 177, 179, 181, 183, 185, 187, 189, 191, 193, 195, 197, 199, 201, 203, 205, 207, 209, 211, 213, 215, 217, 219, 221, 223, 225, 227, 229, 231, 233, 235, 237, 239, 241, 243, 245, 247, 249, 251, 253, 255, 257, 259, 261, 263, 265, 267, 269, 271, 273, 275, 277, 279, 281, 283, 285, 287, 289, 291, 293, 295, 297, 299, 301, 303, 305, 307, 309, 311, 313, 315, 317, 319, 321, 323, 325, 327, 329, 331, 333, 335, 337, 339, 341, 343, 345, 347, 349, 351, 353, 355, 357, 359, 361, 363
+    increase window size to 48, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 113, 115, 117, 119, 121, 123, 125, 127, 129, 131, 133, 135, 137, 139, 141, 143, 145, 147, 149, 151, 153, 155, 157, 159, 161, 163, 165, 167, 169, 171, 173, 175, 177, 179, 181, 183, 185, 187, 189, 191, 193, 195, 197, 199, 201, 203, 205, 207, 209, 211, 213, 215, 217, 219, 221, 223, 225, 227, 229, 231, 233, 235, 237, 239, 241, 243, 245, 247, 249, 251, 253, 255, 257, 259, 261, 263, 265, 267, 269, 271, 273, 275, 277, 279, 281, 283, 285, 287, 289, 291, 293, 295, 297, 299, 301, 303, 305, 307, 309, 311, 313, 315, 317, 319, 321, 323, 325, 327, 329, 331, 333, 335, 337, 339, 341, 343, 345, 347, 349, 351, 353, 355, 357, 359, 361, 363
+  Smoothing temperature sensitivity estimates
+Loading required namespace: mlegp
+  Estimating respiration at reference temperature for smoothed temperature sensitivity from night time NEE , 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 113, 115, 117, 119, 121, 123, 125, 127, 129, 131, 133, 135, 137, 139, 141, 143, 145, 147, 149, 151, 153, 155, 157, 159, 161, 163, 165, 167, 169, 171, 173, 175, 177, 179, 181, 183, 185, 187, 189, 191, 193, 195, 197, 199, 201, 203, 205, 207, 209, 211, 213, 215, 217, 219, 221, 223, 225, 227, 229, 231, 233, 235, 237, 239, 241, 243, 245, 247, 249, 251, 253, 255, 257, 259, 261, 263, 265, 267, 269, 271, 273, 275, 277, 279, 281, 283, 285, 287, 289, 291, 293, 295, 297, 299, 301, 303, 305, 307, 309, 311, 313, 315, 317, 319, 321, 323, 325, 327, 329, 331, 333, 335, 337, 339, 341, 343, 345, 347, 349, 351, 353, 355, 357, 359, 361, 363
+  Estimating light response curve parameters from day time NEE , 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 113, 115, 117, 119, 121, 123, 125, 127, 129, 131, 133, 135, 137, 139, 141, 143, 145, 147, 149, 151, 153, 155, 157, 159, 161, 163, 165, 167, 169, 171, 173, 175, 177, 179, 181, 183, 185, 187, 189, 191, 193, 195, 197, 199, 201, 203, 205, 207, 209, 211, 213, 215, 217, 219, 221, 223, 225, 227, 229, 231, 233, 235, 237, 239, 241, 243, 245, 247, 249, 251, 253, 255, 257, 259, 261, 263, 265, 267, 269, 271, 273, 275, 277, 279, 281, 283, 285, 287, 289, 291, 293, 295, 297, 299, 301, 303, 305, 307, 309, 311, 313, 315, 317, 319, 321, 323, 325, 327, 329, 331, 333, 335, 337, 339, 341, 343, 345, 347, 349, 351, 353, 355, 357, 359, 361, 363
+Start daytime flux partitioning for variable NEE_U50_f with temperature Tair_f.
+  Estimating temperature sensitivity from night time NEE , 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 113, 115, 117, 119, 121, 123, 125, 127, 129, 131, 133, 135, 137, 139, 141, 143, 145, 147, 149, 151, 153, 155, 157, 159, 161, 163, 165, 167, 169, 171, 173, 175, 177, 179, 181, 183, 185, 187, 189, 191, 193, 195, 197, 199, 201, 203, 205, 207, 209, 211, 213, 215, 217, 219, 221, 223, 225, 227, 229, 231, 233, 235, 237, 239, 241, 243, 245, 247, 249, 251, 253, 255, 257, 259, 261, 263, 265, 267, 269, 271, 273, 275, 277, 279, 281, 283, 285, 287, 289, 291, 293, 295, 297, 299, 301, 303, 305, 307, 309, 311, 313, 315, 317, 319, 321, 323, 325, 327, 329, 331, 333, 335, 337, 339, 341, 343, 345, 347, 349, 351, 353, 355, 357, 359, 361, 363
+    increase window size to 24, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 113, 115, 117, 119, 121, 123, 125, 127, 129, 131, 133, 135, 137, 139, 141, 143, 145, 147, 149, 151, 153, 155, 157, 159, 161, 163, 165, 167, 169, 171, 173, 175, 177, 179, 181, 183, 185, 187, 189, 191, 193, 195, 197, 199, 201, 203, 205, 207, 209, 211, 213, 215, 217, 219, 221, 223, 225, 227, 229, 231, 233, 235, 237, 239, 241, 243, 245, 247, 249, 251, 253, 255, 257, 259, 261, 263, 265, 267, 269, 271, 273, 275, 277, 279, 281, 283, 285, 287, 289, 291, 293, 295, 297, 299, 301, 303, 305, 307, 309, 311, 313, 315, 317, 319, 321, 323, 325, 327, 329, 331, 333, 335, 337, 339, 341, 343, 345, 347, 349, 351, 353, 355, 357, 359, 361, 363
+    increase window size to 48, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 113, 115, 117, 119, 121, 123, 125, 127, 129, 131, 133, 135, 137, 139, 141, 143, 145, 147, 149, 151, 153, 155, 157, 159, 161, 163, 165, 167, 169, 171, 173, 175, 177, 179, 181, 183, 185, 187, 189, 191, 193, 195, 197, 199, 201, 203, 205, 207, 209, 211, 213, 215, 217, 219, 221, 223, 225, 227, 229, 231, 233, 235, 237, 239, 241, 243, 245, 247, 249, 251, 253, 255, 257, 259, 261, 263, 265, 267, 269, 271, 273, 275, 277, 279, 281, 283, 285, 287, 289, 291, 293, 295, 297, 299, 301, 303, 305, 307, 309, 311, 313, 315, 317, 319, 321, 323, 325, 327, 329, 331, 333, 335, 337, 339, 341, 343, 345, 347, 349, 351, 353, 355, 357, 359, 361, 363
+  Smoothing temperature sensitivity estimates
+  Estimating respiration at reference temperature for smoothed temperature sensitivity from night time NEE , 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 113, 115, 117, 119, 121, 123, 125, 127, 129, 131, 133, 135, 137, 139, 141, 143, 145, 147, 149, 151, 153, 155, 157, 159, 161, 163, 165, 167, 169, 171, 173, 175, 177, 179, 181, 183, 185, 187, 189, 191, 193, 195, 197, 199, 201, 203, 205, 207, 209, 211, 213, 215, 217, 219, 221, 223, 225, 227, 229, 231, 233, 235, 237, 239, 241, 243, 245, 247, 249, 251, 253, 255, 257, 259, 261, 263, 265, 267, 269, 271, 273, 275, 277, 279, 281, 283, 285, 287, 289, 291, 293, 295, 297, 299, 301, 303, 305, 307, 309, 311, 313, 315, 317, 319, 321, 323, 325, 327, 329, 331, 333, 335, 337, 339, 341, 343, 345, 347, 349, 351, 353, 355, 357, 359, 361, 363
+  Estimating light response curve parameters from day time NEE , 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 113, 115, 117, 119, 121, 123, 125, 127, 129, 131, 133, 135, 137, 139, 141, 143, 145, 147, 149, 151, 153, 155, 157, 159, 161, 163, 165, 167, 169, 171, 173, 175, 177, 179, 181, 183, 185, 187, 189, 191, 193, 195, 197, 199, 201, 203, 205, 207, 209, 211, 213, 215, 217, 219, 221, 223, 225, 227, 229, 231, 233, 235, 237, 239, 241, 243, 245, 247, 249, 251, 253, 255, 257, 259, 261, 263, 265, 267, 269, 271, 273, 275, 277, 279, 281, 283, 285, 287, 289, 291, 293, 295, 297, 299, 301, 303, 305, 307, 309, 311, 313, 315, 317, 319, 321, 323, 325, 327, 329, 331, 333, 335, 337, 339, 341, 343, 345, 347, 349, 351, 353, 355, 357, 359, 361, 363
+Start daytime flux partitioning for variable NEE_U95_f with temperature Tair_f.
+  Estimating temperature sensitivity from night time NEE , 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 113, 115, 117, 119, 121, 123, 125, 127, 129, 131, 133, 135, 137, 139, 141, 143, 145, 147, 149, 151, 153, 155, 157, 159, 161, 163, 165, 167, 169, 171, 173, 175, 177, 179, 181, 183, 185, 187, 189, 191, 193, 195, 197, 199, 201, 203, 205, 207, 209, 211, 213, 215, 217, 219, 221, 223, 225, 227, 229, 231, 233, 235, 237, 239, 241, 243, 245, 247, 249, 251, 253, 255, 257, 259, 261, 263, 265, 267, 269, 271, 273, 275, 277, 279, 281, 283, 285, 287, 289, 291, 293, 295, 297, 299, 301, 303, 305, 307, 309, 311, 313, 315, 317, 319, 321, 323, 325, 327, 329, 331, 333, 335, 337, 339, 341, 343, 345, 347, 349, 351, 353, 355, 357, 359, 361, 363
+    increase window size to 24, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 113, 115, 117, 119, 121, 123, 125, 127, 129, 131, 133, 135, 137, 139, 141, 143, 145, 147, 149, 151, 153, 155, 157, 159, 161, 163, 165, 167, 169, 171, 173, 175, 177, 179, 181, 183, 185, 187, 189, 191, 193, 195, 197, 199, 201, 203, 205, 207, 209, 211, 213, 215, 217, 219, 221, 223, 225, 227, 229, 231, 233, 235, 237, 239, 241, 243, 245, 247, 249, 251, 253, 255, 257, 259, 261, 263, 265, 267, 269, 271, 273, 275, 277, 279, 281, 283, 285, 287, 289, 291, 293, 295, 297, 299, 301, 303, 305, 307, 309, 311, 313, 315, 317, 319, 321, 323, 325, 327, 329, 331, 333, 335, 337, 339, 341, 343, 345, 347, 349, 351, 353, 355, 357, 359, 361, 363
+    increase window size to 48, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 113, 115, 117, 119, 121, 123, 125, 127, 129, 131, 133, 135, 137, 139, 141, 143, 145, 147, 149, 151, 153, 155, 157, 159, 161, 163, 165, 167, 169, 171, 173, 175, 177, 179, 181, 183, 185, 187, 189, 191, 193, 195, 197, 199, 201, 203, 205, 207, 209, 211, 213, 215, 217, 219, 221, 223, 225, 227, 229, 231, 233, 235, 237, 239, 241, 243, 245, 247, 249, 251, 253, 255, 257, 259, 261, 263, 265, 267, 269, 271, 273, 275, 277, 279, 281, 283, 285, 287, 289, 291, 293, 295, 297, 299, 301, 303, 305, 307, 309, 311, 313, 315, 317, 319, 321, 323, 325, 327, 329, 331, 333, 335, 337, 339, 341, 343, 345, 347, 349, 351, 353, 355, 357, 359, 361, 363
+  Smoothing temperature sensitivity estimates
+  Estimating respiration at reference temperature for smoothed temperature sensitivity from night time NEE , 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 113, 115, 117, 119, 121, 123, 125, 127, 129, 131, 133, 135, 137, 139, 141, 143, 145, 147, 149, 151, 153, 155, 157, 159, 161, 163, 165, 167, 169, 171, 173, 175, 177, 179, 181, 183, 185, 187, 189, 191, 193, 195, 197, 199, 201, 203, 205, 207, 209, 211, 213, 215, 217, 219, 221, 223, 225, 227, 229, 231, 233, 235, 237, 239, 241, 243, 245, 247, 249, 251, 253, 255, 257, 259, 261, 263, 265, 267, 269, 271, 273, 275, 277, 279, 281, 283, 285, 287, 289, 291, 293, 295, 297, 299, 301, 303, 305, 307, 309, 311, 313, 315, 317, 319, 321, 323, 325, 327, 329, 331, 333, 335, 337, 339, 341, 343, 345, 347, 349, 351, 353, 355, 357, 359, 361, 363
+  Estimating light response curve parameters from day time NEE , 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 113, 115, 117, 119, 121, 123, 125, 127, 129, 131, 133, 135, 137, 139, 141, 143, 145, 147, 149, 151, 153, 155, 157, 159, 161, 163, 165, 167, 169, 171, 173, 175, 177, 179, 181, 183, 185, 187, 189, 191, 193, 195, 197, 199, 201, 203, 205, 207, 209, 211, 213, 215, 217, 219, 221, 223, 225, 227, 229, 231, 233, 235, 237, 239, 241, 243, 245, 247, 249, 251, 253, 255, 257, 259, 261, 263, 265, 267, 269, 271, 273, 275, 277, 279, 281, 283, 285, 287, 289, 291, 293, 295, 297, 299, 301, 303, 305, 307, 309, 311, 313, 315, 317, 319, 321, 323, 325, 327, 329, 331, 333, 335, 337, 339, 341, 343, 345, 347, 349, 351, 353, 355, 357, 359, 361, 363
+Start daytime flux partitioning for variable NEE_uStar_f with temperature Tair_f.
+  Estimating temperature sensitivity from night time NEE , 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 113, 115, 117, 119, 121, 123, 125, 127, 129, 131, 133, 135, 137, 139, 141, 143, 145, 147, 149, 151, 153, 155, 157, 159, 161, 163, 165, 167, 169, 171, 173, 175, 177, 179, 181, 183, 185, 187, 189, 191, 193, 195, 197, 199, 201, 203, 205, 207, 209, 211, 213, 215, 217, 219, 221, 223, 225, 227, 229, 231, 233, 235, 237, 239, 241, 243, 245, 247, 249, 251, 253, 255, 257, 259, 261, 263, 265, 267, 269, 271, 273, 275, 277, 279, 281, 283, 285, 287, 289, 291, 293, 295, 297, 299, 301, 303, 305, 307, 309, 311, 313, 315, 317, 319, 321, 323, 325, 327, 329, 331, 333, 335, 337, 339, 341, 343, 345, 347, 349, 351, 353, 355, 357, 359, 361, 363
+    increase window size to 24, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 113, 115, 117, 119, 121, 123, 125, 127, 129, 131, 133, 135, 137, 139, 141, 143, 145, 147, 149, 151, 153, 155, 157, 159, 161, 163, 165, 167, 169, 171, 173, 175, 177, 179, 181, 183, 185, 187, 189, 191, 193, 195, 197, 199, 201, 203, 205, 207, 209, 211, 213, 215, 217, 219, 221, 223, 225, 227, 229, 231, 233, 235, 237, 239, 241, 243, 245, 247, 249, 251, 253, 255, 257, 259, 261, 263, 265, 267, 269, 271, 273, 275, 277, 279, 281, 283, 285, 287, 289, 291, 293, 295, 297, 299, 301, 303, 305, 307, 309, 311, 313, 315, 317, 319, 321, 323, 325, 327, 329, 331, 333, 335, 337, 339, 341, 343, 345, 347, 349, 351, 353, 355, 357, 359, 361, 363
+    increase window size to 48, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 113, 115, 117, 119, 121, 123, 125, 127, 129, 131, 133, 135, 137, 139, 141, 143, 145, 147, 149, 151, 153, 155, 157, 159, 161, 163, 165, 167, 169, 171, 173, 175, 177, 179, 181, 183, 185, 187, 189, 191, 193, 195, 197, 199, 201, 203, 205, 207, 209, 211, 213, 215, 217, 219, 221, 223, 225, 227, 229, 231, 233, 235, 237, 239, 241, 243, 245, 247, 249, 251, 253, 255, 257, 259, 261, 263, 265, 267, 269, 271, 273, 275, 277, 279, 281, 283, 285, 287, 289, 291, 293, 295, 297, 299, 301, 303, 305, 307, 309, 311, 313, 315, 317, 319, 321, 323, 325, 327, 329, 331, 333, 335, 337, 339, 341, 343, 345, 347, 349, 351, 353, 355, 357, 359, 361, 363
+  Smoothing temperature sensitivity estimates
+  Estimating respiration at reference temperature for smoothed temperature sensitivity from night time NEE , 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 113, 115, 117, 119, 121, 123, 125, 127, 129, 131, 133, 135, 137, 139, 141, 143, 145, 147, 149, 151, 153, 155, 157, 159, 161, 163, 165, 167, 169, 171, 173, 175, 177, 179, 181, 183, 185, 187, 189, 191, 193, 195, 197, 199, 201, 203, 205, 207, 209, 211, 213, 215, 217, 219, 221, 223, 225, 227, 229, 231, 233, 235, 237, 239, 241, 243, 245, 247, 249, 251, 253, 255, 257, 259, 261, 263, 265, 267, 269, 271, 273, 275, 277, 279, 281, 283, 285, 287, 289, 291, 293, 295, 297, 299, 301, 303, 305, 307, 309, 311, 313, 315, 317, 319, 321, 323, 325, 327, 329, 331, 333, 335, 337, 339, 341, 343, 345, 347, 349, 351, 353, 355, 357, 359, 361, 363
+  Estimating light response curve parameters from day time NEE , 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 113, 115, 117, 119, 121, 123, 125, 127, 129, 131, 133, 135, 137, 139, 141, 143, 145, 147, 149, 151, 153, 155, 157, 159, 161, 163, 165, 167, 169, 171, 173, 175, 177, 179, 181, 183, 185, 187, 189, 191, 193, 195, 197, 199, 201, 203, 205, 207, 209, 211, 213, 215, 217, 219, 221, 223, 225, 227, 229, 231, 233, 235, 237, 239, 241, 243, 245, 247, 249, 251, 253, 255, 257, 259, 261, 263, 265, 267, 269, 271, 273, 275, 277, 279, 281, 283, 285, 287, 289, 291, 293, 295, 297, 299, 301, 303, 305, 307, 309, 311, 313, 315, 317, 319, 321, 323, 325, 327, 329, 331, 333, 335, 337, 339, 341, 343, 345, 347, 349, 351, 353, 355, 357, 359, 361, 363
+[1] "Writing 2022"
+[1] "Writing DateTime"
+[1] "Writing season"
+[1] "Writing SW_IN_1_1_1_PI_RP_orig"
+[1] "Writing SW_IN_1_1_1_PI_RP_f"
+[1] "Writing SW_IN_1_1_1_PI_RP_fqc"
+[1] "Writing SW_IN_1_1_1_PI_RP_fall"
+[1] "Writing SW_IN_1_1_1_PI_RP_fall_qc"
+[1] "Writing SW_IN_1_1_1_PI_RP_fnum"
+[1] "Writing SW_IN_1_1_1_PI_RP_fsd"
+[1] "Writing SW_IN_1_1_1_PI_RP_fmeth"
+[1] "Writing SW_IN_1_1_1_PI_RP_fwin"
+[1] "Writing TA_1_1_1_PI_RP_orig"
+[1] "Writing TA_1_1_1_PI_RP_f"
+[1] "Writing TA_1_1_1_PI_RP_fqc"
+[1] "Writing TA_1_1_1_PI_RP_fall"
+[1] "Writing TA_1_1_1_PI_RP_fall_qc"
+[1] "Writing TA_1_1_1_PI_RP_fnum"
+[1] "Writing TA_1_1_1_PI_RP_fsd"
+[1] "Writing TA_1_1_1_PI_RP_fmeth"
+[1] "Writing TA_1_1_1_PI_RP_fwin"
+[1] "Writing VPD_1_1_1_PI_RP_orig"
+[1] "Writing VPD_1_1_1_PI_RP_f"
+[1] "Writing VPD_1_1_1_PI_RP_fqc"
+[1] "Writing VPD_1_1_1_PI_RP_fall"
+[1] "Writing VPD_1_1_1_PI_RP_fall_qc"
+[1] "Writing VPD_1_1_1_PI_RP_fnum"
+[1] "Writing VPD_1_1_1_PI_RP_fsd"
+[1] "Writing VPD_1_1_1_PI_RP_fmeth"
+[1] "Writing VPD_1_1_1_PI_RP_fwin"
+[1] "Writing RH_1_1_1_PI_RP_orig"
+[1] "Writing RH_1_1_1_PI_RP_f"
+[1] "Writing RH_1_1_1_PI_RP_fqc"
+[1] "Writing RH_1_1_1_PI_RP_fall"
+[1] "Writing RH_1_1_1_PI_RP_fall_qc"
+[1] "Writing RH_1_1_1_PI_RP_fnum"
+[1] "Writing RH_1_1_1_PI_RP_fsd"
+[1] "Writing RH_1_1_1_PI_RP_fmeth"
+[1] "Writing RH_1_1_1_PI_RP_fwin"
+[1] "Writing USTAR_uStar_Thres"
+[1] "Writing USTAR_uStar_fqc"
+[1] "Writing NEE_PI_JSZ_MAD_RP_uStar_orig"
+[1] "Writing NEE_PI_JSZ_MAD_RP_uStar_f"
+[1] "Writing NEE_PI_JSZ_MAD_RP_uStar_fqc"
+[1] "Writing NEE_PI_JSZ_MAD_RP_uStar_fall"
+[1] "Writing NEE_PI_JSZ_MAD_RP_uStar_fall_qc"
+[1] "Writing NEE_PI_JSZ_MAD_RP_uStar_fnum"
+[1] "Writing NEE_PI_JSZ_MAD_RP_uStar_fsd"
+[1] "Writing NEE_PI_JSZ_MAD_RP_uStar_fmeth"
+[1] "Writing NEE_PI_JSZ_MAD_RP_uStar_fwin"
+[1] "Writing USTAR_U05_Thres"
+[1] "Writing USTAR_U05_fqc"
+[1] "Writing NEE_PI_JSZ_MAD_RP_U05_orig"
+[1] "Writing NEE_PI_JSZ_MAD_RP_U05_f"
+[1] "Writing NEE_PI_JSZ_MAD_RP_U05_fqc"
+[1] "Writing NEE_PI_JSZ_MAD_RP_U05_fall"
+[1] "Writing NEE_PI_JSZ_MAD_RP_U05_fall_qc"
+[1] "Writing NEE_PI_JSZ_MAD_RP_U05_fnum"
+[1] "Writing NEE_PI_JSZ_MAD_RP_U05_fsd"
+[1] "Writing NEE_PI_JSZ_MAD_RP_U05_fmeth"
+[1] "Writing NEE_PI_JSZ_MAD_RP_U05_fwin"
+[1] "Writing USTAR_U50_Thres"
+[1] "Writing USTAR_U50_fqc"
+[1] "Writing NEE_PI_JSZ_MAD_RP_U50_orig"
+[1] "Writing NEE_PI_JSZ_MAD_RP_U50_f"
+[1] "Writing NEE_PI_JSZ_MAD_RP_U50_fqc"
+[1] "Writing NEE_PI_JSZ_MAD_RP_U50_fall"
+[1] "Writing NEE_PI_JSZ_MAD_RP_U50_fall_qc"
+[1] "Writing NEE_PI_JSZ_MAD_RP_U50_fnum"
+[1] "Writing NEE_PI_JSZ_MAD_RP_U50_fsd"
+[1] "Writing NEE_PI_JSZ_MAD_RP_U50_fmeth"
+[1] "Writing NEE_PI_JSZ_MAD_RP_U50_fwin"
+[1] "Writing USTAR_U95_Thres"
+[1] "Writing USTAR_U95_fqc"
+[1] "Writing NEE_PI_JSZ_MAD_RP_U95_orig"
+[1] "Writing NEE_PI_JSZ_MAD_RP_U95_f"
+[1] "Writing NEE_PI_JSZ_MAD_RP_U95_fqc"
+[1] "Writing NEE_PI_JSZ_MAD_RP_U95_fall"
+[1] "Writing NEE_PI_JSZ_MAD_RP_U95_fall_qc"
+[1] "Writing NEE_PI_JSZ_MAD_RP_U95_fnum"
+[1] "Writing NEE_PI_JSZ_MAD_RP_U95_fsd"
+[1] "Writing NEE_PI_JSZ_MAD_RP_U95_fmeth"
+[1] "Writing NEE_PI_JSZ_MAD_RP_U95_fwin"
+[1] "Writing LE_PI_JSZ_MAD_RP_uStar_orig"
+[1] "Writing LE_PI_JSZ_MAD_RP_uStar_f"
+[1] "Writing LE_PI_JSZ_MAD_RP_uStar_fqc"
+[1] "Writing LE_PI_JSZ_MAD_RP_uStar_fall"
+[1] "Writing LE_PI_JSZ_MAD_RP_uStar_fall_qc"
+[1] "Writing LE_PI_JSZ_MAD_RP_uStar_fnum"
+[1] "Writing LE_PI_JSZ_MAD_RP_uStar_fsd"
+[1] "Writing LE_PI_JSZ_MAD_RP_uStar_fmeth"
+[1] "Writing LE_PI_JSZ_MAD_RP_uStar_fwin"
+[1] "Writing LE_PI_JSZ_MAD_RP_U05_orig"
+[1] "Writing LE_PI_JSZ_MAD_RP_U05_f"
+[1] "Writing LE_PI_JSZ_MAD_RP_U05_fqc"
+[1] "Writing LE_PI_JSZ_MAD_RP_U05_fall"
+[1] "Writing LE_PI_JSZ_MAD_RP_U05_fall_qc"
+[1] "Writing LE_PI_JSZ_MAD_RP_U05_fnum"
+[1] "Writing LE_PI_JSZ_MAD_RP_U05_fsd"
+[1] "Writing LE_PI_JSZ_MAD_RP_U05_fmeth"
+[1] "Writing LE_PI_JSZ_MAD_RP_U05_fwin"
+[1] "Writing LE_PI_JSZ_MAD_RP_U50_orig"
+[1] "Writing LE_PI_JSZ_MAD_RP_U50_f"
+[1] "Writing LE_PI_JSZ_MAD_RP_U50_fqc"
+[1] "Writing LE_PI_JSZ_MAD_RP_U50_fall"
+[1] "Writing LE_PI_JSZ_MAD_RP_U50_fall_qc"
+[1] "Writing LE_PI_JSZ_MAD_RP_U50_fnum"
+[1] "Writing LE_PI_JSZ_MAD_RP_U50_fsd"
+[1] "Writing LE_PI_JSZ_MAD_RP_U50_fmeth"
+[1] "Writing LE_PI_JSZ_MAD_RP_U50_fwin"
+[1] "Writing LE_PI_JSZ_MAD_RP_U95_orig"
+[1] "Writing LE_PI_JSZ_MAD_RP_U95_f"
+[1] "Writing LE_PI_JSZ_MAD_RP_U95_fqc"
+[1] "Writing LE_PI_JSZ_MAD_RP_U95_fall"
+[1] "Writing LE_PI_JSZ_MAD_RP_U95_fall_qc"
+[1] "Writing LE_PI_JSZ_MAD_RP_U95_fnum"
+[1] "Writing LE_PI_JSZ_MAD_RP_U95_fsd"
+[1] "Writing LE_PI_JSZ_MAD_RP_U95_fmeth"
+[1] "Writing LE_PI_JSZ_MAD_RP_U95_fwin"
+[1] "Writing H_PI_JSZ_MAD_RP_uStar_orig"
+[1] "Writing H_PI_JSZ_MAD_RP_uStar_f"
+[1] "Writing H_PI_JSZ_MAD_RP_uStar_fqc"
+[1] "Writing H_PI_JSZ_MAD_RP_uStar_fall"
+[1] "Writing H_PI_JSZ_MAD_RP_uStar_fall_qc"
+[1] "Writing H_PI_JSZ_MAD_RP_uStar_fnum"
+[1] "Writing H_PI_JSZ_MAD_RP_uStar_fsd"
+[1] "Writing H_PI_JSZ_MAD_RP_uStar_fmeth"
+[1] "Writing H_PI_JSZ_MAD_RP_uStar_fwin"
+[1] "Writing H_PI_JSZ_MAD_RP_U05_orig"
+[1] "Writing H_PI_JSZ_MAD_RP_U05_f"
+[1] "Writing H_PI_JSZ_MAD_RP_U05_fqc"
+[1] "Writing H_PI_JSZ_MAD_RP_U05_fall"
+[1] "Writing H_PI_JSZ_MAD_RP_U05_fall_qc"
+[1] "Writing H_PI_JSZ_MAD_RP_U05_fnum"
+[1] "Writing H_PI_JSZ_MAD_RP_U05_fsd"
+[1] "Writing H_PI_JSZ_MAD_RP_U05_fmeth"
+[1] "Writing H_PI_JSZ_MAD_RP_U05_fwin"
+[1] "Writing H_PI_JSZ_MAD_RP_U50_orig"
+[1] "Writing H_PI_JSZ_MAD_RP_U50_f"
+[1] "Writing H_PI_JSZ_MAD_RP_U50_fqc"
+[1] "Writing H_PI_JSZ_MAD_RP_U50_fall"
+[1] "Writing H_PI_JSZ_MAD_RP_U50_fall_qc"
+[1] "Writing H_PI_JSZ_MAD_RP_U50_fnum"
+[1] "Writing H_PI_JSZ_MAD_RP_U50_fsd"
+[1] "Writing H_PI_JSZ_MAD_RP_U50_fmeth"
+[1] "Writing H_PI_JSZ_MAD_RP_U50_fwin"
+[1] "Writing H_PI_JSZ_MAD_RP_U95_orig"
+[1] "Writing H_PI_JSZ_MAD_RP_U95_f"
+[1] "Writing H_PI_JSZ_MAD_RP_U95_fqc"
+[1] "Writing H_PI_JSZ_MAD_RP_U95_fall"
+[1] "Writing H_PI_JSZ_MAD_RP_U95_fall_qc"
+[1] "Writing H_PI_JSZ_MAD_RP_U95_fnum"
+[1] "Writing H_PI_JSZ_MAD_RP_U95_fsd"
+[1] "Writing H_PI_JSZ_MAD_RP_U95_fmeth"
+[1] "Writing H_PI_JSZ_MAD_RP_U95_fwin"
+[1] "Writing PotRad_U05"
+[1] "Writing FP_NEEnight_U05"
+[1] "Writing FP_Temp_U05"
+[1] "Writing E_0_U05"
+[1] "Writing R_ref_U05"
+[1] "Writing Reco_U05"
+[1] "Writing GPP_U05_f"
+[1] "Writing GPP_U05_fqc"
+[1] "Writing PotRad_U50"
+[1] "Writing FP_NEEnight_U50"
+[1] "Writing FP_Temp_U50"
+[1] "Writing E_0_U50"
+[1] "Writing R_ref_U50"
+[1] "Writing Reco_U50"
+[1] "Writing GPP_U50_f"
+[1] "Writing GPP_U50_fqc"
+[1] "Writing PotRad_U95"
+[1] "Writing FP_NEEnight_U95"
+[1] "Writing FP_Temp_U95"
+[1] "Writing E_0_U95"
+[1] "Writing R_ref_U95"
+[1] "Writing Reco_U95"
+[1] "Writing GPP_U95_f"
+[1] "Writing GPP_U95_fqc"
+[1] "Writing PotRad_uStar"
+[1] "Writing FP_NEEnight_uStar"
+[1] "Writing FP_Temp_uStar"
+[1] "Writing E_0_uStar"
+[1] "Writing R_ref_uStar"
+[1] "Writing Reco_uStar_f"
+[1] "Writing GPP_uStar_f"
+[1] "Writing GPP_uStar_fqc"
+[1] "Writing PotRad_NEW"
+[1] "Writing Reco_DT_U05"
+[1] "Writing GPP_DT_U05"
+[1] "Writing Reco_DT_U05_SD"
+[1] "Writing GPP_DT_U05_SD"
+[1] "Writing Reco_DT_U50"
+[1] "Writing GPP_DT_U50"
+[1] "Writing Reco_DT_U50_SD"
+[1] "Writing GPP_DT_U50_SD"
+[1] "Writing Reco_DT_U95"
+[1] "Writing GPP_DT_U95"
+[1] "Writing Reco_DT_U95_SD"
+[1] "Writing GPP_DT_U95_SD"
+[1] "Writing FP_VARnight"
+[1] "Writing FP_VARday"
+[1] "Writing NEW_FP_Temp"
+[1] "Writing NEW_FP_VPD"
+[1] "Writing FP_RRef_Night"
+[1] "Writing FP_qc"
+[1] "Writing FP_dRecPar"
+[1] "Writing FP_errorcode"
+[1] "Writing FP_GPP2000"
+[1] "Writing FP_k"
+[1] "Writing FP_beta"
+[1] "Writing FP_alpha"
+[1] "Writing FP_RRef"
+[1] "Writing FP_E0"
+[1] "Writing FP_k_sd"
+[1] "Writing FP_beta_sd"
+[1] "Writing FP_alpha_sd"
+[1] "Writing FP_RRef_sd"
+[1] "Writing FP_E0_sd"
+[1] "Writing Reco_DT_uStar"
+[1] "Writing GPP_DT_uStar"
+[1] "Writing Reco_DT_uStar_SD"
+[1] "Writing GPP_DT_uStar_SD"
+[1] "Copying NEE_PI_JSZ_MAD_RP_uStar_orig from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying LE_PI_JSZ_MAD_RP_uStar_orig from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying H_PI_JSZ_MAD_RP_uStar_orig from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying NEE_PI_JSZ_MAD_RP_uStar_f from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying LE_PI_JSZ_MAD_RP_uStar_f from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying H_PI_JSZ_MAD_RP_uStar_f from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying Reco_uStar_f from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying GPP_uStar_f from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying PotRad_uStar from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying FP_NEEnight_uStar from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying FP_Temp_uStar from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying E_0_uStar from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying R_ref_uStar from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying Reco_DT_uStar from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying GPP_DT_uStar from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying NEE_PI_JSZ_MAD_RP_U95_orig from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying LE_PI_JSZ_MAD_RP_U95_orig from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying H_PI_JSZ_MAD_RP_U95_orig from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying NEE_PI_JSZ_MAD_RP_U95_f from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying LE_PI_JSZ_MAD_RP_U95_f from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying H_PI_JSZ_MAD_RP_U95_f from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying GPP_U95_f from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying PotRad_U95 from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying FP_NEEnight_U95 from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying FP_Temp_U95 from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying E_0_U95 from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying R_ref_U95 from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying Reco_U95 from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying Reco_DT_U95 from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying GPP_DT_U95 from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+There were 25 warnings (use warnings() to see them)
+[1] "Skipping RF_GapFilling"
+[1] "Stage 3 Complete, total run time:"
+Time difference of 5.222396 mins
+=============================================================
+Completed running Third Stage Rscript: C:\Program Files\R\R-4.4.3\bin\Rscript.exe
+=============================================================
+
+
+Command output:
+
+
+
+
+
+=============================================================
+Rscript:      C:\Program Files\R\R-4.4.3\bin\Rscript.exe
+Command line: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" XWR 2022 2022 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XWR\log\XWR_ThirdStageCleaning.log" 1>&2
+Start:        01-Apr-2025 15:34:39
+End:          01-Apr-2025 15:39:55
+Elapsed time:    5.3 min
+==============================================================
