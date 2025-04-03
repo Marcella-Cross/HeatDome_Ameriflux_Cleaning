@@ -1,0 +1,262 @@
+==============  Start =========================================
+Date: 01-Apr-2025 09:58:51
+siteID = XAB
+============== First  stage cleaning XAB 2020 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XAB\XAB_FirstStage.ini 
+   212 traces read from the ini file. 
+   212 traces exist in the year 2020.
+   212 unique traces are kept for processing
+Created \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XAB\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XAB\XAB_FirstStage.ini 
+   212 traces read from the ini file. 
+   212 traces exist in the year 2020.
+   212 unique traces are kept for processing
+Reading traces from database...
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+==============  Start =========================================
+Date: 01-Apr-2025 09:59:24
+siteID = XAB
+============== Second stage cleaning XAB 2020 ==============
+Created \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XAB\Clean\SecondStage
+Reading second stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XAB\XAB_SecondStage.ini 
+   68 traces read from the ini file. 
+   68 traces exist in the year 2020.
+   68 unique traces are kept for processing
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XAB\XAB_FirstStage.ini 
+   212 traces read from the ini file. 
+   212 traces exist in the year 2020.
+   212 unique traces are kept for processing
+Reading data from: 
+    \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XAB\Flux\Clean
+Reading traces from database...
+   Done reading traces.
+Exporting data ...
+============== End of cleaning stage 2 =============
+==============  Start =========================================
+Date: 01-Apr-2025 09:59:48
+siteID = XAB
+============== 7-th stage cleaning XAB 2020 ==============
+Created \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XAB\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> Processing: ThirdStage: Fluxes: FCH4 set to NULL in site_config.yaml'                                                                                         }
+    {'FYI ------> Processing: ThirdStage: Fluxes: FNO2 set to NULL in site_config.yaml'                                                                                         }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XAB\Clean\SecondStage\VPD_1_1_1]'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" XAB 2020 2020 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XAB\log\XAB_ThirdStageCleaning.log" 1>&2
+Start time: 01-Apr-2025 09:59:49
+
+End time: 01-Apr-2025 09:59:54
+
+Failed running Third Stage Rscript
+Retrieving critical messages from Third Stage R log:
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: XAB 2020 ==============
+============== End of cleaning stage 9 =============
+==============  Start =========================================
+Date: 01-Apr-2025 10:20:10
+siteID = XAB
+============== First  stage cleaning XAB 2020 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XAB\XAB_FirstStage.ini 
+Missing variable assignment in trace #195 on line number: 3503!
+{Array indices must be positive integers or logical values.
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('db_find_folders_to_clean', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_FIRSTSTAGE\db_find_folders_to_clean.m', 22)" style="font-weight:bold">db_find_folders_to_clean</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_FIRSTSTAGE\db_find_folders_to_clean.m',22,0)">line 22</a>)
+names1{nAll}={};
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('db_dir_ini', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_FIRSTSTAGE\db_dir_ini.m', 43)" style="font-weight:bold">db_dir_ini</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_FIRSTSTAGE\db_dir_ini.m',43,0)">line 43</a>)
+        foldersToClean = db_find_folders_to_clean(currentYear,SiteId,1);
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('fr_automated_cleaning', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\BIOMET\fr_automated_cleaning.m', 250)" style="font-weight:bold">fr_automated_cleaning</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\BIOMET\fr_automated_cleaning.m',250,0)">line 250</a>)
+            db_dir_ini(yy(1),siteID,db_out,1);
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('xAB_formatDatabase', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Matlab\xAB_formatDatabase.m', 80)" style="font-weight:bold">xAB_formatDatabase</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Matlab\xAB_formatDatabase.m',80,0)">line 80</a>)
+fr_automated_cleaning([2020, 2021, 2022], 'XAB', 1);
+}
+==============  Start =========================================
+Date: 01-Apr-2025 10:20:11
+siteID = XAB
+============== Second stage cleaning XAB 2020 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XAB\Clean\SecondStage
+Reading second stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XAB\XAB_SecondStage.ini 
+   69 traces read from the ini file. 
+   69 traces exist in the year 2020.
+   69 unique traces are kept for processing
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XAB\XAB_FirstStage.ini 
+Missing variable assignment in trace #195 on line number: 3503!
+{Array indices must be positive integers or logical values.
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('db_find_folders_to_clean', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_FIRSTSTAGE\db_find_folders_to_clean.m', 22)" style="font-weight:bold">db_find_folders_to_clean</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_FIRSTSTAGE\db_find_folders_to_clean.m',22,0)">line 22</a>)
+names1{nAll}={};
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('read_data', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_SECONDSTAGE\read_data.m', 194)" style="font-weight:bold">read_data</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_SECONDSTAGE\read_data.m',194,0)">line 194</a>)
+            foldersToInitialize = db_find_folders_to_clean(yearIn,SiteID,1);
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('fr_cleaning_siteyear', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\NEW_MET\fr_cleaning_siteyear.m', 152)" style="font-weight:bold">fr_cleaning_siteyear</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\NEW_MET\fr_cleaning_siteyear.m',152,0)">line 152</a>)
+    data_cleaned = read_data(Year(1),SiteId,ini_file_second);
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('fr_automated_cleaning', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\BIOMET\fr_automated_cleaning.m', 264)" style="font-weight:bold">fr_automated_cleaning</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\BIOMET\fr_automated_cleaning.m',264,0)">line 264</a>)
+            data_second = fr_cleaning_siteyear(yy(1),siteID,2,db_ini);
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('xAB_formatDatabase', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Matlab\xAB_formatDatabase.m', 82)" style="font-weight:bold">xAB_formatDatabase</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Matlab\xAB_formatDatabase.m',82,0)">line 82</a>)
+fr_automated_cleaning([2020, 2021, 2022], 'XAB', 2);
+}
+==============  Start =========================================
+Date: 01-Apr-2025 10:21:48
+siteID = XAB
+============== First  stage cleaning XAB 2020 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XAB\XAB_FirstStage.ini 
+Missing variable assignment in trace #195 on line number: 3503!
+{Array indices must be positive integers or logical values.
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('db_find_folders_to_clean', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_FIRSTSTAGE\db_find_folders_to_clean.m', 22)" style="font-weight:bold">db_find_folders_to_clean</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_FIRSTSTAGE\db_find_folders_to_clean.m',22,0)">line 22</a>)
+names1{nAll}={};
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('db_dir_ini', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_FIRSTSTAGE\db_dir_ini.m', 43)" style="font-weight:bold">db_dir_ini</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_FIRSTSTAGE\db_dir_ini.m',43,0)">line 43</a>)
+        foldersToClean = db_find_folders_to_clean(currentYear,SiteId,1);
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('fr_automated_cleaning', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\BIOMET\fr_automated_cleaning.m', 250)" style="font-weight:bold">fr_automated_cleaning</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\BIOMET\fr_automated_cleaning.m',250,0)">line 250</a>)
+            db_dir_ini(yy(1),siteID,db_out,1);
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('xAB_formatDatabase', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Matlab\xAB_formatDatabase.m', 80)" style="font-weight:bold">xAB_formatDatabase</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Matlab\xAB_formatDatabase.m',80,0)">line 80</a>)
+fr_automated_cleaning([2020, 2021, 2022], 'XAB', 1);
+}
+clc
+==============  Start =========================================
+Date: 01-Apr-2025 10:22:00
+siteID = XAB
+============== First  stage cleaning XAB 2020 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XAB\XAB_FirstStage.ini 
+Missing variable assignment in trace #195 on line number: 3503!
+{Array indices must be positive integers or logical values.
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('db_find_folders_to_clean', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_FIRSTSTAGE\db_find_folders_to_clean.m', 22)" style="font-weight:bold">db_find_folders_to_clean</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_FIRSTSTAGE\db_find_folders_to_clean.m',22,0)">line 22</a>)
+names1{nAll}={};
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('db_dir_ini', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_FIRSTSTAGE\db_dir_ini.m', 43)" style="font-weight:bold">db_dir_ini</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_FIRSTSTAGE\db_dir_ini.m',43,0)">line 43</a>)
+        foldersToClean = db_find_folders_to_clean(currentYear,SiteId,1);
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('fr_automated_cleaning', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\BIOMET\fr_automated_cleaning.m', 250)" style="font-weight:bold">fr_automated_cleaning</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\BIOMET\fr_automated_cleaning.m',250,0)">line 250</a>)
+            db_dir_ini(yy(1),siteID,db_out,1);
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('xAB_formatDatabase', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Matlab\xAB_formatDatabase.m', 80)" style="font-weight:bold">xAB_formatDatabase</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Matlab\xAB_formatDatabase.m',80,0)">line 80</a>)
+fr_automated_cleaning([2020, 2021, 2022], 'XAB', 1);
+}
+clc
+==============  Start =========================================
+Date: 01-Apr-2025 10:24:59
+siteID = XAB
+============== First  stage cleaning XAB 2020 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XAB\XAB_FirstStage.ini 
+Missing variable assignment in trace #195 on line number: 3503!
+{Array indices must be positive integers or logical values.
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('db_find_folders_to_clean', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_FIRSTSTAGE\db_find_folders_to_clean.m', 22)" style="font-weight:bold">db_find_folders_to_clean</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_FIRSTSTAGE\db_find_folders_to_clean.m',22,0)">line 22</a>)
+names1{nAll}={};
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('db_dir_ini', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_FIRSTSTAGE\db_dir_ini.m', 43)" style="font-weight:bold">db_dir_ini</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_FIRSTSTAGE\db_dir_ini.m',43,0)">line 43</a>)
+        foldersToClean = db_find_folders_to_clean(currentYear,SiteId,1);
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('fr_automated_cleaning', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\BIOMET\fr_automated_cleaning.m', 250)" style="font-weight:bold">fr_automated_cleaning</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\BIOMET\fr_automated_cleaning.m',250,0)">line 250</a>)
+            db_dir_ini(yy(1),siteID,db_out,1);
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('xAB_formatDatabase', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Matlab\xAB_formatDatabase.m', 80)" style="font-weight:bold">xAB_formatDatabase</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Matlab\xAB_formatDatabase.m',80,0)">line 80</a>)
+fr_automated_cleaning([2020, 2021, 2022], 'XAB', 1);
+}
+==============  Start =========================================
+Date: 01-Apr-2025 10:27:05
+siteID = XAB
+============== First  stage cleaning XAB 2020 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XAB\XAB_FirstStage.ini 
+   212 traces read from the ini file. 
+   212 traces exist in the year 2020.
+   212 unique traces are kept for processing
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XAB\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XAB\XAB_FirstStage.ini 
+   212 traces read from the ini file. 
+   212 traces exist in the year 2020.
+   212 unique traces are kept for processing
+Reading traces from database...
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+==============  Start =========================================
+Date: 01-Apr-2025 10:28:00
+siteID = XAB
+============== Second stage cleaning XAB 2020 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XAB\Clean\SecondStage
+Reading second stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XAB\XAB_SecondStage.ini 
+   69 traces read from the ini file. 
+   69 traces exist in the year 2020.
+   69 unique traces are kept for processing
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XAB\XAB_FirstStage.ini 
+   212 traces read from the ini file. 
+   212 traces exist in the year 2020.
+   212 unique traces are kept for processing
+Reading data from: 
+    \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XAB\Flux\Clean
+Reading traces from database...
+   Done reading traces.
+Exporting data ...
+============== End of cleaning stage 2 =============
+==============  Start =========================================
+Date: 01-Apr-2025 10:28:28
+siteID = XAB
+============== 7-th stage cleaning XAB 2020 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XAB\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> Processing: ThirdStage: Fluxes: FCH4 set to NULL in site_config.yaml'}
+    {'FYI ------> Processing: ThirdStage: Fluxes: FNO2 set to NULL in site_config.yaml'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" XAB 2020 2020 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XAB\log\XAB_ThirdStageCleaning.log" 1>&2
+Start time: 01-Apr-2025 10:28:28
+
+End time: 01-Apr-2025 10:32:25
+
+Retrieving critical messages from Third Stage R log:
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: XAB 2020 ==============
+============== End of cleaning stage 9 =============
+==============  Start =========================================
+Date: 01-Apr-2025 12:01:26
+siteID = XAB
+============== 7-th stage cleaning XAB 2020 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XAB\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> Processing: ThirdStage: Fluxes: FCH4 set to NULL in site_config.yaml'}
+    {'FYI ------> Processing: ThirdStage: Fluxes: FNO2 set to NULL in site_config.yaml'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" XAB 2020 2020 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XAB\log\XAB_ThirdStageCleaning.log" 1>&2
+Start time: 01-Apr-2025 12:01:26
+
+End time: 01-Apr-2025 12:05:23
+
+Retrieving critical messages from Third Stage R log:
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: XAB 2020 ==============
+============== End of cleaning stage 9 =============

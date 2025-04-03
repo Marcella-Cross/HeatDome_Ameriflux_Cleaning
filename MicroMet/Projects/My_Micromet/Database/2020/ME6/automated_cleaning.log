@@ -1,0 +1,71 @@
+==============  Start =========================================
+Date: 01-Apr-2025 09:40:13
+siteID = ME6
+============== First  stage cleaning ME6 2020 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\ME6\ME6_FirstStage.ini 
+   72 traces read from the ini file. 
+   72 traces exist in the year 2020.
+   72 unique traces are kept for processing
+Created \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\ME6\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\ME6\ME6_FirstStage.ini 
+   72 traces read from the ini file. 
+   72 traces exist in the year 2020.
+   72 unique traces are kept for processing
+Reading traces from database...
+Could not find FC
+Error using read_bor (line 127)
+*** Error! File: "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\ME6\Flux\FC" does not exist!
+
+*** Read Error: FC not loaded
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+==============  Start =========================================
+Date: 01-Apr-2025 09:41:12
+siteID = ME6
+============== Second stage cleaning ME6 2020 ==============
+Created \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\ME6\Clean\SecondStage
+Reading second stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\ME6\ME6_SecondStage.ini 
+   35 traces read from the ini file. 
+   35 traces exist in the year 2020.
+   35 unique traces are kept for processing
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\ME6\ME6_FirstStage.ini 
+   72 traces read from the ini file. 
+   72 traces exist in the year 2020.
+   72 unique traces are kept for processing
+Reading data from: 
+    \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\ME6\Flux\Clean
+Reading traces from database...
+Error processing trace.variableName: FC
+Unable to evaluate: FC=FC;
+Matlab error message: Unrecognized function or variable 'FC'.
+*** Read Error: FC not loaded
+   Done reading traces.
+Exporting data ...
+============== End of cleaning stage 2 =============
+==============  Start =========================================
+Date: 01-Apr-2025 09:41:55
+siteID = ME6
+============== 7-th stage cleaning ME6 2020 ==============
+Created \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\ME6\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> Processing: ThirdStage: Fluxes: FCH4 set to NULL in site_config.yaml'                                                                                         }
+    {'FYI ------> Processing: ThirdStage: Fluxes: FNO2 set to NULL in site_config.yaml'                                                                                         }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\ME6\Clean\SecondStage\FC]'       }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\ME6\Clean\SecondStage\VPD_1_1_1]'}
+    {'Error ----> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\ME6\Clean\SecondStage\FC]'       }
+
+
+    Third Stage processing cannot proceed!!! [see error(s) above]
+========================= End of YML error check ==========================
+Retrieving critical messages from Third Stage R log:
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: ME6 2020 ==============
+============== End of cleaning stage 9 =============

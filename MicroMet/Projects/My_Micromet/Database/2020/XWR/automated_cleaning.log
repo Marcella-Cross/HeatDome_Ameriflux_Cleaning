@@ -1,0 +1,291 @@
+==============  Start =========================================
+Date: 01-Apr-2025 15:24:43
+siteID = XWR
+============== Second stage cleaning XWR 2020 ==============
+Created \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XWR\Clean\SecondStage
+Reading second stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XWR\XWR_SecondStage.ini 
+   53 traces read from the ini file. 
+   53 traces exist in the year 2020.
+   53 unique traces are kept for processing
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XWR\XWR_FirstStage.ini 
+   265 traces read from the ini file. 
+   265 traces exist in the year 2020.
+   265 unique traces are kept for processing
+Reading data from: 
+    \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XWR\Flux\Clean
+No traces loaded from \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XWR\Flux\Clean\
+Warning: Unable to find clean tv trace, output traces may not contain fields DOY or timeVector
+Reading traces from database...
+Error processing trace.variableName: CO2
+Unable to evaluate: CO2=calc_avg_trace(clean_tv,[CO2,CO2_1_1_2,CO2_1_1_3]);
+Matlab error message: Unrecognized function or variable 'clean_tv'.
+*** Read Error: CO2 not loaded
+Error processing trace.variableName: CO2_1_2_1
+Unable to evaluate: CO2_1_2_1=calc_avg_trace(clean_tv,[CO2_1_2_2,CO2_1_2_3]);
+Matlab error message: Unrecognized function or variable 'clean_tv'.
+*** Read Error: CO2_1_2_1 not loaded
+Error processing trace.variableName: CO2_1_3_1
+Unable to evaluate: CO2_1_3_1=calc_avg_trace(clean_tv,[CO2_1_3_2,CO2_1_3_3]);
+Matlab error message: Unrecognized function or variable 'clean_tv'.
+*** Read Error: CO2_1_3_1 not loaded
+Error processing trace.variableName: CO2_1_4_1
+Unable to evaluate: CO2_1_4_1=calc_avg_trace(clean_tv,[CO2_1_4_2,CO2_1_4_3]);
+Matlab error message: Unrecognized function or variable 'clean_tv'.
+*** Read Error: CO2_1_4_1 not loaded
+Error processing trace.variableName: CO2_1_5_1
+Unable to evaluate: CO2_1_5_1=calc_avg_trace(clean_tv,[CO2_1_5_2,CO2_1_5_3]);
+Matlab error message: Unrecognized function or variable 'clean_tv'.
+*** Read Error: CO2_1_5_1 not loaded
+Error processing trace.variableName: CO2_1_6_1
+Unable to evaluate: CO2_1_6_1=calc_avg_trace(clean_tv,[CO2_1_6_2,CO2_1_6_3]);
+Matlab error message: Unrecognized function or variable 'clean_tv'.
+*** Read Error: CO2_1_6_1 not loaded
+Error processing trace.variableName: CO2_1_7_1
+Unable to evaluate: CO2_1_7_1=calc_avg_trace(clean_tv,[CO2_1_7_2,CO2_1_7_3]);
+Matlab error message: Unrecognized function or variable 'clean_tv'.
+*** Read Error: CO2_1_7_1 not loaded
+Error processing trace.variableName: CO2_1_8_1
+Unable to evaluate: CO2_1_8_1=calc_avg_trace(clean_tv,[CO2_1_8_2,CO2_1_8_3]);
+Matlab error message: Unrecognized function or variable 'clean_tv'.
+*** Read Error: CO2_1_8_1 not loaded
+Error processing trace.variableName: FC
+Unable to evaluate: FC=FC;
+Matlab error message: Unrecognized function or variable 'FC'.
+*** Read Error: FC not loaded
+Error processing trace.variableName: G_1_1_1
+Unable to evaluate: G_1_1_1=calc_avg_trace(clean_tv,[G_1_1_1,G_3_1_1,G_5_1_1]);
+Matlab error message: Unrecognized function or variable 'clean_tv'.
+*** Read Error: G_1_1_1 not loaded
+Error processing trace.variableName: H
+Unable to evaluate: H=H;
+Matlab error message: Unrecognized function or variable 'H'.
+*** Read Error: H not loaded
+Error processing trace.variableName: H2O
+Unable to evaluate: H2O=calc_avg_trace(clean_tv,[H2O,H2O_1_1_2,H2O_1_1_3]);
+Matlab error message: Unrecognized function or variable 'clean_tv'.
+*** Read Error: H2O not loaded
+Error processing trace.variableName: H2O_1_2_1
+Unable to evaluate: H2O_1_2_1=calc_avg_trace(clean_tv,[H2O_1_2_2,H2O_1_2_3]);
+Matlab error message: Unrecognized function or variable 'clean_tv'.
+*** Read Error: H2O_1_2_1 not loaded
+Error processing trace.variableName: H2O_1_3_1
+Unable to evaluate: H2O_1_3_1=calc_avg_trace(clean_tv,[H2O_1_3_2,H2O_1_3_3]);
+Matlab error message: Unrecognized function or variable 'clean_tv'.
+*** Read Error: H2O_1_3_1 not loaded
+Error processing trace.variableName: H2O_1_4_1
+Unable to evaluate: H2O_1_4_1=calc_avg_trace(clean_tv,[H2O_1_4_2,H2O_1_4_3]);
+Matlab error message: Unrecognized function or variable 'clean_tv'.
+*** Read Error: H2O_1_4_1 not loaded
+Error processing trace.variableName: H2O_1_5_1
+Unable to evaluate: H2O_1_5_1=calc_avg_trace(clean_tv,[H2O_1_5_2,H2O_1_5_3]);
+Matlab error message: Unrecognized function or variable 'clean_tv'.
+*** Read Error: H2O_1_5_1 not loaded
+Error processing trace.variableName: H2O_1_6_1
+Unable to evaluate: H2O_1_6_1=calc_avg_trace(clean_tv,[H2O_1_6_2,H2O_1_6_3]);
+Matlab error message: Unrecognized function or variable 'clean_tv'.
+*** Read Error: H2O_1_6_1 not loaded
+Error processing trace.variableName: H2O_1_7_1
+Unable to evaluate: H2O_1_7_1=calc_avg_trace(clean_tv,[H2O_1_7_2,H2O_1_7_3]);
+Matlab error message: Unrecognized function or variable 'clean_tv'.
+*** Read Error: H2O_1_7_1 not loaded
+Error processing trace.variableName: H2O_1_8_1
+Unable to evaluate: H2O_1_8_1=calc_avg_trace(clean_tv,[H2O_1_8_2,H2O_1_8_3]);
+Matlab error message: Unrecognized function or variable 'clean_tv'.
+*** Read Error: H2O_1_8_1 not loaded
+Error processing trace.variableName: LE
+Unable to evaluate: LE=LE;
+Matlab error message: Unrecognized function or variable 'LE'.
+*** Read Error: LE not loaded
+Error processing trace.variableName: LW_BC_IN
+Unable to evaluate: LW_BC_IN=LW_BC_IN;
+Matlab error message: Unrecognized function or variable 'LW_BC_IN'.
+*** Read Error: LW_BC_IN not loaded
+Error processing trace.variableName: LW_BC_OUT
+Unable to evaluate: LW_BC_OUT=LW_BC_OUT;
+Matlab error message: Unrecognized function or variable 'LW_BC_OUT'.
+*** Read Error: LW_BC_OUT not loaded
+Error processing trace.variableName: LW_IN
+Unable to evaluate: LW_IN=LW_IN;
+Matlab error message: Unrecognized function or variable 'LW_IN'.
+*** Read Error: LW_IN not loaded
+Error processing trace.variableName: LW_OUT
+Unable to evaluate: LW_OUT=LW_OUT;
+Matlab error message: Unrecognized function or variable 'LW_OUT'.
+*** Read Error: LW_OUT not loaded
+Error processing trace.variableName: NEE_PI
+Unable to evaluate: NEE_PI=NEE_PI;
+Matlab error message: Unrecognized function or variable 'NEE_PI'.
+*** Read Error: NEE_PI not loaded
+Error processing trace.variableName: NETRAD_1_1_1
+Unable to evaluate: NETRAD_1_1_1=NETRAD_1_1_1;
+Matlab error message: Unrecognized function or variable 'NETRAD_1_1_1'.
+*** Read Error: NETRAD_1_1_1 not loaded
+Error processing trace.variableName: P
+Unable to evaluate: P=P;
+Matlab error message: Unrecognized function or variable 'P'.
+*** Read Error: P not loaded
+Error processing trace.variableName: PA
+Unable to evaluate: PA=PA;
+Matlab error message: Unrecognized function or variable 'PA'.
+*** Read Error: PA not loaded
+Error processing trace.variableName: PPFD_BC_IN
+Unable to evaluate: PPFD_BC_IN=calc_avg_trace(clean_tv,[PPFD_BC_IN_1_1_1,PPFD_BC_IN_3_1_1,PPFD_BC_IN_5_1_1]);
+Matlab error message: Unrecognized function or variable 'clean_tv'.
+*** Read Error: PPFD_BC_IN not loaded
+Error processing trace.variableName: PPFD_IN_1_1_1
+Unable to evaluate: PPFD_IN_1_1_1=PPFD_IN_1_1_1;
+Matlab error message: Unrecognized function or variable 'PPFD_IN_1_1_1'.
+*** Read Error: PPFD_IN_1_1_1 not loaded
+Error processing trace.variableName: PPFD_OUT
+Unable to evaluate: PPFD_OUT=PPFD_OUT;
+Matlab error message: Unrecognized function or variable 'PPFD_OUT'.
+*** Read Error: PPFD_OUT not loaded
+Error processing trace.variableName: RH_1_1_1
+Unable to evaluate: RH_1_1_1=RH_1_1_1;
+Matlab error message: Unrecognized function or variable 'RH_1_1_1'.
+*** Read Error: RH_1_1_1 not loaded
+Error processing trace.variableName: SC
+Unable to evaluate: SC=SC;
+Matlab error message: Unrecognized function or variable 'SC'.
+*** Read Error: SC not loaded
+Error processing trace.variableName: SW_DIF
+Unable to evaluate: SW_DIF=SW_DIF;
+Matlab error message: Unrecognized function or variable 'SW_DIF'.
+*** Read Error: SW_DIF not loaded
+Error processing trace.variableName: SW_IN_1_1_1
+Unable to evaluate: SW_IN_1_1_1=calc_avg_trace(clean_tv,[SW_IN_1_1_1,SW_IN_1_1_2,SW_IN_1_1_3]);
+Matlab error message: Unrecognized function or variable 'clean_tv'.
+*** Read Error: SW_IN_1_1_1 not loaded
+Error processing trace.variableName: SW_OUT
+Unable to evaluate: SW_OUT=SW_OUT;
+Matlab error message: Unrecognized function or variable 'SW_OUT'.
+*** Read Error: SW_OUT not loaded
+Error processing trace.variableName: SWC_1_1_1
+Unable to evaluate: SWC_1_1_1=calc_avg_trace(clean_tv,[SWC_1_1_1,SWC_2_1_1,SWC_4_1_1,SWC_5_1_1]);
+Matlab error message: Unrecognized function or variable 'clean_tv'.
+*** Read Error: SWC_1_1_1 not loaded
+Error processing trace.variableName: T_CANOPY_1_1_1
+Unable to evaluate: T_CANOPY_1_1_1=T_CANOPY_1_1_1;
+Matlab error message: Unrecognized function or variable 'T_CANOPY_1_1_1'.
+*** Read Error: T_CANOPY_1_1_1 not loaded
+Error processing trace.variableName: T_SONIC
+Unable to evaluate: T_SONIC=T_SONIC;
+Matlab error message: Unrecognized function or variable 'T_SONIC'.
+*** Read Error: T_SONIC not loaded
+Error processing trace.variableName: T_SONIC_SIGMA
+Unable to evaluate: T_SONIC_SIGMA=T_SONIC_SIGMA;
+Matlab error message: Unrecognized function or variable 'T_SONIC_SIGMA'.
+*** Read Error: T_SONIC_SIGMA not loaded
+Error processing trace.variableName: TA_1_1_1
+Unable to evaluate: TA_1_1_1=calc_avg_trace(clean_tv,[TA_1_1_1,TA_1_1_2]);
+Matlab error message: Unrecognized function or variable 'clean_tv'.
+*** Read Error: TA_1_1_1 not loaded
+Error processing trace.variableName: TA_1_2_1
+Unable to evaluate: TA_1_2_1=TA_1_2_1;
+Matlab error message: Unrecognized function or variable 'TA_1_2_1'.
+*** Read Error: TA_1_2_1 not loaded
+Error processing trace.variableName: TA_1_3_1
+Unable to evaluate: TA_1_3_1=TA_1_3_1;
+Matlab error message: Unrecognized function or variable 'TA_1_3_1'.
+*** Read Error: TA_1_3_1 not loaded
+Error processing trace.variableName: TA_1_4_1
+Unable to evaluate: TA_1_4_1=TA_1_4_1;
+Matlab error message: Unrecognized function or variable 'TA_1_4_1'.
+*** Read Error: TA_1_4_1 not loaded
+Error processing trace.variableName: TA_1_5_1
+Unable to evaluate: TA_1_5_1=TA_1_5_1;
+Matlab error message: Unrecognized function or variable 'TA_1_5_1'.
+*** Read Error: TA_1_5_1 not loaded
+Error processing trace.variableName: TA_1_6_1
+Unable to evaluate: TA_1_6_1=TA_1_6_1;
+Matlab error message: Unrecognized function or variable 'TA_1_6_1'.
+*** Read Error: TA_1_6_1 not loaded
+Error processing trace.variableName: TA_1_7_1
+Unable to evaluate: TA_1_7_1=TA_1_7_1;
+Matlab error message: Unrecognized function or variable 'TA_1_7_1'.
+*** Read Error: TA_1_7_1 not loaded
+Error processing trace.variableName: TA_1_8_1
+Unable to evaluate: TA_1_8_1=TA_1_8_1;
+Matlab error message: Unrecognized function or variable 'TA_1_8_1'.
+*** Read Error: TA_1_8_1 not loaded
+Error processing trace.variableName: TS_1_1_1
+Unable to evaluate: TS_1_1_1=calc_avg_trace(clean_tv,[TS_1_1_1,TS_2_1_1,TS_3_1_1,TS_4_1_1,TS_5_1_1]);
+Matlab error message: Unrecognized function or variable 'clean_tv'.
+*** Read Error: TS_1_1_1 not loaded
+Error processing trace.variableName: USTAR
+Unable to evaluate: USTAR=USTAR;
+Matlab error message: Unrecognized function or variable 'USTAR'.
+*** Read Error: USTAR not loaded
+Error processing trace.variableName: VPD_1_1_1
+Unable to evaluate: VPD_1_1_1=VPD_1_1_1;
+Matlab error message: Unrecognized function or variable 'VPD_1_1_1'.
+*** Read Error: VPD_1_1_1 not loaded
+Error processing trace.variableName: WD_1_1_1
+Unable to evaluate: WD_1_1_1=WD_1_1_1;
+Matlab error message: Unrecognized function or variable 'WD_1_1_1'.
+*** Read Error: WD_1_1_1 not loaded
+Error processing trace.variableName: WS_1_1_1
+Unable to evaluate: WS_1_1_1=WS_1_1_1;
+Matlab error message: Unrecognized function or variable 'WS_1_1_1'.
+*** Read Error: WS_1_1_1 not loaded
+   Done reading traces.
+Exporting data ...
+============== End of cleaning stage 2 =============
+==============  Start =========================================
+Date: 01-Apr-2025 15:24:54
+siteID = XWR
+============== First  stage cleaning XWR 2020 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XWR\XWR_FirstStage.ini 
+   265 traces read from the ini file. 
+   265 traces exist in the year 2020.
+   265 unique traces are kept for processing
+Created \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XWR\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XWR\XWR_FirstStage.ini 
+   265 traces read from the ini file. 
+   265 traces exist in the year 2020.
+   265 unique traces are kept for processing
+Reading traces from database...
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+============== Second stage cleaning XWR 2020 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XWR\Clean\SecondStage
+Reading second stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XWR\XWR_SecondStage.ini 
+   53 traces read from the ini file. 
+   53 traces exist in the year 2020.
+   53 unique traces are kept for processing
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XWR\XWR_FirstStage.ini 
+   265 traces read from the ini file. 
+   265 traces exist in the year 2020.
+   265 unique traces are kept for processing
+Reading data from: 
+    \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XWR\Flux\Clean
+Reading traces from database...
+   Done reading traces.
+Exporting data ...
+============== End of cleaning stage 2 =============
+============== 7-th stage cleaning XWR 2020 ==============
+Created \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XWR\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> Processing: ThirdStage: Fluxes: FCH4 set to NULL in site_config.yaml'}
+    {'FYI ------> Processing: ThirdStage: Fluxes: FNO2 set to NULL in site_config.yaml'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" XWR 2020 2020 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XWR\log\XWR_ThirdStageCleaning.log" 1>&2
+Start time: 01-Apr-2025 15:25:07
+
+End time: 01-Apr-2025 15:29:19
+
+Retrieving critical messages from Third Stage R log:
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: XWR 2020 ==============
+============== End of cleaning stage 9 =============
