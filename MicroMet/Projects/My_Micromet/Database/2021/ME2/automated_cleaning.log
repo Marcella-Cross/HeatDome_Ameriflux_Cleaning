@@ -52826,3 +52826,24 @@ Matlab error message: Unrecognized function or variable 'VPD_1_1_1'.
    Done reading traces.
 Exporting data ...
 ============== End of cleaning stage 2 =============
+==============  Start =========================================
+Date: 25-Apr-2025 09:06:56
+siteID = ME2
+============== First  stage cleaning ME2 2021 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\ME2\ME2_FirstStage.ini 
+   83 traces read from the ini file. 
+   83 traces exist in the year 2021.
+   83 unique traces are kept for processing
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\ME2\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\ME2\ME2_FirstStage.ini 
+   83 traces read from the ini file. 
+   83 traces exist in the year 2021.
+   83 unique traces are kept for processing
+Reading traces from database...
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============

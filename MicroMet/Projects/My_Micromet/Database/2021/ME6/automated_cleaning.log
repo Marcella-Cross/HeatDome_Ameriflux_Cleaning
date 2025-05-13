@@ -69,3 +69,68 @@ Retrieving critical messages from Third Stage R log:
 ============== End of cleaning stage 7 =============
 ============== 8-th stage. Exporting AmeriFlux csv file for: ME6 2021 ==============
 ============== End of cleaning stage 9 =============
+==============  Start =========================================
+Date: 25-Apr-2025 09:09:17
+siteID = ME6
+============== First  stage cleaning ME6 2021 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\ME6\ME6_FirstStage.ini 
+   71 traces read from the ini file. 
+   71 traces exist in the year 2021.
+   71 unique traces are kept for processing
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\ME6\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\ME6\ME6_FirstStage.ini 
+   71 traces read from the ini file. 
+   71 traces exist in the year 2021.
+   71 unique traces are kept for processing
+Reading traces from database...
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+==============  Start =========================================
+Date: 25-Apr-2025 09:09:30
+siteID = ME6
+============== Second stage cleaning ME6 2021 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\ME6\Clean\SecondStage
+Reading second stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\ME6\ME6_SecondStage.ini 
+   34 traces read from the ini file. 
+   34 traces exist in the year 2021.
+   34 unique traces are kept for processing
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\ME6\ME6_FirstStage.ini 
+   71 traces read from the ini file. 
+   71 traces exist in the year 2021.
+   71 unique traces are kept for processing
+Reading data from: 
+    \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\ME6\Flux\Clean
+Reading traces from database...
+   Done reading traces.
+Exporting data ...
+============== End of cleaning stage 2 =============
+==============  Start =========================================
+Date: 25-Apr-2025 09:10:17
+siteID = ME6
+============== 7-th stage cleaning ME6 2021 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\ME6\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> Processing: ThirdStage: Fluxes: FCH4 set to NULL in site_config.yaml'                                                                                         }
+    {'FYI ------> Processing: ThirdStage: Fluxes: FNO2 set to NULL in site_config.yaml'                                                                                         }
+    {'Warning ----> No data in FC!        [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\ME6\Clean\SecondStage\FC]'     }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\ME6\Clean\SecondStage\VPD_1_1_1]'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" ME6 2021 2021 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\ME6\log\ME6_ThirdStageCleaning.log" 1>&2
+Start time: 25-Apr-2025 09:10:17
+
+End time: 25-Apr-2025 09:10:21
+
+Failed running Third Stage Rscript
+Retrieving critical messages from Third Stage R log:
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: ME6 2021 ==============
+============== End of cleaning stage 9 =============

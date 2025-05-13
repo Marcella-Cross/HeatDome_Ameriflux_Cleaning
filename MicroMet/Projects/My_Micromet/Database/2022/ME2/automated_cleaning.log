@@ -52851,3 +52851,25 @@ Exporting data ...
 ============== End of cleaning Site: ME2, year: 2022 ===========
 render process terminated: TS_PROCESS_WAS_KILLED
 render process terminated: TS_PROCESS_WAS_KILLED
+==============  Start =========================================
+Date: 25-Apr-2025 09:07:01
+siteID = ME2
+============== First  stage cleaning ME2 2022 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\ME2\ME2_FirstStage.ini 
+   83 traces read from the ini file. 
+   83 traces exist in the year 2022.
+   83 unique traces are kept for processing
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\ME2\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\ME2\ME2_FirstStage.ini 
+   83 traces read from the ini file. 
+   83 traces exist in the year 2022.
+   83 unique traces are kept for processing
+Reading traces from database...
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+============== End of cleaning Site: ME2, year: 2022 ===========
