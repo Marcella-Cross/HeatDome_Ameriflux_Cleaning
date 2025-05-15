@@ -125,7 +125,7 @@ Warning messages:
   sEddyProc.initialize:::fCheckHHTimeSeries::: Time stamp of first data row is not at the end of the first half-hour: 01:00 instead of 00:30!
 [1] "Skipping RF_GapFilling"
 [1] "Stage 3 Complete, total run time:"
-Time difference of 23.80925 secs
+Time difference of 23.03823 secs
 =============================================================
 Completed running Third Stage Rscript: C:\Program Files\R\R-4.4.3\bin\Rscript.exe
 =============================================================
@@ -140,7 +140,7 @@ Command output:
 =============================================================
 Rscript:      C:\Program Files\R\R-4.4.3\bin\Rscript.exe
 Command line: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" ME2 2022 2022 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\ME2\log\ME2_ThirdStageCleaning.log" 1>&2
-Start:        14-May-2025 15:22:59
-End:          14-May-2025 15:23:27
-Elapsed time:    0.5 min
+Start:        15-May-2025 09:28:03
+End:          15-May-2025 09:28:29
+Elapsed time:    0.4 min
 ==============================================================

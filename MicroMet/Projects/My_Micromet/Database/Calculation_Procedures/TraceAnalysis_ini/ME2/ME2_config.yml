@@ -56,7 +56,7 @@ Processing:
         #
         # *** Double check that variable names (on the right) match Second Stage naming ***
         # *** If a standard flux is missing set key-val to NULL (e.g. FCH4: NULL) ***
-        NEE: NEE
+        NEE: FC
         LE: LE
         H: H
         Rg: SW_IN_1_1_1

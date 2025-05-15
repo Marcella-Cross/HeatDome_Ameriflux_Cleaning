@@ -42,7 +42,7 @@ ThirdStage:
         max: 0.975
         steps: 39
     vars_in:
-      NEE: NEE
+      NEE: FC
       LE: LE
       H: H
       FCH4: FCH4
