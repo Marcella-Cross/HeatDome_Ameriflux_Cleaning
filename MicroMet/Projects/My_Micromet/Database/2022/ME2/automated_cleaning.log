@@ -70467,3 +70467,27 @@ Error!!! REddyProc crashed!
 ============== 8-th stage. Exporting AmeriFlux csv file for: ME2 2022 ==============
 ============== End of cleaning stage 9 =============
 ============== End of cleaning Site: ME2, year: 2022 ===========
+==============  Start =========================================
+Date: 15-May-2025 09:28:02
+siteID = ME2
+============== 7-th stage cleaning ME2 2022 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\ME2\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> Processing: ThirdStage: Fluxes: FCH4 set to NULL in site_config.yaml'                                                                                    }
+    {'FYI ------> Processing: ThirdStage: Fluxes: FNO2 set to NULL in site_config.yaml'                                                                                    }
+    {'Warning ----> No data in FC!        [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\ME2\Clean\SecondStage\FC]'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" ME2 2022 2022 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\ME2\log\ME2_ThirdStageCleaning.log" 1>&2
+Start time: 15-May-2025 09:28:03
+
+End time: 15-May-2025 09:28:29
+
+Retrieving critical messages from Third Stage R log:
+ NEE is all NaN in 2022, REddyProc will ignore the flux 
+Error!!! REddyProc crashed!
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: ME2 2022 ==============
+============== End of cleaning stage 9 =============
+============== End of cleaning Site: ME2, year: 2022 ===========
