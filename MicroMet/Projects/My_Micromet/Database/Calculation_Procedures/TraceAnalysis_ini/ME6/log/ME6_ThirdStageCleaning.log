@@ -91,12 +91,43 @@ The following object is masked from 'package:purrr':
 [1] "Copying H from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
 [1] "Copying LE from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
 [1] "Copying NEE from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
-Error in `[.data.frame`(input_data, interpolate_vars) : 
-  undefined columns selected
-Calls: Met_Gap_Filling -> na.approx -> [ -> [.data.frame
-Execution halted
+[1] "6 values in H were filtered out by moving Z score filter"
+[1] "144 values in LE were filtered out by moving Z score filter"
+[1] "0 values in NEE were filtered out by moving Z score filter"
+[1] "Writing 2022"
+[1] "Writing DateTime"
+[1] "Writing H_PI_JSZ"
+[1] "Writing LE_PI_JSZ"
+[1] "Writing NEE_PI_JSZ"
+[1] "Copying H_PI_JSZ from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying LE_PI_JSZ from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying NEE_PI_JSZ from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "729 values in H were filtered out by Night-time MAD spike filter"
+[1] "804 values in H were filtered out by Day-time MAD spike filter"
+[1] "1076 values in LE were filtered out by Night-time MAD spike filter"
+[1] "1126 values in LE were filtered out by Day-time MAD spike filter"
+[1] "Writing 2022"
+[1] "Writing DateTime"
+[1] "Writing H_PI_JSZ_MAD"
+[1] "Writing LE_PI_JSZ_MAD"
+[1] "Writing NEE_PI_JSZ_MAD"
+[1] "Copying H_PI_JSZ_MAD from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying LE_PI_JSZ_MAD from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "Copying NEE_PI_JSZ_MAD from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
+[1] "<P2M> NEE is all NaN in 2022, REddyProc will ignore the flux </P2M>"
+New sEddyProc class for site 'ME6'
+
+<P2M>Error!!! REddyProc crashed!</P2M>
+Warning messages:
+1: In fCheckHHTimeSeries(Data[[ColPOSIXTime]], DTS = DTS, "sEddyProc.initialize") :
+  sEddyProc.initialize:::fCheckHHTimeSeries::: Data not provided in full days (multiple of daily time step). One day only has 47 (half-)hours!
+2: In fCheckHHTimeSeries(Data[[ColPOSIXTime]], DTS = DTS, "sEddyProc.initialize") :
+  sEddyProc.initialize:::fCheckHHTimeSeries::: Time stamp of first data row is not at the end of the first half-hour: 01:00 instead of 00:30!
+[1] "Skipping RF_GapFilling"
+[1] "Stage 3 Complete, total run time:"
+Time difference of 32.88241 secs
 =============================================================
-Failed running Third Stage Rscript: C:\Program Files\R\R-4.4.3\bin\Rscript.exe
+Completed running Third Stage Rscript: C:\Program Files\R\R-4.4.3\bin\Rscript.exe
 =============================================================
 
 
@@ -109,7 +140,7 @@ Command output:
 =============================================================
 Rscript:      C:\Program Files\R\R-4.4.3\bin\Rscript.exe
 Command line: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" ME6 2022 2022 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\ME6\log\ME6_ThirdStageCleaning.log" 1>&2
-Start:        25-Apr-2025 09:10:23
-End:          25-Apr-2025 09:10:28
-Elapsed time:    0.1 min
+Start:        14-May-2025 15:42:40
+End:          14-May-2025 15:43:17
+Elapsed time:    0.6 min
 ==============================================================
