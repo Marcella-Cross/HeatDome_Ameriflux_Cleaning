@@ -88375,3 +88375,29 @@ Cleaning traces....
 Automated cleaning ....
 Exporting data ...
 ============== End of cleaning stage 1 =============
+==============  Start =========================================
+Date: 26-May-2025 12:14:41
+siteID = ME2
+============== First  stage cleaning ME2 2020 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\ME2\ME2_FirstStage.ini 
+   83 traces read from the ini file. 
+   83 traces exist in the year 2020.
+   83 unique traces are kept for processing
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\ME2\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\ME2\ME2_FirstStage.ini 
+   83 traces read from the ini file. 
+   83 traces exist in the year 2020.
+   83 unique traces are kept for processing
+Reading traces from database...
+Could not find FC
+Error using read_bor (line 127)
+*** Error! File: "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\ME2\Flux\FC" does not exist!
+
+*** Read Error: FC not loaded
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
