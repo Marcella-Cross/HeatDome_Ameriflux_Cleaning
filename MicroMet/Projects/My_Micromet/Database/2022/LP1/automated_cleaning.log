@@ -105,3 +105,276 @@ Directory \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Pro
 Directory \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\ME2\Flux does not exist!... Creating new folder!... New folder created!
 Directory \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\ME2\Flux does not exist!... Creating new folder!... New folder created!
 Directory \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2023\ME2\Flux does not exist!... Creating new folder!... New folder created!
+==============  Start =========================================
+Date: 26-May-2025 13:52:00
+siteID = LP1
+============== First  stage cleaning LP1 2022 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_FirstStage.ini 
+   35 traces read from the ini file. 
+   35 traces exist in the year 2022.
+   35 unique traces are kept for processing
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\LP1\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_FirstStage.ini 
+   35 traces read from the ini file. 
+   35 traces exist in the year 2022.
+   35 unique traces are kept for processing
+Reading traces from database...
+Could not find CO2_1_3_1
+Error using read_bor (line 127)
+*** Error! File: "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\LP1\Flux\CO2_1_3_1" does not exist!
+
+*** Read Error: CO2 not loaded
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+============== End of cleaning Site: LP1, year: 2022 ===========
+==============  Start =========================================
+Date: 26-May-2025 13:53:18
+siteID = LP1
+============== First  stage cleaning LP1 2022 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_FirstStage.ini 
+   35 traces read from the ini file. 
+   35 traces exist in the year 2022.
+   35 unique traces are kept for processing
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\LP1\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_FirstStage.ini 
+   35 traces read from the ini file. 
+   35 traces exist in the year 2022.
+   35 unique traces are kept for processing
+Reading traces from database...
+Could not find CO2_1_3_1
+Error using read_bor (line 127)
+*** Error! File: "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\LP1\Flux\CO2_1_3_1" does not exist!
+
+*** Read Error: CO2 not loaded
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+============== End of cleaning Site: LP1, year: 2022 ===========
+==============  Start =========================================
+Date: 26-May-2025 13:53:46
+siteID = LP1
+============== First  stage cleaning LP1 2022 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_FirstStage.ini 
+   35 traces read from the ini file. 
+   35 traces exist in the year 2022.
+   35 unique traces are kept for processing
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\LP1\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_FirstStage.ini 
+   35 traces read from the ini file. 
+   35 traces exist in the year 2022.
+   35 unique traces are kept for processing
+Reading traces from database...
+Could not find CO2
+Error using read_bor (line 127)
+*** Error! File: "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\LP1\Flux\CO2" does not exist!
+
+*** Read Error: CO2 not loaded
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+============== End of cleaning Site: LP1, year: 2022 ===========
+==============  Start =========================================
+Date: 26-May-2025 13:54:11
+siteID = LP1
+============== First  stage cleaning LP1 2022 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_FirstStage.ini 
+   35 traces read from the ini file. 
+   35 traces exist in the year 2022.
+   35 unique traces are kept for processing
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\LP1\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_FirstStage.ini 
+   35 traces read from the ini file. 
+   35 traces exist in the year 2022.
+   35 unique traces are kept for processing
+Reading traces from database...
+Could not find CO2_1_1_1
+Error using read_bor (line 127)
+*** Error! File: "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\LP1\Flux\CO2_1_1_1" does not exist!
+
+*** Read Error: CO2 not loaded
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+============== End of cleaning Site: LP1, year: 2022 ===========
+{Unrecognized field name "siteID".
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('createFirstStageIni', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_TOOLS\createFirstStageIni.m', 67)" style="font-weight:bold">createFirstStageIni</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_TOOLS\createFirstStageIni.m',67,0)">line 67</a>)
+    outputIniFileName = fullfile(structSetup.outputPath, [structSetup.siteID '_FirstStage_Template.ini']);
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('LP1_formatDatabase', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Matlab\LP1_formatDatabase.m', 78)" style="font-weight:bold">LP1_formatDatabase</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Matlab\LP1_formatDatabase.m',78,0)">line 78</a>)
+createFirstStageIni(structSetup)
+}
+{Unrecognized field name "siteID".
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('createFirstStageIni', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_TOOLS\createFirstStageIni.m', 67)" style="font-weight:bold">createFirstStageIni</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_TOOLS\createFirstStageIni.m',67,0)">line 67</a>)
+    outputIniFileName = fullfile(structSetup.outputPath, [structSetup.siteID '_FirstStage_Template.ini']);
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('LP1_formatDatabase', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Matlab\LP1_formatDatabase.m', 78)" style="font-weight:bold">LP1_formatDatabase</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Matlab\LP1_formatDatabase.m',78,0)">line 78</a>)
+createFirstStageIni(structSetup)
+}
+{Unrecognized field name "siteID".
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('createFirstStageIni', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_TOOLS\createFirstStageIni.m', 67)" style="font-weight:bold">createFirstStageIni</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_TOOLS\createFirstStageIni.m',67,0)">line 67</a>)
+    outputIniFileName = fullfile(structSetup.outputPath, [structSetup.siteID '_FirstStage_Template.ini']);
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('CA3_formatDatabase', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Matlab\CA3_formatDatabase.m', 81)" style="font-weight:bold">CA3_formatDatabase</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Matlab\CA3_formatDatabase.m',81,0)">line 81</a>)
+createFirstStageIni(structSetup)
+}
+{Unrecognized field name "siteID".
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('createFirstStageIni', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_TOOLS\createFirstStageIni.m', 67)" style="font-weight:bold">createFirstStageIni</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_TOOLS\createFirstStageIni.m',67,0)">line 67</a>)
+    outputIniFileName = fullfile(structSetup.outputPath, [structSetup.siteID '_FirstStage_Template.ini']);
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('CA3_formatDatabase', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Matlab\CA3_formatDatabase.m', 81)" style="font-weight:bold">CA3_formatDatabase</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Matlab\CA3_formatDatabase.m',81,0)">line 81</a>)
+createFirstStageIni(structSetup)
+}
+clc
+{Unrecognized field name "siteID".
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('createFirstStageIni', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_TOOLS\createFirstStageIni.m', 67)" style="font-weight:bold">createFirstStageIni</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_TOOLS\createFirstStageIni.m',67,0)">line 67</a>)
+    outputIniFileName = fullfile(structSetup.outputPath, [structSetup.siteID '_FirstStage_Template.ini']);
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('CA3_formatDatabase', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Matlab\CA3_formatDatabase.m', 81)" style="font-weight:bold">CA3_formatDatabase</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Matlab\CA3_formatDatabase.m',81,0)">line 81</a>)
+createFirstStageIni(structSetup)
+}
+clc
+---------------------------
+Creating template file: LP1_FirstStage_Template.ini
+There is no raw database files in this folder: \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\LP1\MET\
+Make sure that the source csv file contains these data.
+This conversion procedure uses the first year of measurements (2020) to collect the trace names.
+{Error using <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('createFirstStageIni', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_TOOLS\createFirstStageIni.m', 96)" style="font-weight:bold">createFirstStageIni</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\TRACEANALYSIS_TOOLS\createFirstStageIni.m',96,0)">line 96</a>)
+Exiting...
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('CA3_formatDatabase', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Matlab\CA3_formatDatabase.m', 81)" style="font-weight:bold">CA3_formatDatabase</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Matlab\CA3_formatDatabase.m',81,0)">line 81</a>)
+createFirstStageIni(structSetup)
+}
+clc
+---------------------------
+Creating template file: LP1_FirstStage_Template.ini
+Processing 39 traces in: \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\LP1\Flux\
+Template created: LP1_FirstStage_Template.ini
+java.lang.NullPointerException
+	at com.mathworks.peermodel.impl.PeerNodeImpl.unlockTree(PeerNodeImpl.java:973)
+	at com.mathworks.peermodel.impl.PeerNodeImpl.destroy(PeerNodeImpl.java:635)
+	at com.mathworks.peermodel.synchronizer.PeerSynchronizer.subTreeDestroyedSubscriber(PeerSynchronizer.java:443)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.mathworks.peermodel.synchronizer.PeerSynchronizer.handle(PeerSynchronizer.java:780)
+	at com.mathworks.connector.message_service.impl.MessageServiceJSONImpl.handlePublishRequest(MessageServiceJSONImpl.java:29)
+	at com.mathworks.connector.message_service.impl.AbstractMessageService.handlePublishRequest(AbstractMessageService.java:72)
+	at com.mathworks.connector.message_service.impl.JniMessageServiceAdaptorImpl.doHandlePublish(JniMessageServiceAdaptorImpl.java:58)
+	at com.mathworks.connector.message_service.api.JniMessageServiceAdaptor.fromNative(JniMessageServiceAdaptor.java:21)
+Message that caused error: namespace=/actions/liveeditor/1299863204, channel=/peermodel/actions/liveeditor/1299863204/subTreeDestroyed, data={message=53.0, childId=06B65BB9}
+clc
+==============  Start =========================================
+Date: 27-May-2025 11:44:22
+siteID = LP1
+============== First  stage cleaning LP1 2022 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_FirstStage.ini 
+   35 traces read from the ini file. 
+   35 traces exist in the year 2022.
+   35 unique traces are kept for processing
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\LP1\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_FirstStage.ini 
+   35 traces read from the ini file. 
+   35 traces exist in the year 2022.
+   35 unique traces are kept for processing
+Reading traces from database...
+Could not find CO2_1_1_1
+Error using read_bor (line 127)
+*** Error! File: "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\LP1\Flux\CO2_1_1_1" does not exist!
+
+*** Read Error: CO2 not loaded
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+============== End of cleaning Site: LP1, year: 2022 ===========
+==============  Start =========================================
+Date: 27-May-2025 11:46:55
+siteID = LP1
+============== First  stage cleaning LP1 2022 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_FirstStage.ini 
+   35 traces read from the ini file. 
+   35 traces exist in the year 2022.
+   35 unique traces are kept for processing
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\LP1\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_FirstStage.ini 
+   35 traces read from the ini file. 
+   35 traces exist in the year 2022.
+   35 unique traces are kept for processing
+Reading traces from database...
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+============== End of cleaning Site: LP1, year: 2022 ===========
+==============  Start =========================================
+Date: 27-May-2025 11:49:41
+siteID = LP1
+============== Second stage cleaning LP1 2022 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\LP1\Clean\SecondStage
+Reading second stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_SecondStage.ini 
+   30 traces read from the ini file. 
+   30 traces exist in the year 2022.
+   30 unique traces are kept for processing
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_FirstStage.ini 
+   35 traces read from the ini file. 
+   35 traces exist in the year 2022.
+   35 unique traces are kept for processing
+Reading data from: 
+    \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\LP1\Flux\Clean
+Reading traces from database...
+   Done reading traces.
+Exporting data ...
+============== End of cleaning stage 2 =============
+============== End of cleaning Site: LP1, year: 2022 ===========
+==============  Start =========================================
+Date: 27-May-2025 12:01:57
+siteID = LP1
+============== 7-th stage cleaning LP1 2022 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\LP1\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> Processing: ThirdStage: Fluxes: FCH4 set to NULL in site_config.yaml'}
+    {'FYI ------> Processing: ThirdStage: Fluxes: FNO2 set to NULL in site_config.yaml'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" LP1 2022 2022 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\log\LP1_ThirdStageCleaning.log" 1>&2
+Start time: 27-May-2025 12:01:57
+
+End time: 27-May-2025 12:06:29
+
+Retrieving critical messages from Third Stage R log:
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: LP1 2022 ==============
+============== End of cleaning stage 9 =============
+============== End of cleaning Site: LP1, year: 2022 ===========

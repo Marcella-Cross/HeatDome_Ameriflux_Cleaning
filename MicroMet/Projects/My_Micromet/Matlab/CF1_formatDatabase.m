@@ -16,7 +16,7 @@ assign_in = 'caller';
 varName = [];
 dateColumnNum = [2];
 timeInputFormat = {'uuuuMMddHHmm'};
-colToKeep = [4 Inf];
+colToKeep = [2 Inf];
 structType = 1;
 inputFileType = 'delimitedtext';
 modifyVarNames = 0;
@@ -84,6 +84,6 @@ fr_automated_cleaning([2020, 2021, 2022], 'CF1', 1);
 %% Once second stage ini file has been created:
 fr_automated_cleaning([2020, 2021, 2022], 'CF1', 2);
 %%
-fr_automated_cleaning([2020, 2021, 2022], 'CF1', [7 8]);
+fr_automated_cleaning([2020, 2021], 'CF1', [7 8]);
 %%
 fr_automated_cleaning(2021, 'CF1', [7 8]);

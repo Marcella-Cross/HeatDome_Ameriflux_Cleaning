@@ -81,3 +81,197 @@ Skipping daytime flux partitioning!!!
 ============== End of cleaning stage 7 =============
 ============== 8-th stage. Exporting AmeriFlux csv file for: LP1 2021 ==============
 ============== End of cleaning stage 9 =============
+==============  Start =========================================
+Date: 26-May-2025 13:51:56
+siteID = LP1
+============== First  stage cleaning LP1 2021 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_FirstStage.ini 
+   35 traces read from the ini file. 
+   35 traces exist in the year 2021.
+   35 unique traces are kept for processing
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\LP1\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_FirstStage.ini 
+   35 traces read from the ini file. 
+   35 traces exist in the year 2021.
+   35 unique traces are kept for processing
+Reading traces from database...
+Could not find CO2_1_3_1
+Error using read_bor (line 127)
+*** Error! File: "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\LP1\Flux\CO2_1_3_1" does not exist!
+
+*** Read Error: CO2 not loaded
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+==============  Start =========================================
+Date: 26-May-2025 13:53:15
+siteID = LP1
+============== First  stage cleaning LP1 2021 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_FirstStage.ini 
+   35 traces read from the ini file. 
+   35 traces exist in the year 2021.
+   35 unique traces are kept for processing
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\LP1\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_FirstStage.ini 
+   35 traces read from the ini file. 
+   35 traces exist in the year 2021.
+   35 unique traces are kept for processing
+Reading traces from database...
+Could not find CO2_1_3_1
+Error using read_bor (line 127)
+*** Error! File: "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\LP1\Flux\CO2_1_3_1" does not exist!
+
+*** Read Error: CO2 not loaded
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+==============  Start =========================================
+Date: 26-May-2025 13:53:40
+siteID = LP1
+============== First  stage cleaning LP1 2021 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_FirstStage.ini 
+   35 traces read from the ini file. 
+   35 traces exist in the year 2021.
+   35 unique traces are kept for processing
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\LP1\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_FirstStage.ini 
+   35 traces read from the ini file. 
+   35 traces exist in the year 2021.
+   35 unique traces are kept for processing
+Reading traces from database...
+Could not find CO2
+Error using read_bor (line 127)
+*** Error! File: "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\LP1\Flux\CO2" does not exist!
+
+*** Read Error: CO2 not loaded
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+==============  Start =========================================
+Date: 26-May-2025 13:54:08
+siteID = LP1
+============== First  stage cleaning LP1 2021 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_FirstStage.ini 
+   35 traces read from the ini file. 
+   35 traces exist in the year 2021.
+   35 unique traces are kept for processing
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\LP1\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_FirstStage.ini 
+   35 traces read from the ini file. 
+   35 traces exist in the year 2021.
+   35 unique traces are kept for processing
+Reading traces from database...
+Could not find CO2_1_1_1
+Error using read_bor (line 127)
+*** Error! File: "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\LP1\Flux\CO2_1_1_1" does not exist!
+
+*** Read Error: CO2 not loaded
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+==============  Start =========================================
+Date: 27-May-2025 11:44:20
+siteID = LP1
+============== First  stage cleaning LP1 2021 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_FirstStage.ini 
+   35 traces read from the ini file. 
+   35 traces exist in the year 2021.
+   35 unique traces are kept for processing
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\LP1\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_FirstStage.ini 
+   35 traces read from the ini file. 
+   35 traces exist in the year 2021.
+   35 unique traces are kept for processing
+Reading traces from database...
+Could not find CO2_1_1_1
+Error using read_bor (line 127)
+*** Error! File: "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\LP1\Flux\CO2_1_1_1" does not exist!
+
+*** Read Error: CO2 not loaded
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+==============  Start =========================================
+Date: 27-May-2025 11:46:53
+siteID = LP1
+============== First  stage cleaning LP1 2021 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_FirstStage.ini 
+   35 traces read from the ini file. 
+   35 traces exist in the year 2021.
+   35 unique traces are kept for processing
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\LP1\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_FirstStage.ini 
+   35 traces read from the ini file. 
+   35 traces exist in the year 2021.
+   35 unique traces are kept for processing
+Reading traces from database...
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+==============  Start =========================================
+Date: 27-May-2025 11:49:40
+siteID = LP1
+============== Second stage cleaning LP1 2021 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\LP1\Clean\SecondStage
+Reading second stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_SecondStage.ini 
+   30 traces read from the ini file. 
+   30 traces exist in the year 2021.
+   30 unique traces are kept for processing
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\LP1_FirstStage.ini 
+   35 traces read from the ini file. 
+   35 traces exist in the year 2021.
+   35 unique traces are kept for processing
+Reading data from: 
+    \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\LP1\Flux\Clean
+Reading traces from database...
+   Done reading traces.
+Exporting data ...
+============== End of cleaning stage 2 =============
+==============  Start =========================================
+Date: 27-May-2025 11:56:32
+siteID = LP1
+============== 7-th stage cleaning LP1 2021 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2021\LP1\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> Processing: ThirdStage: Fluxes: FCH4 set to NULL in site_config.yaml'}
+    {'FYI ------> Processing: ThirdStage: Fluxes: FNO2 set to NULL in site_config.yaml'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" LP1 2021 2021 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\LP1\log\LP1_ThirdStageCleaning.log" 1>&2
+Start time: 27-May-2025 11:56:33
+
+End time: 27-May-2025 12:01:56
+
+Retrieving critical messages from Third Stage R log:
+Daytime flux partitioning failed!!!
+Skipping daytime flux partitioning!!!
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: LP1 2021 ==============
+============== End of cleaning stage 9 =============

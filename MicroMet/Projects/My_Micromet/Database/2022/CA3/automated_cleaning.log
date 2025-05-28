@@ -777,3 +777,455 @@ siteID = CA3
 ============== 8-th stage. Exporting AmeriFlux csv file for: CA3 2022 ==============
 ============== End of cleaning stage 9 =============
 ============== End of cleaning Site: CA3, year: 2022 ===========
+==============  Start =========================================
+Date: 26-May-2025 13:02:22
+siteID = CA3
+============== First  stage cleaning CA3 2022 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_FirstStage.ini 
+   56 traces read from the ini file. 
+   56 traces exist in the year 2022.
+   56 unique traces are kept for processing
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_FirstStage.ini 
+   56 traces read from the ini file. 
+   56 traces exist in the year 2022.
+   56 unique traces are kept for processing
+Reading traces from database...
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+============== End of cleaning Site: CA3, year: 2022 ===========
+==============  Start =========================================
+Date: 26-May-2025 13:02:38
+siteID = CA3
+============== Second stage cleaning CA3 2022 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\SecondStage
+Reading second stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_SecondStage.ini 
+   39 traces read from the ini file. 
+   39 traces exist in the year 2022.
+   39 unique traces are kept for processing
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_FirstStage.ini 
+   56 traces read from the ini file. 
+   56 traces exist in the year 2022.
+   56 unique traces are kept for processing
+Reading data from: 
+    \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Flux\Clean
+Reading traces from database...
+   Done reading traces.
+Exporting data ...
+============== End of cleaning stage 2 =============
+============== End of cleaning Site: CA3, year: 2022 ===========
+==============  Start =========================================
+Date: 26-May-2025 13:14:02
+siteID = CA3
+============== 7-th stage cleaning CA3 2022 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\SecondStage\season]' }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\SecondStage\FCH4]'   }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\SecondStage\P_1_2_1]'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" CA3 2022 2022 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\log\CA3_ThirdStageCleaning.log" 1>&2
+Start time: 26-May-2025 13:14:03
+
+End time: 26-May-2025 13:18:45
+
+Retrieving critical messages from Third Stage R log:
+Daytime flux partitioning failed!!!
+Skipping daytime flux partitioning!!!
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: CA3 2022 ==============
+============== End of cleaning stage 9 =============
+============== End of cleaning Site: CA3, year: 2022 ===========
+==============  Start =========================================
+Date: 26-May-2025 13:30:11
+siteID = CA3
+============== 7-th stage cleaning CA3 2022 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\SecondStage\season]' }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\SecondStage\FCH4]'   }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\SecondStage\P_1_2_1]'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" CA3 2022 2022 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\log\CA3_ThirdStageCleaning.log" 1>&2
+Start time: 26-May-2025 13:30:11
+
+End time: 26-May-2025 13:34:44
+
+Retrieving critical messages from Third Stage R log:
+Daytime flux partitioning failed!!!
+Skipping daytime flux partitioning!!!
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: CA3 2022 ==============
+============== End of cleaning stage 9 =============
+============== End of cleaning Site: CA3, year: 2022 ===========
+==============  Start =========================================
+Date: 27-May-2025 10:47:15
+siteID = CA3
+============== First  stage cleaning CA3 2022 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_FirstStage.ini 
+   57 traces read from the ini file. 
+   57 traces exist in the year 2022.
+   57 unique traces are kept for processing
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_FirstStage.ini 
+   57 traces read from the ini file. 
+   57 traces exist in the year 2022.
+   57 unique traces are kept for processing
+Reading traces from database...
+Could not find CO2
+Error using read_bor (line 127)
+*** Error! File: "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Flux\CO2" does not exist!
+
+*** Read Error: CO2 not loaded
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+============== End of cleaning Site: CA3, year: 2022 ===========
+clc
+==============  Start =========================================
+Date: 27-May-2025 10:49:33
+siteID = CA3
+============== First  stage cleaning CA3 2022 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_FirstStage.ini 
+   57 traces read from the ini file. 
+   57 traces exist in the year 2022.
+   57 unique traces are kept for processing
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_FirstStage.ini 
+   57 traces read from the ini file. 
+   57 traces exist in the year 2022.
+   57 unique traces are kept for processing
+Reading traces from database...
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+============== End of cleaning Site: CA3, year: 2022 ===========
+==============  Start =========================================
+Date: 27-May-2025 10:49:43
+siteID = CA3
+============== Second stage cleaning CA3 2022 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\SecondStage
+Reading second stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_SecondStage.ini 
+   39 traces read from the ini file. 
+   39 traces exist in the year 2022.
+   39 unique traces are kept for processing
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_FirstStage.ini 
+   57 traces read from the ini file. 
+   57 traces exist in the year 2022.
+   57 unique traces are kept for processing
+Reading data from: 
+    \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Flux\Clean
+Reading traces from database...
+   Done reading traces.
+Exporting data ...
+============== End of cleaning stage 2 =============
+============== End of cleaning Site: CA3, year: 2022 ===========
+==============  Start =========================================
+Date: 27-May-2025 11:01:07
+siteID = CA3
+============== 7-th stage cleaning CA3 2022 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\SecondStage\season]' }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\SecondStage\FCH4]'   }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\SecondStage\P_1_2_1]'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" CA3 2022 2022 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\log\CA3_ThirdStageCleaning.log" 1>&2
+Start time: 27-May-2025 11:01:07
+
+End time: 27-May-2025 11:05:48
+
+Retrieving critical messages from Third Stage R log:
+Daytime flux partitioning failed!!!
+Skipping daytime flux partitioning!!!
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: CA3 2022 ==============
+============== End of cleaning stage 9 =============
+============== End of cleaning Site: CA3, year: 2022 ===========
+==============  Start =========================================
+Date: 27-May-2025 12:32:31
+siteID = CA3
+============== First  stage cleaning CA3 2022 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_FirstStage.ini 
+   57 traces read from the ini file. 
+   57 traces exist in the year 2022.
+   57 unique traces are kept for processing
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_FirstStage.ini 
+   57 traces read from the ini file. 
+   57 traces exist in the year 2022.
+   57 unique traces are kept for processing
+Reading traces from database...
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+============== End of cleaning Site: CA3, year: 2022 ===========
+==============  Start =========================================
+Date: 27-May-2025 12:32:37
+siteID = CA3
+============== Second stage cleaning CA3 2022 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\SecondStage
+Reading second stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_SecondStage.ini 
+   39 traces read from the ini file. 
+   39 traces exist in the year 2022.
+   39 unique traces are kept for processing
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_FirstStage.ini 
+   57 traces read from the ini file. 
+   57 traces exist in the year 2022.
+   57 unique traces are kept for processing
+Reading data from: 
+    \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Flux\Clean
+Reading traces from database...
+   Done reading traces.
+Exporting data ...
+============== End of cleaning stage 2 =============
+============== End of cleaning Site: CA3, year: 2022 ===========
+==============  Start =========================================
+Date: 27-May-2025 12:44:33
+siteID = CA3
+============== 7-th stage cleaning CA3 2022 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\SecondStage\season]' }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\SecondStage\FCH4]'   }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\SecondStage\P_1_2_1]'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" CA3 2022 2022 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\log\CA3_ThirdStageCleaning.log" 1>&2
+Start time: 27-May-2025 12:44:34
+
+End time: 27-May-2025 12:49:07
+
+Retrieving critical messages from Third Stage R log:
+Daytime flux partitioning failed!!!
+Skipping daytime flux partitioning!!!
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: CA3 2022 ==============
+============== End of cleaning stage 9 =============
+============== End of cleaning Site: CA3, year: 2022 ===========
+==============  Start =========================================
+Date: 27-May-2025 14:06:00
+siteID = CA3
+============== First  stage cleaning CA3 2022 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_FirstStage.ini 
+   57 traces read from the ini file. 
+   57 traces exist in the year 2022.
+   57 unique traces are kept for processing
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_FirstStage.ini 
+   57 traces read from the ini file. 
+   57 traces exist in the year 2022.
+   57 unique traces are kept for processing
+Reading traces from database...
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+============== End of cleaning Site: CA3, year: 2022 ===========
+==============  Start =========================================
+Date: 27-May-2025 14:06:07
+siteID = CA3
+============== Second stage cleaning CA3 2022 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\SecondStage
+Reading second stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_SecondStage.ini 
+   39 traces read from the ini file. 
+   39 traces exist in the year 2022.
+   39 unique traces are kept for processing
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_FirstStage.ini 
+   57 traces read from the ini file. 
+   57 traces exist in the year 2022.
+   57 unique traces are kept for processing
+Reading data from: 
+    \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Flux\Clean
+Reading traces from database...
+   Done reading traces.
+Exporting data ...
+============== End of cleaning stage 2 =============
+============== End of cleaning Site: CA3, year: 2022 ===========
+==============  Start =========================================
+Date: 27-May-2025 14:17:36
+siteID = CA3
+============== 7-th stage cleaning CA3 2022 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\SecondStage\season]' }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\SecondStage\FCH4]'   }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\SecondStage\P_1_2_1]'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" CA3 2022 2022 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\log\CA3_ThirdStageCleaning.log" 1>&2
+Start time: 27-May-2025 14:17:37
+
+End time: 27-May-2025 14:22:13
+
+Retrieving critical messages from Third Stage R log:
+Daytime flux partitioning failed!!!
+Skipping daytime flux partitioning!!!
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: CA3 2022 ==============
+============== End of cleaning stage 9 =============
+============== End of cleaning Site: CA3, year: 2022 ===========
+==============  Start =========================================
+Date: 28-May-2025 09:40:34
+siteID = CA3
+============== First  stage cleaning CA3 2022 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_FirstStage.ini 
+   57 traces read from the ini file. 
+   57 traces exist in the year 2022.
+   57 unique traces are kept for processing
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_FirstStage.ini 
+   57 traces read from the ini file. 
+   57 traces exist in the year 2022.
+   57 unique traces are kept for processing
+Reading traces from database...
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+============== End of cleaning Site: CA3, year: 2022 ===========
+==============  Start =========================================
+Date: 28-May-2025 09:41:09
+siteID = CA3
+============== Second stage cleaning CA3 2022 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\SecondStage
+Reading second stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_SecondStage.ini 
+   38 traces read from the ini file. 
+   38 traces exist in the year 2022.
+   38 unique traces are kept for processing
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_FirstStage.ini 
+   57 traces read from the ini file. 
+   57 traces exist in the year 2022.
+   57 unique traces are kept for processing
+Reading data from: 
+    \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Flux\Clean
+Reading traces from database...
+   Done reading traces.
+Exporting data ...
+============== End of cleaning stage 2 =============
+============== End of cleaning Site: CA3, year: 2022 ===========
+==============  Start =========================================
+Date: 28-May-2025 09:57:25
+siteID = CA3
+============== 7-th stage cleaning CA3 2022 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\SecondStage\season]' }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\SecondStage\FCH4]'   }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\SecondStage\P_1_2_1]'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" CA3 2022 2022 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\log\CA3_ThirdStageCleaning.log" 1>&2
+Start time: 28-May-2025 09:57:26
+
+End time: 28-May-2025 10:02:33
+
+Retrieving critical messages from Third Stage R log:
+Daytime flux partitioning failed!!!
+Skipping daytime flux partitioning!!!
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: CA3 2022 ==============
+============== End of cleaning stage 9 =============
+============== End of cleaning Site: CA3, year: 2022 ===========
+==============  Start =========================================
+Date: 28-May-2025 11:27:10
+siteID = CA3
+============== First  stage cleaning CA3 2022 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_FirstStage.ini 
+   59 traces read from the ini file. 
+   59 traces exist in the year 2022.
+   59 unique traces are kept for processing
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_FirstStage.ini 
+   59 traces read from the ini file. 
+   59 traces exist in the year 2022.
+   59 unique traces are kept for processing
+Reading traces from database...
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+============== Second stage cleaning CA3 2022 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\SecondStage
+Reading second stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_SecondStage.ini 
+   38 traces read from the ini file. 
+   38 traces exist in the year 2022.
+   38 unique traces are kept for processing
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\CA3_FirstStage.ini 
+   59 traces read from the ini file. 
+   59 traces exist in the year 2022.
+   59 unique traces are kept for processing
+Reading data from: 
+    \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Flux\Clean
+Reading traces from database...
+   Done reading traces.
+Exporting data ...
+============== End of cleaning stage 2 =============
+============== 7-th stage cleaning CA3 2022 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\SecondStage\season]' }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\SecondStage\FCH4]'   }
+    {'Warning --> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2022\CA3\Clean\SecondStage\P_1_2_1]'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" CA3 2022 2022 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\log\CA3_ThirdStageCleaning.log" 1>&2
+Start time: 28-May-2025 11:27:22
+
+End time: 28-May-2025 11:31:54
+
+Retrieving critical messages from Third Stage R log:
+Daytime flux partitioning failed!!!
+Skipping daytime flux partitioning!!!
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: CA3 2022 ==============
+============== End of cleaning stage 9 =============
+============== End of cleaning Site: CA3, year: 2022 ===========

@@ -16,7 +16,7 @@ assign_in = 'caller';
 varName = [];
 dateColumnNum = [2];
 timeInputFormat = {'uuuuMMddHHmm'};
-colToKeep = [4 Inf];
+colToKeep = [3 Inf];
 structType = 1;
 inputFileType = 'delimitedtext';
 modifyVarNames = 0;
@@ -74,8 +74,8 @@ structSetup.endYear = 2022;
 structSetup.endMonth = 12;
 structSetup.endDay = 31;
 structSetup.Site_name = 'CA3';
-structSetup.SiteID = 'CA3';
-structSetup.allMeasurementTypes = {'MET','Flux'};
+structSetup.siteID = siteID;
+structSetup.allMeasurementTypes = {'Flux'};
 structSetup.Difference_GMT_to_local_time = 8;  % local+Difference_GMT_to_local_time -> GMT time
 structSetup.outputPath = []; % keep it in the local directory
 createFirstStageIni(structSetup)
@@ -87,4 +87,4 @@ fr_automated_cleaning([2020, 2021, 2022], 'CA3', 2);
 %% Once third stage ini file has been created:
 fr_automated_cleaning([2020, 2021, 2022], 'CA3', 8);
 %% Once third stage ini file has been created:
-fr_automated_cleaning([2020, 2021, 2022], 'CA3', [7 8]);
+fr_automated_cleaning([2020, 2021, 2022], 'CA3', [1 2 7 8]);
