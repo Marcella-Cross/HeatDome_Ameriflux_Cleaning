@@ -1229,3 +1229,4 @@ Skipping daytime flux partitioning!!!
 ============== 8-th stage. Exporting AmeriFlux csv file for: CA3 2022 ==============
 ============== End of cleaning stage 9 =============
 ============== End of cleaning Site: CA3, year: 2022 ===========
+render process terminated: TS_PROCESS_WAS_KILLED

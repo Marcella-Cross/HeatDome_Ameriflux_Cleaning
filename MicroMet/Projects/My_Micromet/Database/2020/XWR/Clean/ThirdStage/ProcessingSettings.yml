@@ -19,7 +19,7 @@ ThirdStage:
       H: SH
     LE:
       LE: SLE
-    Run: no
+    Run: yes
   JS_Moving_Z:
     window: 45
     z_thresh: 4

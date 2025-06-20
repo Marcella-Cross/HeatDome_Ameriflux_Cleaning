@@ -289,3 +289,42 @@ Retrieving critical messages from Third Stage R log:
 ============== End of cleaning stage 7 =============
 ============== 8-th stage. Exporting AmeriFlux csv file for: XWR 2020 ==============
 ============== End of cleaning stage 9 =============
+==============  Start =========================================
+Date: 20-Jun-2025 10:28:32
+siteID = XWR
+============== Second stage cleaning XWR 2020 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XWR\Clean\SecondStage
+Reading second stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XWR\XWR_SecondStage.ini 
+   55 traces read from the ini file. 
+   55 traces exist in the year 2020.
+   55 unique traces are kept for processing
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XWR\XWR_FirstStage.ini 
+   265 traces read from the ini file. 
+   265 traces exist in the year 2020.
+   265 unique traces are kept for processing
+Reading data from: 
+    \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XWR\Flux\Clean
+Reading traces from database...
+   Done reading traces.
+Exporting data ...
+============== End of cleaning stage 2 =============
+============== 7-th stage cleaning XWR 2020 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XWR\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> Processing: ThirdStage: Fluxes: FCH4 set to NULL in site_config.yaml'}
+    {'FYI ------> Processing: ThirdStage: Fluxes: FNO2 set to NULL in site_config.yaml'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" XWR 2020 2020 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XWR\log\XWR_ThirdStageCleaning.log" 1>&2
+Start time: 20-Jun-2025 10:28:49
+
+End time: 20-Jun-2025 10:29:20
+
+Failed running Third Stage Rscript
+Retrieving critical messages from Third Stage R log:
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: XWR 2020 ==============
+============== End of cleaning stage 9 =============

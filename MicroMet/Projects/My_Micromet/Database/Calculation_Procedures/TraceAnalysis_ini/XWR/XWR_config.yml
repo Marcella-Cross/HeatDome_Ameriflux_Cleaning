@@ -33,7 +33,7 @@ Processing:
       precipCutOff: 0
     Storage_Correction:
       # If storage terms are missing, then set Run: FALSE
-      Run: FALSE
+      Run: TRUE
     JS_Moving_Z: 
       # You can turn off z-score filtering by setting Run: FALSE
       Run: TRUE
