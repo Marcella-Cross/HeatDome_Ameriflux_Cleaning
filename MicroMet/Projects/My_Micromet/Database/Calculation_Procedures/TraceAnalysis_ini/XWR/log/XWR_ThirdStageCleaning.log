@@ -48,7 +48,7 @@ The following objects are masked from 'package:data.table':
 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ forcats 1.0.0     ✔ readr   2.1.5
-✔ ggplot2 3.5.1     ✔ tibble  3.2.1
+✔ ggplot2 3.5.2     ✔ tibble  3.2.1
 ✔ purrr   1.0.4     ✔ tidyr   1.3.1
 ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
 ✖ data.table::between() masks dplyr::between()
@@ -110,10 +110,10 @@ The following object is masked from 'package:purrr':
 [1] "Copying H_PI_SC_JSZ from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
 [1] "Copying LE_PI_SC_JSZ from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
 [1] "Copying NEE_PI_SC_JSZ from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
-[1] "222 values in H were filtered out by Night-time MAD spike filter"
-[1] "289 values in H were filtered out by Day-time MAD spike filter"
-[1] "401 values in LE were filtered out by Night-time MAD spike filter"
-[1] "472 values in LE were filtered out by Day-time MAD spike filter"
+[1] "220 values in H were filtered out by Night-time MAD spike filter"
+[1] "285 values in H were filtered out by Day-time MAD spike filter"
+[1] "402 values in LE were filtered out by Night-time MAD spike filter"
+[1] "473 values in LE were filtered out by Day-time MAD spike filter"
 [1] "6 values in NEE were filtered out by Night-time MAD spike filter"
 [1] "11 values in NEE were filtered out by Day-time MAD spike filter"
 [1] "Writing 2022"
@@ -138,7 +138,7 @@ by using  200 bootstrap samples and controls:
                             160                            3000 
 isUsingOneBigSeasonOnFewRecords 
                               1 
-Initialized variable 'Rg' with 856 real gaps for gap filling of all 17519 values (to estimate uncertainties).
+Initialized variable 'Rg' with 863 real gaps for gap filling of all 17519 values (to estimate uncertainties).
 Restriced MDS algorithm for gap filling of 'Rg' with no meteo conditions and hence only MDC.
 Mean diurnal course with window size of 0 days: .
 ............................................................
@@ -148,15 +148,15 @@ Mean diurnal course with window size of 1 days: .
 ........701
 Mean diurnal course with window size of 2 days: .
 .110
-Finished gap filling of 'Rg' in 4 seconds. Artificial gaps filled: 17519, real gaps filled: 856, unfilled (long) gaps: 0.
+Finished gap filling of 'Rg' in 3 seconds. Artificial gaps filled: 17519, real gaps filled: 863, unfilled (long) gaps: 0.
 Initialized variable 'Tair' with 844 real gaps for gap filling of all 17519 values (to estimate uncertainties).
 Limited MDS algorithm for gap filling of 'Tair' with LUT(Rg only) and MDC.
 Look up table with window size of 7 days with Rg
 ............................................................
 .............................................................
-........................................................16660
+........................................................16652
 Mean diurnal course with window size of 0 days: .
-........50
+........58
 Mean diurnal course with window size of 1 days: .
 ........699
 Mean diurnal course with window size of 2 days: .
@@ -167,21 +167,21 @@ Limited MDS algorithm for gap filling of 'VPD' with LUT(Rg only) and MDC.
 Look up table with window size of 7 days with Rg
 ............................................................
 .............................................................
-........................................................14164
+........................................................14153
 Mean diurnal course with window size of 0 days: .
-.................................24
+.................................32
 Mean diurnal course with window size of 1 days: .
 .................................326
 Mean diurnal course with window size of 2 days: .
 ..............................68
 Look up table with window size of 14 days with Rg
-.............................1197
+.............................1198
 Look up table with window size of 21 days with Rg
-.................1105
+.................1098
 Look up table with window size of 28 days with Rg
-......190
+......202
 Look up table with window size of 35 days with Rg
-....5
+....2
 Look up table with window size of 42 days with Rg
 ....0
 Look up table with window size of 49 days with Rg
@@ -204,18 +204,18 @@ Full MDS algorithm for gap filling of 'rH' with LUT(Rg, VPD, Tair) and MDC.
 Look up table with window size of 7 days with Rg VPD Tair
 ............................................................
 .............................................................
-........................................................12469
+........................................................12457
 Look up table with window size of 14 days with Rg VPD Tair
 ..................................................63
 Look up table with window size of 7 days with Rg
-.................................................4129
+.................................................4134
 Mean diurnal course with window size of 0 days: .
-........40
+........47
 Mean diurnal course with window size of 1 days: .
 ........689
 Mean diurnal course with window size of 2 days: .
 .129
-Finished gap filling of 'rH' in 10 seconds. Artificial gaps filled: 17519, real gaps filled: 1636, unfilled (long) gaps: 0.
+Finished gap filling of 'rH' in 7 seconds. Artificial gaps filled: 17519, real gaps filled: 1636, unfilled (long) gaps: 0.
 
 <P2M>Error!!! REddyProc crashed!</P2M>
 
@@ -227,24 +227,24 @@ Warning messages:
 2: In fCheckHHTimeSeries(Data[[ColPOSIXTime]], DTS = DTS, "sEddyProc.initialize") :
   sEddyProc.initialize:::fCheckHHTimeSeries::: Time stamp of first data row is not at the end of the first half-hour: 01:00 instead of 00:30!
 3: In fCheckOutsideRange(Data.F, VarName.V.s[v.i], c("<", 0), SubCallFunc.s) :
-  sEddyProc.initialize:::fCheckColPlausibility:::fCheckOutsideRange::: Variable outside (plausible) range in 6436 cases! Invalid values with 'Rg < 0': -0.877, -0.973, -0.843, -0.947, -1.000, -0.793, -0.817, -1.123, -0.997, -0.810, -0.510, -0.087, -0.660, -0.383, -0.143, -0.080, -0.020, -0.073, -0.270, -0.623, -0.077, -0.467, -0.637, -0.807, -0.333, -0.820, -0.617, -0.670, -0.450, -0.303, -0.503, -0.677, -0.730, -0.667, -0.413, -0.567, -0.833, -0.760, -1.043, -1.463, -1.383, -1.210, -1.330, -1.263, -1.463, -1.660, -1.553, -1.490, -1.500, -1.463 ...
+  sEddyProc.initialize:::fCheckColPlausibility:::fCheckOutsideRange::: Variable outside (plausible) range in 8200 cases! Invalid values with 'Rg < 0': -4.48, -4.54, -4.18, -4.38, -4.33, -4.40, -4.24, -4.72, -4.74, -4.23, -3.18, -0.27, -0.36, -0.18, -1.87, -1.64, -1.67, -2.27, -3.79, -2.64, -1.91, -2.29, -1.90, -2.31, -2.17, -1.82, -1.72, -1.46, -0.24, -1.12, -1.46, -1.09, -1.46, -0.75, -2.80, -3.18, -1.74, -1.56, -1.03, -1.56, -3.10, -3.39, -3.99, -1.54, -4.05, -4.15, -3.74, -3.80, -3.33, -2.62 ...
 4: In fCheckOutsideRange(Data.F, VarName.V.s[v.i], c("<", 0), SubCallFunc.s) :
   sEddyProc.initialize:::fCheckColPlausibility:::fCheckOutsideRange::: Variable outside (plausible) range in 922 cases! Invalid values with 'VPD < 0': -0.013, -0.011, -0.031, -0.027, -0.012, -0.055, -0.045, -0.032, -0.054, -0.018, -0.035, -0.027, -0.041, -0.062, -0.067, -0.072, -0.069, -0.077, -0.079, -0.085, -0.089, -0.100, -0.098, -0.069, -0.051, -0.032, -0.082, -0.095, -0.112, -0.127, -0.134, -0.138, -0.129, -0.126, -0.134, -0.142, -0.155, -0.157, -0.161, -0.160, -0.161, -0.160, -0.160, -0.159, -0.172, -0.174, -0.176, -0.149, -0.122, -0.101 ...
 5: In .estimateUStarSeason(...) :
   sEstUstarThreshold: too few finite records within season (n = 286) for 7 temperature classes. Need at least n = 700. Returning NA for this Season.
 6: In .estimateUStarSeason(...) :
-  sEstUstarThreshold: too few finite records within season (n = 99). Need at least n = 160. Returning NA for this Season.
+  sEstUstarThreshold: too few finite records within season (n = 100). Need at least n = 160. Returning NA for this Season.
 7: In .estimateUStarSeason(...) :
   sEstUstarThreshold: too few finite records within season (n = 16). Need at least n = 160. Returning NA for this Season.
 8: In .estimateUStarSeason(...) :
   sEstUstarThreshold: too few finite records within season (n = 71). Need at least n = 160. Returning NA for this Season.
 9: In .estimateUStarSeason(...) :
-  sEstUstarThreshold: too few finite records within season (n = 472) for 7 temperature classes. Need at least n = 700. Returning NA for this Season.
+  sEstUstarThreshold: too few finite records within season (n = 473) for 7 temperature classes. Need at least n = 700. Returning NA for this Season.
 10: In .self$sSetUstarScenarios(usGetAnnualSeasonUStarMap(resDf)) :
   Provided non-finite uStarThreshold for some periods. All values in corresponding period will be marked as gap.
 [1] "Skipping RF_GapFilling"
 [1] "Stage 3 Complete, total run time:"
-Time difference of 1.708958 mins
+Time difference of 1.830764 mins
 =============================================================
 Completed running Third Stage Rscript: C:\Program Files\R\R-4.4.3\bin\Rscript.exe
 =============================================================
@@ -259,7 +259,7 @@ Command output:
 =============================================================
 Rscript:      C:\Program Files\R\R-4.4.3\bin\Rscript.exe
 Command line: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" XWR 2022 2022 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XWR\log\XWR_ThirdStageCleaning.log" 1>&2
-Start:        20-Jun-2025 10:30:06
-End:          20-Jun-2025 10:31:53
-Elapsed time:    1.8 min
+Start:        01-Aug-2025 13:02:15
+End:          01-Aug-2025 13:04:09
+Elapsed time:    1.9 min
 ==============================================================

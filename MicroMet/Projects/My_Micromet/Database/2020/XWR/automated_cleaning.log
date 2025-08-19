@@ -328,3 +328,211 @@ Retrieving critical messages from Third Stage R log:
 ============== End of cleaning stage 7 =============
 ============== 8-th stage. Exporting AmeriFlux csv file for: XWR 2020 ==============
 ============== End of cleaning stage 9 =============
+==============  Start =========================================
+Date: 18-Jul-2025 09:05:35
+siteID = XWR
+============== First  stage cleaning XWR 2020 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XWR\XWR_FirstStage.ini 
+   265 traces read from the ini file. 
+   265 traces exist in the year 2020.
+   265 unique traces are kept for processing
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XWR\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XWR\XWR_FirstStage.ini 
+   265 traces read from the ini file. 
+   265 traces exist in the year 2020.
+   265 unique traces are kept for processing
+Reading traces from database...
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+==============  Start =========================================
+Date: 18-Jul-2025 09:06:56
+siteID = XWR
+============== Second stage cleaning XWR 2020 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XWR\Clean\SecondStage
+Reading second stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XWR\XWR_SecondStage.ini 
+   55 traces read from the ini file. 
+   55 traces exist in the year 2020.
+   55 unique traces are kept for processing
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XWR\XWR_FirstStage.ini 
+   265 traces read from the ini file. 
+   265 traces exist in the year 2020.
+   265 unique traces are kept for processing
+Reading data from: 
+    \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XWR\Flux\Clean
+Reading traces from database...
+   Done reading traces.
+Exporting data ...
+============== End of cleaning stage 2 =============
+==============  Start =========================================
+Date: 18-Jul-2025 09:08:19
+siteID = XWR
+============== Second stage cleaning XWR 2020 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XWR\Clean\SecondStage
+Reading second stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XWR\XWR_SecondStage.ini 
+   55 traces read from the ini file. 
+   55 traces exist in the year 2020.
+   55 unique traces are kept for processing
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XWR\XWR_FirstStage.ini 
+   265 traces read from the ini file. 
+   265 traces exist in the year 2020.
+   265 unique traces are kept for processing
+Reading data from: 
+    \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XWR\Flux\Clean
+Reading traces from database...
+   Done reading traces.
+Exporting data ...
+============== End of cleaning stage 2 =============
+============== 7-th stage cleaning XWR 2020 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XWR\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> Processing: ThirdStage: Fluxes: FCH4 set to NULL in site_config.yaml'}
+    {'FYI ------> Processing: ThirdStage: Fluxes: FNO2 set to NULL in site_config.yaml'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" XWR 2020 2020 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XWR\log\XWR_ThirdStageCleaning.log" 1>&2
+Start time: 18-Jul-2025 09:08:30
+
+End time: 18-Jul-2025 09:09:07
+
+Failed running Third Stage Rscript
+Retrieving critical messages from Third Stage R log:
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: XWR 2020 ==============
+============== End of cleaning stage 9 =============
+==============  Start =========================================
+Date: 18-Jul-2025 09:17:00
+siteID = XWR
+============== 7-th stage cleaning XWR 2020 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XWR\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> Processing: ThirdStage: Fluxes: FCH4 set to NULL in site_config.yaml'}
+    {'FYI ------> Processing: ThirdStage: Fluxes: FNO2 set to NULL in site_config.yaml'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" XWR 2020 2020 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XWR\log\XWR_ThirdStageCleaning.log" 1>&2
+Start time: 18-Jul-2025 09:17:03
+
+End time: 18-Jul-2025 09:17:30
+
+Failed running Third Stage Rscript
+Retrieving critical messages from Third Stage R log:
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: XWR 2020 ==============
+{Error using <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('readtable', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\iofun\readtable.m', 517)" style="font-weight:bold">readtable</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\iofun\readtable.m',517,0)">line 517</a>)
+Unrecognized field name "text".
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('saveDatabaseToAmeriFluxCSV', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\Micromet\saveDatabaseToAmeriFluxCSV.m', 49)" style="font-weight:bold">saveDatabaseToAmeriFluxCSV</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\Micromet\saveDatabaseToAmeriFluxCSV.m',49,0)">line 49</a>)
+afListOfVarNames{1} = readtable(fullfile(pthListOfVarNames{1},'flux-met_processing_variables_20221020.csv'));
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('fr_automated_cleaning', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\BIOMET\fr_automated_cleaning.m', 371)" style="font-weight:bold">fr_automated_cleaning</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\BIOMET\fr_automated_cleaning.m',371,0)">line 371</a>)
+            saveDatabaseToAmeriFluxCSV(siteID,yy(1),pathAF);
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('xWR_formatDatabase', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Matlab\xWR_formatDatabase.m', 86)" style="font-weight:bold">xWR_formatDatabase</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Matlab\xWR_formatDatabase.m',86,0)">line 86</a>)
+fr_automated_cleaning([2020, 2021, 2022], 'XWR', [7 8]);
+}
+==============  Start =========================================
+Date: 18-Jul-2025 09:19:21
+siteID = XWR
+============== 7-th stage cleaning XWR 2020 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XWR\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> Processing: ThirdStage: Fluxes: FCH4 set to NULL in site_config.yaml'}
+    {'FYI ------> Processing: ThirdStage: Fluxes: FNO2 set to NULL in site_config.yaml'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" XWR 2020 2020 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XWR\log\XWR_ThirdStageCleaning.log" 1>&2
+Start time: 18-Jul-2025 09:19:22
+
+End time: 18-Jul-2025 09:19:51
+
+Failed running Third Stage Rscript
+Retrieving critical messages from Third Stage R log:
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: XWR 2020 ==============
+{Error using <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('readtable', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\iofun\readtable.m', 517)" style="font-weight:bold">readtable</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\iofun\readtable.m',517,0)">line 517</a>)
+Unrecognized field name "text".
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('saveDatabaseToAmeriFluxCSV', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\Micromet\saveDatabaseToAmeriFluxCSV.m', 49)" style="font-weight:bold">saveDatabaseToAmeriFluxCSV</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\Micromet\saveDatabaseToAmeriFluxCSV.m',49,0)">line 49</a>)
+afListOfVarNames{1} = readtable(fullfile(pthListOfVarNames{1},'flux-met_processing_variables_20221020.csv'));
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('fr_automated_cleaning', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\BIOMET\fr_automated_cleaning.m', 371)" style="font-weight:bold">fr_automated_cleaning</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\matlab\BIOMET\fr_automated_cleaning.m',371,0)">line 371</a>)
+            saveDatabaseToAmeriFluxCSV(siteID,yy(1),pathAF);
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('xWR_formatDatabase', 'C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Matlab\xWR_formatDatabase.m', 86)" style="font-weight:bold">xWR_formatDatabase</a> (<a href="matlab: opentoline('C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Matlab\xWR_formatDatabase.m',86,0)">line 86</a>)
+fr_automated_cleaning([2020, 2021], 'XWR', [7 8]);
+}
+==============  Start =========================================
+Date: 01-Aug-2025 13:00:01
+siteID = XWR
+============== First  stage cleaning XWR 2020 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XWR\XWR_FirstStage.ini 
+   266 traces read from the ini file. 
+   266 traces exist in the year 2020.
+   266 unique traces are kept for processing
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XWR\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XWR\XWR_FirstStage.ini 
+   266 traces read from the ini file. 
+   266 traces exist in the year 2020.
+   266 unique traces are kept for processing
+Reading traces from database...
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+==============  Start =========================================
+Date: 01-Aug-2025 13:00:55
+siteID = XWR
+============== Second stage cleaning XWR 2020 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XWR\Clean\SecondStage
+Reading second stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XWR\XWR_SecondStage.ini 
+   55 traces read from the ini file. 
+   55 traces exist in the year 2020.
+   55 unique traces are kept for processing
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XWR\XWR_FirstStage.ini 
+   266 traces read from the ini file. 
+   266 traces exist in the year 2020.
+   266 unique traces are kept for processing
+Reading data from: 
+    \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XWR\Flux\Clean
+Reading traces from database...
+   Done reading traces.
+Exporting data ...
+============== End of cleaning stage 2 =============
+==============  Start =========================================
+Date: 01-Aug-2025 13:01:11
+siteID = XWR
+============== 7-th stage cleaning XWR 2020 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XWR\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> Processing: ThirdStage: Fluxes: FCH4 set to NULL in site_config.yaml'}
+    {'FYI ------> Processing: ThirdStage: Fluxes: FNO2 set to NULL in site_config.yaml'}
+
+========================= End of YML error check ==========================
+Running the following command: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" XWR 2020 2020 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XWR\log\XWR_ThirdStageCleaning.log" 1>&2
+Start time: 01-Aug-2025 13:01:12
+
+End time: 01-Aug-2025 13:01:44
+
+Failed running Third Stage Rscript
+Retrieving critical messages from Third Stage R log:
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: XWR 2020 ==============
+============== End of cleaning stage 8 =============

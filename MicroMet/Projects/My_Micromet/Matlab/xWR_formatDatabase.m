@@ -83,4 +83,4 @@ fr_automated_cleaning([2020, 2021, 2022], 'XWR', 1);
 %% Once second stage ini file has been created:
 fr_automated_cleaning([2020, 2021, 2022], 'XWR', 2);
 %%
-fr_automated_cleaning([2020, 2021, 2022], 'XWR', [2 7 8]);
+fr_automated_cleaning([2020, 2021, 2022], 'XWR', [7 8]);
