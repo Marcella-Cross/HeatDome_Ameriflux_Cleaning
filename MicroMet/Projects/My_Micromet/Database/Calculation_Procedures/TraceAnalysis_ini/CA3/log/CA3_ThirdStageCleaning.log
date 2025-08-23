@@ -48,7 +48,7 @@ The following objects are masked from 'package:data.table':
 
 ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ forcats 1.0.0     ✔ readr   2.1.5
-✔ ggplot2 3.5.1     ✔ tibble  3.2.1
+✔ ggplot2 3.5.2     ✔ tibble  3.2.1
 ✔ purrr   1.0.4     ✔ tidyr   1.3.1
 ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
 ✖ data.table::between() masks dplyr::between()
@@ -80,7 +80,7 @@ The following object is masked from 'package:purrr':
 [1] "R version 4.4.3 (2025-02-28 ucrt)"
 [1] "ReddyProc version: 1.3.3"
 [1] "Third stage run initialized for CA3 data in /Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database"
-[1] "8049 values in H were filtered by the wind sector filter"
+[1] "8044 values in H were filtered by the wind sector filter"
 [1] "7871 values in LE were filtered by the wind sector filter"
 [1] "7899 values in NEE were filtered by the wind sector filter"
 [1] "Writing 2022"
@@ -91,7 +91,7 @@ The following object is masked from 'package:purrr':
 [1] "Copying H from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
 [1] "Copying LE from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
 [1] "Copying NEE from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
-[1] "73 values in H were filtered out by moving Z score filter"
+[1] "72 values in H were filtered out by moving Z score filter"
 [1] "152 values in LE were filtered out by moving Z score filter"
 [1] "43 values in NEE were filtered out by moving Z score filter"
 [1] "Writing 2022"
@@ -102,8 +102,8 @@ The following object is masked from 'package:purrr':
 [1] "Copying H_PI_JSZ from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
 [1] "Copying LE_PI_JSZ from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
 [1] "Copying NEE_PI_JSZ from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
-[1] "586 values in H were filtered out by Night-time MAD spike filter"
-[1] "864 values in H were filtered out by Day-time MAD spike filter"
+[1] "585 values in H were filtered out by Night-time MAD spike filter"
+[1] "863 values in H were filtered out by Day-time MAD spike filter"
 [1] "843 values in LE were filtered out by Night-time MAD spike filter"
 [1] "965 values in LE were filtered out by Day-time MAD spike filter"
 [1] "414 values in NEE were filtered out by Night-time MAD spike filter"
@@ -120,7 +120,7 @@ New sEddyProc class for site 'CA3'
 
 Estimated UStar distribution of:
        uStar         5%       50%       95%
-1 0.1160745 0.03760761 0.1329041 0.2665448 
+1 0.1160745 0.03761404 0.1349304 0.2607519 
 by using  200 bootstrap samples and controls:
                        taClasses                    UstarClasses 
                               7                              20 
@@ -151,8 +151,8 @@ Mean diurnal course with window size of 0 days: .
 28
 Mean diurnal course with window size of 1 days: .
 47
-Finished gap filling of 'Tair' in 7 seconds. Artificial gaps filled: 19007, real gaps filled: 48, unfilled (long) gaps: 0.
-Initialized variable 'VPD' with 809 real gaps for gap filling of all 19007 values (to estimate uncertainties).
+Finished gap filling of 'Tair' in 8 seconds. Artificial gaps filled: 19007, real gaps filled: 48, unfilled (long) gaps: 0.
+Initialized variable 'VPD' with 814 real gaps for gap filling of all 19007 values (to estimate uncertainties).
 Limited MDS algorithm for gap filling of 'VPD' with LUT(Rg only) and MDC.
 Look up table with window size of 7 days with Rg
 ............................................................
@@ -167,7 +167,7 @@ Mean diurnal course with window size of 2 days: .
 0
 Look up table with window size of 14 days with Rg
 31
-Finished gap filling of 'VPD' in 7 seconds. Artificial gaps filled: 19007, real gaps filled: 809, unfilled (long) gaps: 0.
+Finished gap filling of 'VPD' in 9 seconds. Artificial gaps filled: 19007, real gaps filled: 814, unfilled (long) gaps: 0.
 Ustar filtering (u * Th_1 = 0.116074536368251), marked 29% of the data as gap
 Initialized variable 'NEE' with 8718 real gaps for gap filling of all 19007 values (to estimate uncertainties).
 Full MDS algorithm for gap filling of 'NEE.Ustar_uStar_fqc_0' with LUT(Rg, VPD, Tair) and MDC.
@@ -175,11 +175,11 @@ Look up table with window size of 7 days with Rg VPD Tair
 ............................................................
 .............................................................
 .............................................................
-...........17915
+...........17910
 Look up table with window size of 14 days with Rg VPD Tair
 ..........214
 Look up table with window size of 7 days with Rg
-........802
+........807
 Mean diurnal course with window size of 0 days: .
 11
 Mean diurnal course with window size of 1 days: .
@@ -222,19 +222,19 @@ Look up table with window size of 70 days with Rg
 0
 Mean diurnal course with window size of 7 days: .
 13
-Finished gap filling of 'NEE' in 7 seconds. Artificial gaps filled: 19007, real gaps filled: 8718, unfilled (long) gaps: 0.
-Ustar filtering (u * Th_1 = 0.0264390609023394), marked 4.8% of the data as gap
-Initialized variable 'NEE' with 4868 real gaps for gap filling of all 19007 values (to estimate uncertainties).
+Finished gap filling of 'NEE' in 9 seconds. Artificial gaps filled: 19007, real gaps filled: 8718, unfilled (long) gaps: 0.
+Ustar filtering (u * Th_1 = 0.0231586333341782), marked 4.2% of the data as gap
+Initialized variable 'NEE' with 4759 real gaps for gap filling of all 19007 values (to estimate uncertainties).
 Full MDS algorithm for gap filling of 'NEE.Ustar_U05_fqc_0' with LUT(Rg, VPD, Tair) and MDC.
 Look up table with window size of 7 days with Rg VPD Tair
 ............................................................
 .............................................................
 .............................................................
-...........17963
+...........17958
 Look up table with window size of 14 days with Rg VPD Tair
 ..........167
 Look up table with window size of 7 days with Rg
-........801
+........806
 Mean diurnal course with window size of 0 days: .
 11
 Mean diurnal course with window size of 1 days: .
@@ -277,19 +277,19 @@ Look up table with window size of 70 days with Rg
 0
 Mean diurnal course with window size of 7 days: .
 9
-Finished gap filling of 'NEE' in 8 seconds. Artificial gaps filled: 19007, real gaps filled: 4868, unfilled (long) gaps: 0.
-Ustar filtering (u * Th_1 = 0.127533388294449), marked 31% of the data as gap
-Initialized variable 'NEE' with 9036 real gaps for gap filling of all 19007 values (to estimate uncertainties).
+Finished gap filling of 'NEE' in 10 seconds. Artificial gaps filled: 19007, real gaps filled: 4759, unfilled (long) gaps: 0.
+Ustar filtering (u * Th_1 = 0.127894879925544), marked 31% of the data as gap
+Initialized variable 'NEE' with 9039 real gaps for gap filling of all 19007 values (to estimate uncertainties).
 Full MDS algorithm for gap filling of 'NEE.Ustar_U50_fqc_0' with LUT(Rg, VPD, Tair) and MDC.
 Look up table with window size of 7 days with Rg VPD Tair
 ............................................................
 .............................................................
 .............................................................
-...........17915
+...........17910
 Look up table with window size of 14 days with Rg VPD Tair
 ..........192
 Look up table with window size of 7 days with Rg
-.........824
+.........829
 Mean diurnal course with window size of 0 days: .
 11
 Mean diurnal course with window size of 1 days: .
@@ -332,25 +332,25 @@ Look up table with window size of 70 days with Rg
 0
 Mean diurnal course with window size of 7 days: .
 13
-Finished gap filling of 'NEE' in 8 seconds. Artificial gaps filled: 19007, real gaps filled: 9036, unfilled (long) gaps: 0.
-Ustar filtering (u * Th_1 = 0.266544842469693), marked 43% of the data as gap
-Initialized variable 'NEE' with 10815 real gaps for gap filling of all 19007 values (to estimate uncertainties).
+Finished gap filling of 'NEE' in 10 seconds. Artificial gaps filled: 19007, real gaps filled: 9039, unfilled (long) gaps: 0.
+Ustar filtering (u * Th_1 = 0.260751904520404), marked 43% of the data as gap
+Initialized variable 'NEE' with 10778 real gaps for gap filling of all 19007 values (to estimate uncertainties).
 Full MDS algorithm for gap filling of 'NEE.Ustar_U95_fqc_0' with LUT(Rg, VPD, Tair) and MDC.
 Look up table with window size of 7 days with Rg VPD Tair
 ............................................................
 .............................................................
 .............................................................
-...........17579
+...........17575
 Look up table with window size of 14 days with Rg VPD Tair
-..............452
+..............451
 Look up table with window size of 7 days with Rg
-.........899
+.........904
 Mean diurnal course with window size of 0 days: .
 9
 Mean diurnal course with window size of 1 days: .
 27
 Mean diurnal course with window size of 2 days: .
-21
+22
 Look up table with window size of 21 days with Rg VPD Tair
 1
 Look up table with window size of 28 days with Rg VPD Tair
@@ -386,10 +386,10 @@ Look up table with window size of 63 days with Rg
 Look up table with window size of 70 days with Rg
 0
 Mean diurnal course with window size of 7 days: .
-14
+13
 Mean diurnal course with window size of 14 days: .
 5
-Finished gap filling of 'NEE' in 7 seconds. Artificial gaps filled: 19007, real gaps filled: 10815, unfilled (long) gaps: 0.
+Finished gap filling of 'NEE' in 9 seconds. Artificial gaps filled: 19007, real gaps filled: 10778, unfilled (long) gaps: 0.
 Ustar filtering (u * Th_1 = 0.116074536368251), marked 29% of the data as gap
 Initialized variable 'LE' with 8974 real gaps for gap filling of all 19007 values (to estimate uncertainties).
 Full MDS algorithm for gap filling of 'LE.Ustar_uStar_fqc_0' with LUT(Rg, VPD, Tair) and MDC.
@@ -397,11 +397,11 @@ Look up table with window size of 7 days with Rg VPD Tair
 ............................................................
 .............................................................
 .............................................................
-...........17907
+...........17902
 Look up table with window size of 14 days with Rg VPD Tair
 ...........212
 Look up table with window size of 7 days with Rg
-........809
+........814
 Mean diurnal course with window size of 0 days: .
 14
 Mean diurnal course with window size of 1 days: .
@@ -444,19 +444,19 @@ Look up table with window size of 70 days with Rg
 0
 Mean diurnal course with window size of 7 days: .
 13
-Finished gap filling of 'LE' in 7 seconds. Artificial gaps filled: 19007, real gaps filled: 8974, unfilled (long) gaps: 0.
-Ustar filtering (u * Th_1 = 0.0264390609023394), marked 4.8% of the data as gap
-Initialized variable 'LE' with 5152 real gaps for gap filling of all 19007 values (to estimate uncertainties).
+Finished gap filling of 'LE' in 9 seconds. Artificial gaps filled: 19007, real gaps filled: 8974, unfilled (long) gaps: 0.
+Ustar filtering (u * Th_1 = 0.0231586333341782), marked 4.2% of the data as gap
+Initialized variable 'LE' with 5042 real gaps for gap filling of all 19007 values (to estimate uncertainties).
 Full MDS algorithm for gap filling of 'LE.Ustar_U05_fqc_0' with LUT(Rg, VPD, Tair) and MDC.
 Look up table with window size of 7 days with Rg VPD Tair
 ............................................................
 .............................................................
 .............................................................
-...........17947
+...........17942
 Look up table with window size of 14 days with Rg VPD Tair
 ..........173
 Look up table with window size of 7 days with Rg
-........808
+........813
 Mean diurnal course with window size of 0 days: .
 14
 Mean diurnal course with window size of 1 days: .
@@ -499,19 +499,19 @@ Look up table with window size of 70 days with Rg
 0
 Mean diurnal course with window size of 7 days: .
 9
-Finished gap filling of 'LE' in 7 seconds. Artificial gaps filled: 19007, real gaps filled: 5152, unfilled (long) gaps: 0.
-Ustar filtering (u * Th_1 = 0.127533388294449), marked 31% of the data as gap
-Initialized variable 'LE' with 9273 real gaps for gap filling of all 19007 values (to estimate uncertainties).
+Finished gap filling of 'LE' in 10 seconds. Artificial gaps filled: 19007, real gaps filled: 5042, unfilled (long) gaps: 0.
+Ustar filtering (u * Th_1 = 0.127894879925544), marked 31% of the data as gap
+Initialized variable 'LE' with 9276 real gaps for gap filling of all 19007 values (to estimate uncertainties).
 Full MDS algorithm for gap filling of 'LE.Ustar_U50_fqc_0' with LUT(Rg, VPD, Tair) and MDC.
 Look up table with window size of 7 days with Rg VPD Tair
 ............................................................
 .............................................................
 .............................................................
-...........17907
+...........17902
 Look up table with window size of 14 days with Rg VPD Tair
 ...........190
 Look up table with window size of 7 days with Rg
-.........831
+.........836
 Mean diurnal course with window size of 0 days: .
 14
 Mean diurnal course with window size of 1 days: .
@@ -554,25 +554,25 @@ Look up table with window size of 70 days with Rg
 0
 Mean diurnal course with window size of 7 days: .
 13
-Finished gap filling of 'LE' in 8 seconds. Artificial gaps filled: 19007, real gaps filled: 9273, unfilled (long) gaps: 0.
-Ustar filtering (u * Th_1 = 0.266544842469693), marked 43% of the data as gap
-Initialized variable 'LE' with 10998 real gaps for gap filling of all 19007 values (to estimate uncertainties).
+Finished gap filling of 'LE' in 9 seconds. Artificial gaps filled: 19007, real gaps filled: 9276, unfilled (long) gaps: 0.
+Ustar filtering (u * Th_1 = 0.260751904520404), marked 43% of the data as gap
+Initialized variable 'LE' with 10962 real gaps for gap filling of all 19007 values (to estimate uncertainties).
 Full MDS algorithm for gap filling of 'LE.Ustar_U95_fqc_0' with LUT(Rg, VPD, Tair) and MDC.
 Look up table with window size of 7 days with Rg VPD Tair
 ............................................................
 .............................................................
 .............................................................
-...........17571
+...........17567
 Look up table with window size of 14 days with Rg VPD Tair
-..............428
+..............427
 Look up table with window size of 7 days with Rg
-..........928
+..........933
 Mean diurnal course with window size of 0 days: .
 12
 Mean diurnal course with window size of 1 days: .
 27
 Mean diurnal course with window size of 2 days: .
-21
+22
 Look up table with window size of 21 days with Rg VPD Tair
 1
 Look up table with window size of 28 days with Rg VPD Tair
@@ -608,10 +608,10 @@ Look up table with window size of 63 days with Rg
 Look up table with window size of 70 days with Rg
 0
 Mean diurnal course with window size of 7 days: .
-14
+13
 Mean diurnal course with window size of 14 days: .
 5
-Finished gap filling of 'LE' in 7 seconds. Artificial gaps filled: 19007, real gaps filled: 10998, unfilled (long) gaps: 0.
+Finished gap filling of 'LE' in 10 seconds. Artificial gaps filled: 19007, real gaps filled: 10962, unfilled (long) gaps: 0.
 Ustar filtering (u * Th_1 = 0.116074536368251), marked 29% of the data as gap
 Initialized variable 'H' with 8474 real gaps for gap filling of all 19007 values (to estimate uncertainties).
 Full MDS algorithm for gap filling of 'H.Ustar_uStar_fqc_0' with LUT(Rg, VPD, Tair) and MDC.
@@ -619,11 +619,11 @@ Look up table with window size of 7 days with Rg VPD Tair
 ............................................................
 .............................................................
 .............................................................
-...........18088
+...........18083
 Look up table with window size of 14 days with Rg VPD Tair
 .........39
 Look up table with window size of 7 days with Rg
-........801
+........806
 Mean diurnal course with window size of 0 days: .
 13
 Mean diurnal course with window size of 1 days: .
@@ -666,19 +666,19 @@ Look up table with window size of 70 days with Rg
 0
 Mean diurnal course with window size of 7 days: .
 15
-Finished gap filling of 'H' in 7 seconds. Artificial gaps filled: 19007, real gaps filled: 8474, unfilled (long) gaps: 0.
-Ustar filtering (u * Th_1 = 0.0264390609023394), marked 4.8% of the data as gap
-Initialized variable 'H' with 4302 real gaps for gap filling of all 19007 values (to estimate uncertainties).
+Finished gap filling of 'H' in 13 seconds. Artificial gaps filled: 19007, real gaps filled: 8474, unfilled (long) gaps: 0.
+Ustar filtering (u * Th_1 = 0.0231586333341782), marked 4.2% of the data as gap
+Initialized variable 'H' with 4189 real gaps for gap filling of all 19007 values (to estimate uncertainties).
 Full MDS algorithm for gap filling of 'H.Ustar_U05_fqc_0' with LUT(Rg, VPD, Tair) and MDC.
 Look up table with window size of 7 days with Rg VPD Tair
 ............................................................
 .............................................................
 .............................................................
-...........18089
+...........18084
 Look up table with window size of 14 days with Rg VPD Tair
 .........38
 Look up table with window size of 7 days with Rg
-........801
+........806
 Mean diurnal course with window size of 0 days: .
 13
 Mean diurnal course with window size of 1 days: .
@@ -721,19 +721,19 @@ Look up table with window size of 70 days with Rg
 0
 Mean diurnal course with window size of 7 days: .
 9
-Finished gap filling of 'H' in 8 seconds. Artificial gaps filled: 19007, real gaps filled: 4302, unfilled (long) gaps: 0.
-Ustar filtering (u * Th_1 = 0.127533388294449), marked 31% of the data as gap
-Initialized variable 'H' with 8805 real gaps for gap filling of all 19007 values (to estimate uncertainties).
+Finished gap filling of 'H' in 10 seconds. Artificial gaps filled: 19007, real gaps filled: 4189, unfilled (long) gaps: 0.
+Ustar filtering (u * Th_1 = 0.127894879925544), marked 31% of the data as gap
+Initialized variable 'H' with 8808 real gaps for gap filling of all 19007 values (to estimate uncertainties).
 Full MDS algorithm for gap filling of 'H.Ustar_U50_fqc_0' with LUT(Rg, VPD, Tair) and MDC.
 Look up table with window size of 7 days with Rg VPD Tair
 ............................................................
 .............................................................
 .............................................................
-...........18088
+...........18083
 Look up table with window size of 14 days with Rg VPD Tair
 .........39
 Look up table with window size of 7 days with Rg
-........801
+........806
 Mean diurnal course with window size of 0 days: .
 13
 Mean diurnal course with window size of 1 days: .
@@ -776,25 +776,25 @@ Look up table with window size of 70 days with Rg
 0
 Mean diurnal course with window size of 7 days: .
 15
-Finished gap filling of 'H' in 8 seconds. Artificial gaps filled: 19007, real gaps filled: 8805, unfilled (long) gaps: 0.
-Ustar filtering (u * Th_1 = 0.266544842469693), marked 43% of the data as gap
-Initialized variable 'H' with 10653 real gaps for gap filling of all 19007 values (to estimate uncertainties).
+Finished gap filling of 'H' in 9 seconds. Artificial gaps filled: 19007, real gaps filled: 8808, unfilled (long) gaps: 0.
+Ustar filtering (u * Th_1 = 0.260751904520404), marked 43% of the data as gap
+Initialized variable 'H' with 10616 real gaps for gap filling of all 19007 values (to estimate uncertainties).
 Full MDS algorithm for gap filling of 'H.Ustar_U95_fqc_0' with LUT(Rg, VPD, Tair) and MDC.
 Look up table with window size of 7 days with Rg VPD Tair
 ............................................................
 .............................................................
 .............................................................
-...........17998
+...........17994
 Look up table with window size of 14 days with Rg VPD Tair
-..........114
+..........113
 Look up table with window size of 7 days with Rg
-........816
+.........821
 Mean diurnal course with window size of 0 days: .
 11
 Mean diurnal course with window size of 1 days: .
 28
 Mean diurnal course with window size of 2 days: .
-21
+22
 Look up table with window size of 21 days with Rg VPD Tair
 0
 Look up table with window size of 28 days with Rg VPD Tair
@@ -830,18 +830,18 @@ Look up table with window size of 63 days with Rg
 Look up table with window size of 70 days with Rg
 0
 Mean diurnal course with window size of 7 days: .
-14
+13
 Mean diurnal course with window size of 14 days: .
 5
-Finished gap filling of 'H' in 8 seconds. Artificial gaps filled: 19007, real gaps filled: 10653, unfilled (long) gaps: 0.
+Finished gap filling of 'H' in 11 seconds. Artificial gaps filled: 19007, real gaps filled: 10616, unfilled (long) gaps: 0.
 Start flux partitioning for variable NEE_U05_f with temperature Tair_f.
-Estimate of the temperature sensitivity E_0 from short term data: 229.67.
+Estimate of the temperature sensitivity E_0 from short term data: 228.92.
 Regression of reference temperature R_ref for 96 periods.
 Start flux partitioning for variable NEE_U50_f with temperature Tair_f.
 Estimate of the temperature sensitivity E_0 from short term data: 103.08.
 Regression of reference temperature R_ref for 94 periods.
 Start flux partitioning for variable NEE_U95_f with temperature Tair_f.
-Estimate of the temperature sensitivity E_0 from short term data: 94.79.
+Estimate of the temperature sensitivity E_0 from short term data: 95.97.
 Regression of reference temperature R_ref for 92 periods.
 Start flux partitioning for variable NEE_uStar_f with temperature Tair_f.
 Estimate of the temperature sensitivity E_0 from short term data: 128.96.
@@ -1101,10 +1101,10 @@ Start daytime flux partitioning for variable NEE_U95_f with temperature Tair_f.
 [1] "Copying FP_Temp_U95 from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
 [1] "Copying E_0_U95 from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
 [1] "Copying R_ref_U95 from Clean/ThirdStage_Default_Ustar to Clean/ThirdStage"
-There were 15 warnings (use warnings() to see them)
+There were 11 warnings (use warnings() to see them)
 [1] "Skipping RF_GapFilling"
 [1] "Stage 3 Complete, total run time:"
-Time difference of 4.471195 mins
+Time difference of 5.496454 mins
 =============================================================
 Completed running Third Stage Rscript: C:\Program Files\R\R-4.4.3\bin\Rscript.exe
 =============================================================
@@ -1119,7 +1119,7 @@ Command output:
 =============================================================
 Rscript:      C:\Program Files\R\R-4.4.3\bin\Rscript.exe
 Command line: "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" --vanilla "C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\Biomet.net\R\database_functions\ThirdStage.R" "/Users/Marcella Cross/Desktop/HeatDome_Ameriflux_Cleaning/MicroMet/Projects/My_Micromet/Database" CA3 2022 2022 2> "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\CA3\log\CA3_ThirdStageCleaning.log" 1>&2
-Start:        28-May-2025 11:27:21
-End:          28-May-2025 11:31:54
-Elapsed time:    4.5 min
+Start:        22-Aug-2025 15:59:17
+End:          22-Aug-2025 16:04:51
+Elapsed time:    5.6 min
 ==============================================================
