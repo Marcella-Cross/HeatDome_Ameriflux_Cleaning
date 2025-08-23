@@ -536,3 +536,69 @@ Retrieving critical messages from Third Stage R log:
 ============== End of cleaning stage 7 =============
 ============== 8-th stage. Exporting AmeriFlux csv file for: XWR 2020 ==============
 ============== End of cleaning stage 8 =============
+==============  Start =========================================
+Date: 22-Aug-2025 17:22:58
+siteID = XWR
+============== First  stage cleaning XWR 2020 ==============
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XWR\XWR_FirstStage.ini 
+   213 traces read from the ini file. 
+   213 traces exist in the year 2020.
+   213 unique traces are kept for processing
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XWR\Flux\Clean
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XWR\XWR_FirstStage.ini 
+   213 traces read from the ini file. 
+   213 traces exist in the year 2020.
+   213 unique traces are kept for processing
+Reading traces from database...
+Could not find T_CANOPY_2_3_1
+Error using read_bor (line 127)
+*** Error! File: "\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XWR\Flux\T_CANOPY_2_3_1" does not exist!
+
+*** Read Error: T_CANOPY_2_3_1 not loaded
+   Done reading traces.
+Cleaning traces....
+Automated cleaning ....
+Exporting data ...
+============== End of cleaning stage 1 =============
+============== Second stage cleaning XWR 2020 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XWR\Clean\SecondStage
+Reading second stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XWR\XWR_SecondStage.ini 
+   69 traces read from the ini file. 
+   69 traces exist in the year 2020.
+   69 unique traces are kept for processing
+Reading first stage ini file: 
+   C:\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\Calculation_Procedures\TraceAnalysis_ini\XWR\XWR_FirstStage.ini 
+   213 traces read from the ini file. 
+   213 traces exist in the year 2020.
+   213 unique traces are kept for processing
+Reading data from: 
+    \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XWR\Flux\Clean
+Reading traces from database...
+Error processing trace.variableName: T_CANOPY_1_3_1
+Unable to evaluate: T_CANOPY_1_3_1=calc_avg_trace(clean_tv,[T_CANOPY_1_3_1,T_CANOPY_2_3_1]);
+Matlab error message: Unrecognized function or variable 'T_CANOPY_2_3_1'.
+*** Read Error: T_CANOPY_1_3_1 not loaded
+   Done reading traces.
+Exporting data ...
+============== End of cleaning stage 2 =============
+============== 7-th stage cleaning XWR 2020 ==============
+Deleted contents of \Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XWR\Clean\ThirdStage
+
+============================ YML error check ============================
+    {'FYI ------> Processing: ThirdStage: Fluxes: FCH4 set to NULL in site_config.yaml'                                                                                   }
+    {'FYI ------> Processing: ThirdStage: Fluxes: FNO2 set to NULL in site_config.yaml'                                                                                   }
+    {'Error ----> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XWR\Clean\SecondStage\SH]' }
+    {'Error ----> File not present.     [\Users\Marcella Cross\Desktop\HeatDome_Ameriflux_Cleaning\MicroMet\Projects\My_Micromet\Database\2020\XWR\Clean\SecondStage\SLE]'}
+
+
+    Third Stage processing cannot proceed!!! [see error(s) above]
+========================= End of YML error check ==========================
+Retrieving critical messages from Third Stage R log:
+Error!!! REddyProc crashed!
+ Search the log file for "abc123". Error that caused crash printed below 
+============== End of cleaning stage 7 =============
+============== 8-th stage. Exporting AmeriFlux csv file for: XWR 2020 ==============
+============== End of cleaning stage 8 =============
